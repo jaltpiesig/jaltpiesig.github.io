@@ -9,13 +9,11 @@ The Performance in Education (PIE) Special Interest Group (SIG) of the Japan Ass
 
 ## Podcast
 
-<div class="podcast-embed" style="margin-bottom: 20px;">
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/3vU4S1oGkQ4Y9Z2H2eU7Gg?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<div class="podcast-box">
+  <p><strong>The PIE SIG Podcast</strong> features conversations with educators who use performance to make language teaching more engaging, creative, and effective. New episodes are released monthly.</p>
+  <p>Listen on the PIE SIG website or Spotify, and follow along so you never miss one!</p>
+  <a href="https://open.spotify.com" target="_blank" class="podcast-link-btn">Listen on Spotify</a>
 </div>
-
-The PIE SIG Podcast features conversations with educators who use performance to make language teaching more engaging, creative, and effective. New episodes are released monthly.
-
-Listen on the PIE SIG website or Spotify, and follow along so you never miss one!
 
 ---
 
@@ -26,7 +24,13 @@ Listen on the PIE SIG website or Spotify, and follow along so you never miss one
     <li>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     </li>
   {% endfor %}
 </ul>
+
+<div class="sponsor-banner-grid">
+  <img src="/assets/images/pansig-logo.png" alt="PanSIG" onerror="this.style.display='none'">
+  <img src="/assets/images/chukyo-logo.png" alt="Chukyo University" onerror="this.style.display='none'">
+  <img src="/assets/images/jalt-logo.png" alt="JALT" onerror="this.style.display='none'">
+</div>
