@@ -18,8 +18,8 @@ permalink: /officers/
   </div>
 </div>
 
-<!-- Detailed Bios Grid -->
-<div class="officers-bio-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 25px; margin-bottom: 35px;">
+<!-- Detailed Bios Grid (Single Column matching Page 3 of PDF) -->
+<div class="officers-bio-grid" style="display: grid; grid-template-columns: 1fr; gap: 20px; margin-bottom: 35px;">
 
   <!-- Darren Kinsman -->
   <div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 22px;">
