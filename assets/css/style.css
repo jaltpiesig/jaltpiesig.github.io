@@ -1,0 +1,144 @@
+/* Color Palette based on PDF Sample */
+:root {
+  --primary-burgundy: #6b1d38;
+  --secondary-burgundy: #801230;
+  --nav-link-blue: #2b3a4a;
+  --bg-light: #f9f8fa;
+  --text-dark: #222222;
+  --border-color: #e2dbe3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header & Nav Styling */
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 2px solid var(--border-color);
+  padding: 15px 0;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo-img {
+  max-height: 55px;
+  width: auto;
+}
+
+.logo-fallback a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-burgundy);
+  text-decoration: none;
+}
+
+.logo-fallback span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.main-nav {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--nav-link-blue);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  padding: 5px 0;
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: var(--primary-burgundy);
+  border-bottom: 2px solid var(--primary-burgundy);
+}
+
+/* Main Layout */
+.main-content {
+  padding: 40px 20px;
+  background: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+h1, h2, h3 {
+  color: var(--primary-burgundy);
+  margin-bottom: 15px;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; margin-top: 25px; }
+
+p {
+  margin-bottom: 15px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 30px 0;
+}
+
+/* News List Styling */
+.news-list {
+  list-style: none;
+}
+
+.news-list li {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.news-list h3 a {
+  color: var(--primary-burgundy);
+  text-decoration: none;
+}
+
+.news-list h3 a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 600;
+}
+
+/* Footer Styling */
+.site-footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #777;
+  font-size: 0.85rem;
+}
