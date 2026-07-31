@@ -1,9 +1,10 @@
-/* Color Palette Matched to PDF Sample Page 1 */
+/* Palette & Variables */
 :root {
-  --bg-lavender: #f1f0f8;        /* Page background */
-  --burgundy-primary: #5c182d;   /* Main heading & logo burgundy */
-  --dark-purple: #3b2838;        /* "PIE" brand color */
-  --dark-banner: #231d25;        /* News bar background */
+  --bg-lavender: #eceaef;        /* Overall page background */
+  --dark-box-bg: #1e1b22;        /* Dark charcoal/black card background */
+  --burgundy-accent: #8b2643;    /* Accent burgundy */
+  --lilac-text: #d8ceeb;         /* Light periwinkle/lilac text for dark boxes */
+  --lilac-heading: #efebf8;      /* Bright lilac/white for headlines */
   --text-dark: #2c2c36;
   --border-subtle: #dcd7e8;
 }
@@ -24,14 +25,14 @@ body {
 .site-container {
   max-width: 980px;
   margin: 0 auto;
-  padding: 25px 35px;
+  padding: 25px 30px;
 }
 
-/* Header & Navigation Bar */
+/* Header & Navigation */
 .site-header {
   border-bottom: 2px solid var(--border-subtle);
   padding-bottom: 12px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .nav-wrapper {
@@ -66,58 +67,61 @@ body {
 
 .main-nav a:hover,
 .main-nav a.active {
-  color: var(--burgundy-primary);
-  border-bottom-color: var(--burgundy-primary);
+  color: var(--burgundy-accent);
+  border-bottom-color: var(--burgundy-accent);
 }
 
-/* Top Intro Block (Text Left, Brand Title Right) */
-.hero-grid {
+/* --- 1. DARK INTRO HERO BOX --- */
+.hero-black-box {
+  background-color: var(--dark-box-bg);
+  border-radius: 8px;
+  padding: 30px;
   display: grid;
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: 1fr 240px;
   gap: 30px;
-  align-items: start;
+  align-items: center;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
-.intro-text {
+.hero-intro-text {
   font-size: 0.98rem;
   line-height: 1.6;
+  color: #ffffff; /* White text on black box */
 }
 
-/* Top Right Brand Block matching PDF */
-.brand-title-box {
-  text-align: left;
-  padding-left: 10px;
+.hero-brand-graphic {
+  text-align: right;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  padding-left: 20px;
 }
 
-.brand-title-box h1 {
-  font-family: "Georgia", "Times New Roman", serif;
+.hero-brand-graphic h1 {
+  font-family: "Georgia", serif;
   font-size: 2.8rem;
-  color: var(--dark-purple);
+  color: #ffffff;
   line-height: 0.85;
   font-weight: normal;
 }
 
-.brand-title-box h1 span {
+.hero-brand-graphic h1 span {
   display: block;
   font-size: 1.6rem;
-  color: var(--burgundy-primary);
+  color: #d8819a;
   text-transform: lowercase;
-  margin-top: -5px;
 }
 
-.brand-title-box p {
-  font-size: 0.65rem;
-  letter-spacing: 2.5px;
+.hero-brand-graphic p {
+  font-size: 0.6rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--dark-purple);
-  font-weight: bold;
+  color: #cccccc;
   margin-top: 6px;
 }
 
-/* Podcast Section Grid */
+/* --- PODCAST SECTION --- */
 .section-title {
-  color: var(--burgundy-primary);
+  color: var(--burgundy-accent);
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 12px;
@@ -125,13 +129,12 @@ body {
 
 .podcast-grid {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr 280px;
   gap: 30px;
   align-items: start;
   margin-bottom: 30px;
 }
 
-/* Podcast Card / Player Placeholder */
 .podcast-player-card {
   background: #ffffff;
   border: 1px solid var(--border-subtle);
@@ -139,31 +142,22 @@ body {
   padding: 15px;
 }
 
-.podcast-info-side {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
 .podcast-info-side p {
   font-size: 0.92rem;
   line-height: 1.5;
-}
-
-/* Stylized PIE Pod Logo on right side */
-.pie-pod-logo-wrapper {
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .pie-pod-text-logo {
   font-family: "Georgia", serif;
   font-size: 2.2rem;
-  color: var(--dark-purple);
+  color: #3b2838;
   line-height: 0.9;
+  margin-top: 10px;
 }
 
 .pie-pod-text-logo span {
-  color: var(--burgundy-primary);
+  color: var(--burgundy-accent);
   display: block;
   font-size: 1.5rem;
 }
@@ -173,99 +167,147 @@ body {
   font-size: 0.6rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--dark-purple);
+  color: #3b2838;
 }
 
-/* News Header Bar with Social Icons */
-.news-header-bar {
-  background-color: var(--dark-banner);
-  color: #ffffff;
-  padding: 8px 18px;
+/* --- 2. DARK NEWS BOX --- */
+.news-black-box {
+  background-color: var(--dark-box-bg);
+  border-radius: 8px;
+  padding: 25px 30px;
+  margin-bottom: 35px;
+}
+
+.news-box-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 12px;
   margin-bottom: 20px;
 }
 
-.news-header-bar h2 {
+.news-box-header h2 {
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  margin: 0;
   text-transform: uppercase;
 }
 
-.social-icons-group {
-  display: flex;
-  gap: 10px;
+.news-box-grid {
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  gap: 20px;
 }
 
-.social-icon {
-  width: 26px;
-  height: 26px;
-  background-color: #ffffff;
-  color: var(--dark-banner);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 0.75rem;
-  font-weight: bold;
-}
-
-/* News Article List */
+/* News items styling on black box (Lilac text) */
 .news-post-item {
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid var(--border-subtle);
+  margin-bottom: 18px;
 }
 
 .news-post-item h3 {
   font-size: 1rem;
   font-weight: bold;
+  margin-bottom: 2px;
 }
 
 .news-post-item h3 a {
-  color: var(--burgundy-primary);
+  color: var(--lilac-heading); /* Light purple headline */
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.news-post-date {
-  font-size: 0.8rem;
-  color: #666666;
-  display: block;
-  margin: 2px 0 6px 0;
+.news-post-item h3 a:hover {
+  text-decoration: underline;
 }
 
-/* Bottom Partner Banners (Beyond the Classroom, PanSIG, JALT) */
-.footer-partner-logos {
-  margin-top: 35px;
-  padding-top: 20px;
+.news-post-date {
+  font-size: 0.8rem;
+  color: #a89cc2;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.news-post-excerpt {
+  font-size: 0.88rem;
+  color: var(--lilac-text); /* Lilac excerpt text */
+}
+
+/* Vertical Social Icons on right side of News Box */
+.news-social-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.social-circle-btn {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  color: var(--dark-box-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* --- 3. PARTNER LOGOS ROW --- */
+.partner-logos-row {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
+  margin-bottom: 30px;
   flex-wrap: wrap;
 }
 
-.partner-box {
-  border: 1px solid var(--border-subtle);
+.partner-card {
   background: #ffffff;
-  padding: 12px 20px;
+  border: 1px solid var(--border-subtle);
   border-radius: 6px;
+  padding: 12px 20px;
   text-align: center;
   font-weight: bold;
-  color: var(--burgundy-primary);
   font-size: 0.85rem;
+  color: var(--burgundy-accent);
   min-width: 200px;
 }
 
+/* --- 4. BLACK FOOTER WITH SOCIALS & BRAND LOGOS --- */
+.site-black-footer {
+  background-color: var(--dark-box-bg);
+  border-radius: 6px;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-brand-logos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
 @media (max-width: 768px) {
-  .hero-grid,
-  .podcast-grid {
+  .hero-black-box,
+  .podcast-grid,
+  .news-box-grid {
     grid-template-columns: 1fr;
   }
 }
