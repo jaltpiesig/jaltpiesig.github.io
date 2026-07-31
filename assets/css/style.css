@@ -1,9 +1,10 @@
-/* Color Scheme & Global Styles (Page 1 Sample) */
+/* Color Palette Matched to Page 1 Sample */
 :root {
-  --bg-lavender: #f1f0f8;        /* Light lavender/periwinkle background */
-  --burgundy-primary: #5c182d;   /* Header & title burgundy */
+  --bg-lavender: #f0eff7;        /* Distinct soft lavender background */
+  --burgundy-primary: #62172e;   /* Brand burgundy accent */
+  --dark-banner: #231d25;        /* Dark purple/black box background */
   --text-dark: #2c2c36;
-  --border-subtle: #dcd7e8;
+  --border-subtle: #dbd6e6;
 }
 
 * {
@@ -19,168 +20,249 @@ body {
   line-height: 1.5;
 }
 
+/* Page Container - Restores left/right margins & whitespace */
 .site-container {
-  max-width: 1000px;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 20px 25px;
+  padding: 30px 40px;
 }
 
-/* Header & Navigation */
+/* Header & Navigation Bar */
 .site-header {
   border-bottom: 2px solid var(--border-subtle);
-  padding-bottom: 15px;
-  margin-bottom: 25px;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
 }
 
 .nav-wrapper {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.brand-logo-text {
-  font-family: "Georgia", serif;
-  color: var(--burgundy-primary);
-  font-size: 2.2rem;
-  line-height: 0.9;
-  font-weight: normal;
+/* Compact Logo Header */
+.header-logo-compact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
 }
 
-.brand-logo-text span {
-  display: block;
-  font-size: 1.1rem;
-  text-transform: lowercase;
-}
-
-.brand-logo-text sub {
-  display: block;
-  font-size: 0.65rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-top: 4px;
+.header-logo-compact img {
+  height: 42px; /* Controlled size */
+  width: auto;
 }
 
 .main-nav {
   display: flex;
-  gap: 15px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
 .main-nav a {
   color: var(--text-dark);
   text-decoration: none;
-  font-weight: bold;
-  font-size: 0.82rem;
+  font-weight: 700;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
 }
 
-.main-nav a:hover {
+/* Navigation Purple Underline */
+.main-nav a:hover,
+.main-nav a.active {
   color: var(--burgundy-primary);
+  border-bottom-color: var(--burgundy-primary);
 }
 
-/* Section Typography & Dividers */
-.intro-text {
-  font-size: 1rem;
-  margin-bottom: 25px;
-}
-
-.section-title {
-  color: var(--burgundy-primary);
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-  margin-top: 25px;
-}
-
-/* Podcast Section - Media Player + Logo Side-by-Side */
-.podcast-grid {
+/* Top Intro Grid (Text Left, Dark Box Right) */
+.hero-grid {
   display: grid;
-  grid-template-columns: 1fr 180px;
-  gap: 20px;
+  grid-template-columns: 1fr 260px;
+  gap: 30px;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
-@media (max-width: 650px) {
-  .podcast-grid {
-    grid-template-columns: 1fr;
-  }
+.intro-text {
+  font-size: 0.98rem;
+  line-height: 1.6;
 }
 
-.pie-pod-logo-img {
-  width: 100%;
-  max-width: 180px;
-  height: auto;
-}
-
-/* News Section */
-.news-item {
-  margin-bottom: 20px;
-}
-
-.news-item h3 {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 2px;
-}
-
-.news-item h3 a {
-  color: var(--burgundy-primary);
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.news-date {
-  font-size: 0.85rem;
-  color: #555;
-  margin-bottom: 6px;
-  display: block;
-}
-
-/* Footer Banner Grid (3 Logos Side-by-Side) */
-.footer-banner-section {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid var(--border-subtle);
+/* Dark Organization Box on Right */
+.dark-brand-box {
+  background-color: var(--dark-banner);
+  color: #ffffff;
+  padding: 25px 20px;
+  border-radius: 6px;
   text-align: center;
 }
 
-.banner-logo-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+.dark-brand-box h1 {
+  font-family: "Georgia", serif;
+  font-size: 2.2rem;
+  color: #ffffff;
+  line-height: 1;
+  font-weight: normal;
 }
 
-.banner-logo-row img {
-  max-height: 80px;
-  width: auto;
+.dark-brand-box h1 span {
+  color: #d8819a; /* Accent lavender tint */
+  font-size: 1.2rem;
 }
 
-/* Social Media Icons Row */
-.social-icons-row {
+.dark-brand-box p {
+  font-size: 0.65rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-top: 6px;
+  color: #cccccc;
+}
+
+/* Podcast Section Grid (Player Left, Text & PIE Pod Logo Right) */
+.section-title {
+  color: var(--burgundy-primary);
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.podcast-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 30px;
+  align-items: start;
+  margin-bottom: 35px;
+}
+
+.podcast-player iframe {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.podcast-info-side {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   gap: 15px;
+}
+
+.podcast-info-side p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.pie-pod-stylized-logo {
+  width: 100%;
+  max-width: 190px;
+  height: auto;
   margin-top: 10px;
 }
 
-.social-icon-circle {
-  width: 32px;
-  height: 32px;
-  background-color: var(--burgundy-primary);
+/* News Section Header Bar with Social Icons */
+.news-header-bar {
+  background-color: var(--dark-banner);
   color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.news-header-bar h2 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Social Media Icons on Right of News Bar */
+.social-icons-group {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  color: var(--dark-banner);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: bold;
+}
+
+.social-icon:hover {
+  background-color: #e0d5e8;
+}
+
+/* News Posts Layout */
+.news-post-item {
+  margin-bottom: 22px;
+}
+
+.news-post-item h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.news-post-item h3 a {
+  color: var(--burgundy-primary);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.news-post-date {
+  font-size: 0.8rem;
+  color: #666666;
+  display: block;
+  margin: 2px 0 6px 0;
+}
+
+.news-post-excerpt {
+  font-size: 0.9rem;
+}
+
+/* Footer Banner Grid (3 Partner Logos Side-by-Side) */
+.footer-partner-logos {
+  margin-top: 45px;
+  padding-top: 25px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.partner-logo-box {
+  flex: 1;
+  min-width: 180px;
+  text-align: center;
+}
+
+.partner-logo-box img {
+  max-height: 75px;
+  width: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-grid,
+  .podcast-grid {
+    grid-template-columns: 1fr;
+  }
+  .site-container {
+    padding: 20px 15px;
+  }
 }

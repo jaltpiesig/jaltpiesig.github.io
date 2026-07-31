@@ -5,43 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | JALT PIE SIG</title>
   <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Top Header Navigation -->
-  <header class="site-header">
-    <div class="container header-flex">
-      <div class="brand">
-        <!-- Replaces plain text with image logo once uploaded -->
-        <a href="/"><img src="/assets/images/logo.png" alt="PIE SIG Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"></a>
-        <span class="logo-fallback" style="display:none;"><a href="/">PIE <span>sig</span></a></span>
+  <div class="site-container">
+    <header class="site-header">
+      <div class="nav-wrapper">
+        <a href="/" class="header-logo-compact">
+          <img src="/assets/images/logo.png" alt="PIE SIG Logo" onerror="this.style.display='none';">
+        </a>
+
+        <nav class="main-nav">
+          <a href="/" class="{% if page.url == '/' %}active{% endif %}">PIE SIG</a>
+          <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">ABOUT</a>
+          <a href="/best-of-pie/" class="{% if page.url == '/best-of-pie/' %}active{% endif %}">BEST OF PIE SIG</a>
+          <a href="/conferences/" class="{% if page.url == '/conferences/' %}active{% endif %}">CONFERENCES & EVENTS</a>
+          <a href="/publications/" class="{% if page.url == '/publications/' %}active{% endif %}">PUBLICATIONS</a>
+          <a href="/resources/" class="{% if page.url == '/resources/' %}active{% endif %}">RESOURCES</a>
+        </nav>
       </div>
-      <nav class="main-nav">
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/best-of-pie/">Best of PIE</a>
-        <a href="/conferences/">Conferences & Events</a>
-        <a href="/publications/">Publications</a>
-        <a href="/resources/">Resources</a>
-        <a href="/officers/">Officers</a>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <!-- Main Content Container -->
-  <main class="main-content container">
-    {{ content }}
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; {{ 'now' | date: "%Y" }} JALT Performance in Education SIG. All rights reserved.</p>
-    </div>
-  </footer>
+    <main>
+      {{ content }}
+    </main>
+  </div>
 
 </body>
 </html>
