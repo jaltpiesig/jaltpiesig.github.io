@@ -42,17 +42,18 @@ body {
   flex-wrap: wrap;
 }
 
-/* Compact Logo Header */
+/* Constrain Header Logo */
 .header-logo-compact {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
+  display: inline-block;
+  max-height: 45px;
 }
 
 .header-logo-compact img {
-  height: 42px; /* Controlled size */
-  width: auto;
+  height: 45px !important;
+  max-height: 45px !important;
+  width: auto !important;
+  object-fit: contain;
+  display: block;
 }
 
 .main-nav {
