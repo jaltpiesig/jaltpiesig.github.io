@@ -1,0 +1,12 @@
+title: JALT PIE SIG
+description: Performance in Education Special Interest Group
+url: "https://jaltpiesig.org"
+
+theme: jekyll-theme-primer # Or build a completely custom layout using HTML/CSS
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# For your local testing environment
+exclude: [Gemfile, Gemfile.lock, node_modules]
