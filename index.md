@@ -7,9 +7,8 @@ permalink: /
 <!-- Custom CSS for Styles, Colors, Slopes, and Hover Effects -->
 <style>
   :root {
-    --pie-dark-navy: #121624;       /* Dark navy-black from original box design */
     --pie-bg-purple: #f4effa;       /* Very light purple tint between boxes */
-    --pie-lilac: #c3b2e7;           /* Lilac accent color for headers & links */
+    --pie-heading-dark: #8a48b8;    /* Darkened lilac/purple for headings */
     --pie-purple-pink: #e28cb9;     /* Purple-pink color for 'sig' */
     --pie-light-lilac: #e3daf5;     /* Light lilac text inside dark boxes */
     --pie-lilac-hover: #ffffff;      /* Hover color for news links */
@@ -19,20 +18,20 @@ permalink: /
     background-color: var(--pie-bg-purple);
   }
 
-  /* Slopes down and to the right */
+  /* Dark sloped boxes using your site footer's exact background color */
   .sloped-box-top {
     position: relative;
-    background: var(--pie-dark-navy);
+    background-color: var(--footer-bg, #111111);
     clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
     padding: 30px 25px 40px 25px;
     margin-bottom: 30px;
     border-bottom: 4px solid;
-    border-image: linear-gradient(to right, var(--pie-lilac), var(--pie-purple-pink)) 1;
+    border-image: linear-gradient(to right, var(--pie-heading-dark), var(--pie-purple-pink)) 1;
   }
 
   .sloped-box-news {
     position: relative;
-    background: var(--pie-dark-navy);
+    background-color: var(--footer-bg, #111111);
     clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
     padding: 35px 25px 40px 25px;
     margin-bottom: 30px;
@@ -42,7 +41,7 @@ permalink: /
 
   .heading-serif {
     font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
-    color: var(--pie-lilac);
+    color: var(--pie-heading-dark);
     font-size: 1.8rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -63,17 +62,19 @@ permalink: /
 
 <!-- Hero / Intro Box -->
 <div class="sloped-box-top">
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
-    <div style="max-width: 650px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+    <!-- Left Paragraph -->
+    <div style="flex: 1 1 300px; max-width: 650px;">
       <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.7; margin: 0;">
         Welcome to the JALT Performance in Education Special Interest Group (PIE SIG). We support language educators through speech, drama, debate, music, and performance-based pedagogical approaches.
       </p>
     </div>
-    <div class="hero-brand-graphic">
+    <!-- Right Brand Graphic -->
+    <div class="hero-brand-graphic" style="text-align: right; flex: 0 0 auto;">
       <h1 style="font-size: 2.2rem; margin: 0; font-weight: bold;">
-        <span style="color: var(--pie-lilac);">PIE</span> <span style="color: var(--pie-purple-pink);">sig</span>
+        <span style="color: var(--pie-heading-dark);">PIE</span> <span style="color: var(--pie-purple-pink);">sig</span>
       </h1>
-      <p style="color: #b0b5c0; font-size: 0.75rem; letter-spacing: 1px; margin-top: 4px;">PERFORMANCE IN EDUCATION</p>
+      <p style="color: #b0b5c0; font-size: 0.75rem; letter-spacing: 1px; margin-top: 4px; margin-bottom: 0;">PERFORMANCE IN EDUCATION</p>
     </div>
   </div>
 </div>

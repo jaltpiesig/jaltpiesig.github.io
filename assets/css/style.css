@@ -46,6 +46,7 @@ body {
 .site-header {
   border-bottom: 2px solid var(--border-subtle);
   padding-bottom: 12px;
+  padding-right: 25px; /* Added spacing on the right side of the header */
   margin-bottom: 25px;
 }
 
@@ -291,11 +292,11 @@ body {
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: bold;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .social-circle-btn:hover {
-  background-color: var(--accent-orange);
+  background-color: var(--burgundy-accent);
   color: #ffffff;
 }
 
@@ -346,6 +347,14 @@ body {
   gap: 12px;
 }
 
+/* Align footer hover style to match main navigation active/hover state */
+.site-black-footer a:hover,
+.footer-social-links .social-circle-btn:hover {
+  color: #ffffff;
+  background-color: var(--burgundy-accent);
+  transition: all 0.2s ease;
+}
+
 .footer-brand-logos {
   display: flex;
   align-items: center;
@@ -367,7 +376,7 @@ body {
 }
 
 .footer-brand-logos .jalt-link:hover {
-  color: var(--accent-orange);
+  color: var(--burgundy-accent);
   text-decoration: underline;
 }
 
