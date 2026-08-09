@@ -15,13 +15,13 @@ permalink: /
   }
 
   body {
-    background-color: var(--pie-bg-purple);
+    background-color: var(--bg-lavender, #F4F3F7);
   }
 
-  /* Dark sloped boxes using your site footer's exact background color */
+  /* Sloped boxes using exact primary navy footer background color (#1C2B36) */
   .sloped-box-top {
     position: relative;
-    background-color: var(--footer-bg, #111111);
+    background-color: var(--primary-navy, #1C2B36) !important;
     clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
     padding: 30px 25px 40px 25px;
     margin-bottom: 30px;
@@ -31,7 +31,7 @@ permalink: /
 
   .sloped-box-news {
     position: relative;
-    background-color: var(--footer-bg, #111111);
+    background-color: var(--primary-navy, #1C2B36) !important;
     clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
     padding: 35px 25px 40px 25px;
     margin-bottom: 30px;

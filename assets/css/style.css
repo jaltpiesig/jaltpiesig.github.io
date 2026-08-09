@@ -46,7 +46,7 @@ body {
 .site-header {
   border-bottom: 2px solid var(--border-subtle);
   padding-bottom: 12px;
-  padding-right: 25px; /* Added spacing on the right side of the header */
+  padding-right: 25px; /* Spacing on right side of header */
   margin-bottom: 25px;
 }
 
@@ -256,13 +256,13 @@ body {
 }
 
 .news-post-item h3 a:hover {
-  color: var(--accent-orange);
+  color: var(--burgundy-accent);
   text-decoration: underline;
 }
 
 .news-post-date {
   font-size: 0.8rem;
-  color: var(--lilac-text); /* Replaced orange with soft lilac/white for dark box readability */
+  color: var(--lilac-text);
   font-weight: 600;
   display: block;
   margin-bottom: 4px;
@@ -292,7 +292,7 @@ body {
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: bold;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .social-circle-btn:hover {
@@ -329,7 +329,7 @@ body {
    5. FOOTER
    ========================================================================== */
 .site-black-footer {
-  background-color: var(--dark-box-bg); /* #1C2B36 primary navy container */
+  background-color: var(--dark-box-bg);
   border-radius: 8px;
   padding: 18px 25px;
   display: flex;
@@ -347,12 +347,12 @@ body {
   gap: 12px;
 }
 
-/* Align footer hover style to match main navigation active/hover state */
-.site-black-footer a:hover,
-.footer-social-links .social-circle-btn:hover {
-  color: #ffffff;
-  background-color: var(--burgundy-accent);
-  transition: all 0.2s ease;
+/* Force footer social buttons to match header active style on hover */
+.footer-social-links .social-circle-btn:hover,
+.footer-social-links a:hover {
+  background-color: var(--burgundy-accent) !important;
+  color: #ffffff !important;
+  border-color: var(--burgundy-accent) !important;
 }
 
 .footer-brand-logos {
@@ -375,8 +375,10 @@ body {
   transition: color 0.2s ease;
 }
 
-.footer-brand-logos .jalt-link:hover {
-  color: var(--burgundy-accent);
+/* Matching footer text links to header hover style */
+.footer-brand-logos .jalt-link:hover,
+.site-black-footer a:not(.social-circle-btn):hover {
+  color: var(--burgundy-accent) !important;
   text-decoration: underline;
 }
 
@@ -395,7 +397,6 @@ body {
   color: var(--text-dark);
 }
 
-/* Category Navigation Bar */
 .pub-nav {
   display: flex;
   gap: 10px;
@@ -421,7 +422,6 @@ body {
   color: #ffffff;
 }
 
-/* Section Box Styling */
 .pub-section {
   background: var(--dark-box-bg);
   border-radius: 8px;
@@ -454,7 +454,6 @@ body {
   font-size: 0.92rem;
 }
 
-/* Submission Guidelines Box */
 .submission-info-box {
   background-color: var(--dark-box-bg);
   border-left: 4px solid var(--accent-orange);
@@ -496,7 +495,6 @@ body {
   padding-top: 10px;
 }
 
-/* Collapsible Volume Accordion */
 .volumes-list {
   margin-top: 20px;
 }
@@ -541,14 +539,12 @@ details[open] .volume-header::after {
   margin-right: 10px;
 }
 
-/* Expanded Details Area */
 .volume-content {
   padding: 18px;
   background-color: rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Unified Volume & Chapter DOI Blocks */
 .volume-doi-block,
 .chapter-doi-block {
   font-size: 0.82rem;
@@ -602,7 +598,6 @@ details[open] .volume-header::after {
   color: var(--lilac-heading);
 }
 
-/* Chapter Items */
 .chapter-list {
   list-style: none;
   padding: 0;
@@ -666,7 +661,6 @@ details[open] .volume-header::after {
   margin-top: 2px;
 }
 
-/* Collaboration Publications List */
 .collaboration-list {
   list-style: none;
   padding: 0;
@@ -718,7 +712,6 @@ details[open] .volume-header::after {
    Global Responsive Breakpoints
    ========================================================================== */
 @media (max-width: 768px) {
-  /* Mobile Navigation Switch */
   .mobile-nav-toggle {
     display: block;
   }
@@ -749,7 +742,6 @@ details[open] .volume-header::after {
     border-bottom-color: var(--burgundy-accent);
   }
 
-  /* Grid layouts collapse to single column */
   .hero-black-box,
   .podcast-grid,
   .news-box-grid {
