@@ -127,46 +127,46 @@ permalink: /publications/
   </div>
 
   <div class="volumes-list">
-    {% if pr.volumes.size > 0 %}
-      {% for vol in pr.volumes %}
+    {%- if pr.volumes.size > 0 -%}
+      {%- for vol in pr.volumes -%}
         <details class="publication-volume">
           <summary class="volume-header">
             <span class="volume-title">{{ vol.volume }}</span>
           </summary>
           <div class="volume-content">
-            {% if vol.pdf %}
+            {%- if vol.pdf -%}
               <div class="volume-download-bar">
                 <a href="{{ vol.pdf }}" class="download-pdf-btn" target="_blank" download>
                   📄 Download Full {{ vol.volume }} PDF
                 </a>
               </div>
-            {% endif %}
+            {%- endif -%}
 
-            {% if vol.sections %}
+            {%- if vol.sections -%}
               <h3 class="chapters-heading">Table of Contents</h3>
-              {% for sec in vol.sections %}
+              {%- for sec in vol.sections -%}
                 <div class="toc-category-group">
-                  <h4 class="toc-category-title">{{ sec.category }}</h4>
+                  <h4 class="toc-category-title">{{ sec.category | strip }}</h4>
                   <ul class="chapter-list">
-                    {% for item in sec.items %}
+                    {%- for item in sec.items -%}
                       <li class="chapter-item">
                         <div class="chapter-header-line">
-                          <strong class="chapter-title">{{ item.title }}</strong>
-                          {% if item.page %}<span class="chapter-page-no">({{ item.page }})</span>{% endif %}
+                          <strong class="chapter-title">{{ item.title | strip }}</strong>
+                          {%- if item.page -%}<span class="chapter-page-no">({{ item.page | strip }})</span>{%- endif -%}
                         </div>
-                        {% if item.author %}<span class="chapter-author">By {{ item.author }}</span>{% endif %}
+                        {%- if item.author -%}<span class="chapter-author">By {{ item.author | strip }}</span>{%- endif -%}
                       </li>
-                    {% endfor %}
+                    {%- endfor -%}
                   </ul>
                 </div>
-              {% endfor %}
-            {% endif %}
+              {%- endfor -%}
+            {%- endif -%}
           </div>
         </details>
-      {% endfor %}
-    {% else %}
+      {%- endfor -%}
+    {%- else -%}
       <p class="no-volumes">Volume details coming soon.</p>
-    {% endif %}
+    {%- endif -%}
   </div>
 </section>
 

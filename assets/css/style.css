@@ -593,8 +593,8 @@ details[open] .volume-header::after {
 
 /* --- TABLE OF CONTENTS CATEGORY HEADERS & SPACING --- */
 .toc-category-group {
-  margin-top: 2rem;       /* Space before each section category */
-  margin-bottom: 2rem;    /* Space after each section group */
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .toc-category-title {
@@ -605,9 +605,11 @@ details[open] .volume-header::after {
   letter-spacing: 1.5px;
   color: #ffffff;
   background: rgba(255, 255, 255, 0.08);
-  padding: 6px 12px;
+  padding: 8px 12px;
   border-radius: 4px;
-  margin-bottom: 1.25rem; /* Space below category header before items */
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  line-height: 1;
   border-left: 3px solid var(--burgundy-accent);
 }
 
