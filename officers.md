@@ -128,7 +128,7 @@ permalink: /officers/
 
   <!-- Darren Kinsman -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/kinsman.jpeg" alt="Darren Kinsman" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/kinsman.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Darren Kinsman" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">DARREN KINSMAN</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">PIE President</h3>
@@ -143,7 +143,7 @@ permalink: /officers/
 
   <!-- Kevin Bergman -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/bergman.jpeg" alt="Kevin Bergman" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/bergman.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Kevin Bergman" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">KEVIN BERGMAN</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">Vice President & Drama Chair</h3>
@@ -158,7 +158,7 @@ permalink: /officers/
 
   <!-- Kim Rockell -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/rockell.jpeg" alt="Kim Rockell" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/rockell.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Kim Rockell" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">KIM ROCKELL</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">Music Chair</h3>
@@ -170,7 +170,7 @@ permalink: /officers/
 
   <!-- Anthony Brian Gallagher -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/gallagher.jpeg" alt="Anthony Brian Gallagher" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/gallagher.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Anthony Brian Gallagher" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">ANTHONY BRIAN GALLAGHER</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">Assistant Program Chair</h3>
@@ -185,7 +185,7 @@ permalink: /officers/
 
   <!-- David Kluge -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/kluge.jpeg" alt="David Kluge" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/kluge.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="David Kluge" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">DAVID KLUGE</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">PIE Founder, Membership Chair, Oral Interpretation Chair, Debate Chair, Conferences Chair</h3>
@@ -197,7 +197,7 @@ permalink: /officers/
 
   <!-- Zach Strickland -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/strickland.jpeg" alt="Zach Strickland" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/strickland.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Zach Strickland" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">ZACH STRICKLAND</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">PIE Drama Chair</h3>
@@ -212,7 +212,7 @@ permalink: /officers/
 
   <!-- Fatima Mei Ataka -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/ataka.jpeg" alt="Fatima Mei Ataka" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/ataka.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Fatima Mei Ataka" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">FATIMA MEI ATAKA</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">AET Liaison</h3>
@@ -224,7 +224,7 @@ permalink: /officers/
 
   <!-- Brett Edman -->
   <div class="officer-card-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/officers/edman.jpeg" alt="Brett Edman" class="officer-avatar-main">
+    <img src="{{ site.baseurl }}/assets/images/officers/edman.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Brett Edman" class="officer-avatar-main">
     <div class="officer-card-content">
       <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 2px; margin-top: 0;">BRETT EDMAN</h2>
       <h3 style="color: var(--primary-navy, #1C2B36); font-size: 0.95rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">AET Liaison</h3>
@@ -245,49 +245,49 @@ permalink: /officers/
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-bottom: 35px;">
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/diaz.jpeg" alt="Max Diaz" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/diaz.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Max Diaz" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">MAX DIAZ</strong>
     <span style="font-size: 0.85rem; color: #555;">Web Administrator</span>
   </div>
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/ford-mihashi.jpeg" alt="Ashley Ford-Mihashi" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/ford-mihashi.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Ashley Ford-Mihashi" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">ASHLEY FORD-MIHASHI</strong>
     <span style="font-size: 0.85rem; color: #555;">Assistant Publicity Chair</span>
   </div>
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/head.jpeg" alt="Philip Head" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/head.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Philip Head" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">PHILIP HEAD</strong>
     <span style="font-size: 0.85rem; color: #555;">Publication Chair, Publication Editor, & Journal Editor</span>
   </div>
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/bussinguer-khavari.jpeg" alt="Vivian Bussinguer-Khavari" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/bussinguer-khavari.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Vivian Bussinguer-Khavari" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">VIVIAN BUSSINGUER-KHAVARI</strong>
     <span style="font-size: 0.85rem; color: #555;">Program Chair</span>
   </div>
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/saiki.jpeg" alt="Yukari Saiki" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/saiki.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Yukari Saiki" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">YUKARI SAIKI</strong>
     <span style="font-size: 0.85rem; color: #555;">Translator / Japanese Language Coordinator</span>
   </div>
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/rees.jpeg" alt="Gordon Rees" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/rees.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Gordon Rees" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">GORDON REES</strong>
     <span style="font-size: 0.85rem; color: #555;">Social Events Chair</span>
   </div>
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/higa.jpeg" alt="James Higa" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/higa.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="James Higa" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">JAMES HIGA</strong>
     <span style="font-size: 0.85rem; color: #555;">Treasurer</span>
   </div>
 
   <div class="officer-subcard">
-    <img src="{{ site.baseurl }}/assets/images/officers/kobayashi.jpeg" alt="Dawn Kobayashi" class="officer-avatar-sub">
+    <img src="{{ site.baseurl }}/assets/images/officers/kobayashi.jpeg" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%238a48b8\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg>'; this.style.backgroundColor='#e3daf5';" alt="Dawn Kobayashi" class="officer-avatar-sub">
     <strong style="color: var(--pie-heading-dark); display: block; font-size: 1rem;">DAWN KOBAYASHI</strong>
     <span style="font-size: 0.85rem; color: #555;">Membership Chair & Member-at-Large</span>
   </div>
