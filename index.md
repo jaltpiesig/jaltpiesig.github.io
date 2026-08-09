@@ -71,7 +71,7 @@ permalink: /
     <div style="flex: 1 1 300px; max-width: 650px;">
       <h1 style="color: #ffffff; font-size: 2rem; margin-bottom: 12px; font-weight: bold; margin-top: 0;">WELCOME TO PIE SIG</h1>
       <p style="color: var(--pie-light-lilac); font-size: 1rem; line-height: 1.6; margin: 0;">
-        Exploring the intersections of performance, drama, music, speech, and art in language education.
+        The Performance in Education (PIE) Special Interest Group (SIG) of the Japan Association for Language Teaching (JALT), founded in 2011 as the Speech, Drama, & Debate SIG, is involved with a myriad of teaching activities (still including drama and debate, but now much more!) that require students to cooperate and collaborate together, so it is natural that our SIG also participates in many collaborative activities with JALT chapters and SIGs.
       </p>
     </div>
 
@@ -85,85 +85,44 @@ permalink: /
   </div>
 </div>
 
-<!-- Main Grid Layout -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 35px;">
+<!-- Podcast Section -->
+<div style="margin-bottom: 35px; padding: 10px 5px;">
+  <h2 class="heading-serif" style="margin-bottom: 12px;">
+    PODCAST
+  </h2>
+  <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark, #222222); margin-bottom: 20px;">
+    Listen to conversations with educators, researchers, and performers in the field of language learning and performance-based education.
+  </p>
+  
+  <!-- Buzzsprout Podcast Player -->
+  <div id="buzzsprout-large-player"></div>
+  <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
+</div>
 
-  <!-- Left Column: About & Jekyll Posts -->
+<!-- News Section (Jekyll Posts) -->
+<div class="sloped-box-news">
+  <h2 class="heading-serif" style="margin-bottom: 25px;">
+    NEWS
+  </h2>
+
   <div style="display: flex; flex-direction: column; gap: 20px;">
+    {% for post in site.posts limit:4 %}
+      <div style="border-bottom: 1px solid rgba(227, 218, 245, 0.2); padding-bottom: 15px;">
+        <h3 style="margin: 0 0 6px 0; font-size: 1.15rem;">
+          <a href="{{ post.url | relative_url }}" class="news-link">
+            {{ post.title }}
+          </a>
+        </h3>
+        <span style="font-size: 0.82rem; color: var(--pie-purple-pink); display: block; margin-bottom: 8px;">
+          {{ post.date | date: "%B %d, %Y" }}
+        </span>
 
-    <!-- About Section -->
-    <div class="home-card-wrapper">
-      <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">About the Performance in Education SIG</h2>
-      <p style="font-size: 0.9rem; line-height: 1.6; color: #333; margin: 0;">
-        The JALT Performance in Education (PIE) Special Interest Group is a community of educators, artists, and researchers dedicated to integrating performance arts—such as drama, music, storytelling, public speaking, and creative movement—into foreign language teaching and learning environments.
-      </p>
-      <p style="font-size: 0.9rem; line-height: 1.6; color: #333; margin-top: 10px; margin-bottom: 0;">
-        Whether you are an experienced practitioner or just beginning to explore performance-based pedagogy, PIE provides a welcoming platform for professional development, collaborative research, and sharing practical classroom ideas.
-      </p>
-    </div>
-
-    <!-- Recent News / Jekyll Posts Section -->
-    <div class="home-card-wrapper">
-      <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 16px; margin-top: 0;">Latest News & Updates</h2>
-      
-      {% if site.posts.size > 0 %}
-        {% for post in site.posts limit:5 %}
-          <div class="post-preview">
-            <h3 style="font-size: 1.05rem; margin: 0 0 4px 0; font-weight: bold;">
-              <a href="{{ post.url | relative_url }}" style="color: var(--pie-heading-dark); text-decoration: none;">
-                {{ post.title }}
-              </a>
-            </h3>
-            <p style="font-size: 0.8rem; color: #666; margin: 0 0 8px 0;">
-              {{ post.date | date: "%B %d, %Y" }}
-            </p>
-            {% if post.excerpt %}
-              <div style="font-size: 0.88rem; line-height: 1.5; color: #444;">
-                {{ post.excerpt | strip_html | truncatewords: 25 }}
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      {% else %}
-        <p style="font-size: 0.9rem; color: #666; margin: 0;">No posts available yet. Check back soon for updates!</p>
-      {% endif %}
-    </div>
-
-  </div>
-
-  <!-- Right Column: Spotify Player & Media -->
-  <div style="display: flex; flex-direction: column; gap: 20px;">
-
-    <!-- Spotify Embed Section -->
-    <div class="home-card-wrapper">
-      <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">Listen & Connect</h2>
-      <p style="font-size: 0.88rem; color: #555; margin-bottom: 14px; margin-top: 0;">
-        Explore performance and music in language learning through our featured Spotify media content:
-      </p>
-      
-      <!-- Embedded Spotify Player -->
-      <div style="border-radius: 12px; overflow: hidden; background-color: #000;">
-        <iframe 
-          style="border-radius:12px" 
-          src="https://open.spotify.com/embed/show/3Xb4e4pXfE9B30I9P6K80p?utm_source=generator" 
-          width="100%" 
-          height="152" 
-          frameBorder="0" 
-          allowfullscreen="" 
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-          loading="lazy">
-        </iframe>
+        {% if forloop.first %}
+          <p style="color: var(--pie-light-lilac); font-size: 0.92rem; line-height: 1.5; margin: 0;">
+            {{ post.content | strip_html | truncatewords: 20 }}
+          </p>
+        {% endif %}
       </div>
-    </div>
-
-    <!-- Get Involved Quick Links -->
-    <div class="home-card-wrapper">
-      <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">Get Involved</h2>
-      <p style="font-size: 0.9rem; line-height: 1.6; color: #333; margin: 0;">
-        Discover upcoming events, browse our journal and publications, or connect with our leadership team on the <a href="{{ site.baseurl }}/officers/" style="color: var(--pie-heading-dark); text-decoration: underline;">Officers page</a> to see how you can get involved in upcoming conferences and workshops.
-      </p>
-    </div>
-
+    {% endfor %}
   </div>
-
 </div>
