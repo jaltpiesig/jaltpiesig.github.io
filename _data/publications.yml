@@ -1,19 +1,15 @@
 # 1. MASK & GAVEL
 mask_and_gavel:
-  issn: "2435-6603"
+  issn: "2188-6628"
   description: >
-    Mask & Gavel is the peer-reviewed academic journal of the Performance in Education SIG.
-    Article submissions are accepted year-round and published online as soon as they are finalized,
-    before being collected into the full journal published online bi-annually. All articles are
-    vetted by an editor, blinded, and peer-reviewed by two reviewers before publication. We welcome
-    research-based, comment & opinion, interview, and review-based articles. Practical lesson resource
-    articles should be submitted to the Classroom Resources journal. For submission guidelines please refer
-    to the specifications outlined in The Language Teacher.
+    Mask & Gavel was a peer-reviewed online journal published by the Speech, Drama, & Debate SIG
+    of the Japan Association for Language Teaching (JALT) until the SIG name was changed to Performance
+    in Education SIG.
   submission_guidelines_url: "https://jalt-publications.org/tlt/submissions"
-  contact_email: "piesigpublications@gmail.com"
+  contact_email: "head.philip@gmail.com"
   contact_person: "Philip Head"
   publisher_info: "Published by the Performance in Education Special Interest Group, The Japan Association for Language Teaching, JALT Central Office, Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo."
-  volumes: [] # We will populate this with your 11 volumes later
+  volumes: []
 
 # 2. PIE SIG CLASSROOM RESOURCES JOURNAL
 classroom_resources:
@@ -27,7 +23,80 @@ classroom_resources:
   contact_email: "head.philip@gmail.com"
   contact_person: "Philip Head"
   publisher_info: "Published by the Performance in Education Special Interest Group, The Japan Association for Language Teaching, JALT Central Office, Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo."
-  volumes: [] # We will populate this with your 2 volumes later
+  volumes:
+    - volume: "Volume 2 (2022)"
+      pdf: "/assets/publications/classroom-resources/Classroom-Resources-Volume-2-2022.pdf"
+      chapters:
+        - number: 1
+          author: "Eucharia Donnery"
+          title: "YOU!"
+        - number: 2
+          author: "Kim Rockell"
+          title: "Integrated Online Voice & Percussion Ensemble Activity"
+        - number: 3
+          author: "Yoko Morimoto"
+          title: "Ten Mini-drama Activities Backed by Neuroscience"
+        - number: 4
+          author: "David Kluge"
+          title: "Live Music Video: Readers Theatre Using Song Lyrics"
+        - number: 5
+          author: "David Kluge"
+          title: "A Multi-Skill Performance Activity: Living Newspaper Readers Theatre"
+        - number: 6
+          author: "Chhayankdhar Singh Rathore"
+          title: "Agreeing to Disagree: Scaffolded Group Discussion"
+        - number: 7
+          author: "Ashley Ford"
+          title: "From Silverscreen to Debate Stage"
+        - number: 8
+          author: "Chhayankdhar Singh Rathore"
+          title: "Attempting to Disagree: Conventional Debate"
+
+    - volume: "Volume 1 (2016)"
+      pdf: "/assets/publications/classroom-resources/Classroom-Resources-Volume-1-2016.pdf"
+      chapters:
+        - number: 1
+          author: "Amy Ives Takebe"
+          title: "A Speech Practice Using an Essay from The Japan Times ST"
+        - number: 2
+          author: "Amy Ives Takebe"
+          title: "The Blah-blah-blah Speech"
+        - number: 3
+          author: "Amy Ives Takebe"
+          title: "The Confident Speech"
+        - number: 4
+          author: "Amy Ives Takebe"
+          title: "Using Fox in Sox for a Vocal Warm-up"
+        - number: 5
+          author: "Anthony Sellick"
+          title: "Audience Participation Through Peer Evaluation: Maximizing Student Involvement in Speech Contest Auditions"
+        - number: 6
+          author: "Matthew Michaud"
+          title: "Pecha Kucha in EFL: Creating Creative Presentations"
+        - number: 7
+          author: "Greg Rouault"
+          title: "“Only ¥8,800!” TV Shopping and Infomercials"
+        - number: 8
+          author: "David Kluge"
+          title: "Live Music Video"
+        - number: 9
+          author: "Mark Makino"
+          title: "Customizing Popular Music"
+        - number: 10
+          author: "Philip Head"
+          title: "Three Line Dramas"
+        - number: 11
+          author: "Anthony Sellick"
+          title: "Group Poetry – A Quick and Easy Poetry Activity for Students"
+        - number: 12
+          author: "David Kluge"
+          title: "Taking Sides on an Issue"
+        - number: 13
+          author: "James Venema"
+          title: "An Introduction to Debate"
+        - number: 14
+          author: "David Kluge"
+          title: "Stand Up for What You Believe"
 
 # 3. PERFORMANCE IN EDUCATION REVIEW
 pie_review:
@@ -41,40 +110,61 @@ pie_review:
   contact_email: "head.philip@gmail.com"
   contact_person: "Philip Head"
   publisher_info: "Published by the Performance in Education Special Interest Group, The Japan Association for Language Teaching, JALT Central Office, Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo."
-  volumes: [] # We will populate this when you have volume data
+  volumes:
+    - volume: "Volume 1 (2020)"
+      pdf: "/assets/publications/pie-review/Performance-in-Education-Review-2020-FINAL-.pdf"
+      sections:
+        - category: "EDITORIAL"
+          items:
+            - title: "From the Editors"
+              page: "p. 3"
 
-# 4. COLLABORATION PUBLICATIONS
-collaboration_publications:
-  description: >
-    PIE SIG also co-publishes issues centered around PIE’s focal areas, including on Debate, Discussion,
-    and Drama. Below, you can find a list of these Collaboration Publications.
-  links:
-    - title: "Public Speaking in the Language Classroom"
-      organization: "Mind, Brain, Education SIG"
-      date: "August 2025"
-      url: "https://www.mindbrained.org/august-2025-public-speaking/"
-    - title: "Teaching Speech and Presentation in the Language Classroom"
-      organization: "Mind, Brain, Education SIG"
-      date: "March 2025"
-      url: "https://www.mindbrained.org/march-2025-speech-presentation/"
-    - title: "Integrating Music and Performance in the Language Classroom"
-      organization: "Mind, Brain, Education SIG"
-      date: "February 2025"
-      url: "https://www.mindbrained.org/february-2025-music/"
-    - title: "Setting Up Discussions in the Language Classroom"
-      organization: "Mind, Brain, Education SIG"
-      date: "December 2024"
-      url: "https://www.mindbrained.org/december-2024-discussion/"
-    - title: "Debate"
-      organization: "Mind, Brain, Education SIG"
-      date: "November 2024"
-      url: "https://www.mindbrained.org/november-2024-debate/"
-    - title: "Drama"
-      organization: "Mind, Brain, Education SIG"
-      date: "December 2021"
-      url: "https://www.mindbrained.org/december-2021-drama/"
+        - category: "INTERVIEWS"
+          items:
+            - title: "Interview 1: Interview with Rod Ellis on Performance Assisted Learning (Reprint)"
+              author: "David Kluge"
+              page: "pp. 9–21"
+            - title: "Interview 2: Interview with Rod Ellis on Performance Assisted Learning, Part 2 (Reprint)"
+              author: "David Kluge"
+              page: "pp. 22–37"
 
-# 5. PRE-PUBLICATION PAGES
-pre_publication:
-  url: "https://sites.google.com/view/jalt-performance-in-education/home"
-  description: "Access our pre-publication drafts, archive pages, and early work."
+        - category: "CONTENT"
+          items:
+            - title: "The Māori Haka: Understanding Culture Through Traditional Performance"
+              author: "Matthew Cotter"
+              page: "pp. 39–48"
+            - title: "Active, Creative, Collaborative Learning Through Performance Activities Deepens Connections to Art History Class Content in Japan"
+              author: "Will Hall"
+              page: "pp. 49–68"
+
+        - category: "PERFORMANCE"
+          items:
+            - title: "“Nanzan Bossa”: A Spontaneous Musical Encounter in Nagoya"
+              author: "Kim Rockell, Vivian Bussinguer-Khavari"
+              page: "pp. 70–79"
+            - title: "Musical Integration in the Language Classroom"
+              author: "Chelsea Schwartz"
+              page: "pp. 80–82"
+            - title: "Star-Crossed Lovers: The “Given and Added” in the Magic of an English Noh Performance"
+              author: "Kim Rockell"
+              page: "pp. 83–101"
+
+        - category: "PRESENTATION"
+          items:
+            - title: "PowerPoint as a “Modified Teleprompter”"
+              author: "James Higa"
+              page: "pp. 103–118"
+
+        - category: "RESEARCH"
+          items:
+            - title: "Dance the Data! Matching Form with Content in Presenting Performance in Education Research"
+              author: "David Kluge"
+              page: "pp. 108–119"
+            - title: "The Relationship Between University Students’ Global Self-Esteem and Foreign Language Self-Esteem"
+              author: "Takanori Omura"
+              page: "pp. 120–138"
+
+        - category: "ABOUT THE SIG"
+          items:
+            - title: "Introducing the Performance in Education SIG"
+              page: "p. 139"
