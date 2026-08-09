@@ -375,15 +375,15 @@ body {
   font-size: 0.92rem;
 }
 
-/* Submission Info Box */
+/* Centralized Submission Info Box */
 .submission-info-box {
-  background: rgba(0, 0, 0, 0.25);
-  border-left: 3px solid var(--burgundy-accent);
-  padding: 14px 18px;
-  margin: 20px 0;
+  background: var(--dark-box-bg);
+  border-left: 4px solid var(--burgundy-accent);
+  padding: 16px 20px;
+  margin: 20px 0 30px 0;
   font-size: 0.88rem;
   color: var(--lilac-text);
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 8px 8px 0;
 }
 
 .submission-info-box p {
@@ -540,18 +540,17 @@ details[open] .volume-header::after {
   line-height: 1.4;
 }
 
-/* Action Link Badges (DOI & PDF Links) */
+/* Action Links (Full DOI & PDF Badges) */
 .chapter-actions {
   display: flex;
   align-items: center;
-  gap: 6px;
-  white-space: nowrap;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .doi-link {
   font-size: 0.75rem;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 0.3px;
   color: #79c0ff;
   background: rgba(121, 192, 255, 0.12);
@@ -560,6 +559,7 @@ details[open] .volume-header::after {
   border-radius: 4px;
   text-decoration: none;
   transition: all 0.2s ease;
+  word-break: break-all;
 }
 
 .doi-link:hover {
