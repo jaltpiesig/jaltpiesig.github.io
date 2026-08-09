@@ -4,71 +4,65 @@ title: Home
 permalink: /
 ---
 
-<!-- Custom CSS for Styles, Colors, Slopes, and Hover Effects -->
+<!-- Custom Styling matching publications.md & officers.md design system -->
 <style>
   :root {
-    --pie-bg-purple: #f4effa;       /* Very light purple tint between boxes */
     --pie-heading-dark: #8a48b8;    /* Darkened lilac/purple for headings */
-    --pie-purple-pink: #e28cb9;     /* Purple-pink color for 'sig' */
+    --pie-purple-pink: #e28cb9;     /* Purple-pink accent */
     --pie-light-lilac: #e3daf5;     /* Light lilac text inside dark boxes */
-    --pie-lilac-hover: #ffffff;      /* Hover color for news links */
   }
 
   body {
     background-color: var(--bg-lavender, #F4F3F7);
   }
 
-  /* Sloped boxes using exact primary navy footer background color (#1C2B36) */
+  /* Sloped hero container matching publications.md / officers.md */
   .sloped-box-top {
-    position: relative;
-    background-color: var(--primary-navy, #1C2B36) !important;
-    clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
-    padding: 30px 25px 40px 25px;
-    margin-bottom: 30px;
-    border-bottom: 4px solid;
-    border-image: linear-gradient(to right, var(--pie-heading-dark), var(--pie-purple-pink)) 1;
-  }
-
-  .sloped-box-news {
     position: relative;
     background-color: var(--primary-navy, #1C2B36) !important;
     clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
     padding: 35px 25px 40px 25px;
     margin-bottom: 30px;
-    border-top: 4px solid #6c757d;
-    border-bottom: 4px solid #6c757d;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, var(--pie-heading-dark), var(--pie-purple-pink)) 1;
+  }
+
+  .home-card-wrapper {
+    background: #ffffff;
+    border: 1px solid rgba(138, 72, 184, 0.18);
+    border-radius: 8px;
+    padding: 22px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .home-card-wrapper:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(138, 72, 184, 0.1);
+    border-color: var(--pie-heading-dark);
   }
 
   .heading-serif {
     font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
     color: var(--pie-heading-dark);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
-
-  .news-link {
-    color: var(--pie-light-lilac);
-    text-decoration: underline;
-    font-weight: bold;
-    transition: color 0.2s ease-in-out;
-  }
-
-  .news-link:hover {
-    color: var(--pie-lilac-hover);
-  }
 </style>
 
-<!-- Hero / Intro Box -->
+<!-- Top Hero Sloped Dark Box (Matching officers.md & publications.md layout) -->
 <div class="sloped-box-top">
-  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
-    <!-- Left Paragraph -->
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
+    <!-- Left Intro Text -->
     <div style="flex: 1 1 300px; max-width: 650px;">
-      <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.7; margin: 0;">
-        The Performance in Education (PIE) Special Interest Group (SIG) of the Japan Association for Language Teaching (JALT), founded in 2011 as the Speech, Drama, & Debate SIG, is involved with a myriad of teaching activities (still including drama and debate, but now much more!) that require students to cooperate and collaborate together, so it is natural that our SIG also participates in many collaborative activities with JALT chapters and SIGs.
+      <h1 style="color: #ffffff; font-size: 2rem; margin-bottom: 12px; font-weight: bold; margin-top: 0;">WELCOME TO PIE SIG</h1>
+      <p style="color: var(--pie-light-lilac); font-size: 1rem; line-height: 1.6; margin: 0;">
+        Exploring the intersections of performance, drama, music, speech, and art in language education.
       </p>
     </div>
+
     <!-- Right Brand Graphic -->
     <div class="hero-brand-graphic" style="text-align: right; flex: 0 0 auto;">
       <h1 style="font-size: 2.2rem; margin: 0; font-weight: bold;">
@@ -79,44 +73,24 @@ permalink: /
   </div>
 </div>
 
-<!-- Podcast Section -->
-<div style="margin-bottom: 35px; padding: 10px 5px;">
-  <h2 class="heading-serif" style="margin-bottom: 12px;">
-    PODCAST
-  </h2>
-  <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark, #222222); margin-bottom: 20px;">
-    The PIE SIG Podcast features conversations with educators who use performance to make language teaching more engaging, creative, and effective. New episodes are released monthly. Listen on the PIE SIG website or Spotify, and follow along so you never miss one!
-  </p>
-  
-  <!-- Buzzsprout Podcast Player -->
-  <div id="buzzsprout-large-player"></div>
-  <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
-</div>
+<!-- Main Content Section -->
+<div style="display: grid; grid-template-columns: 1fr; gap: 20px; margin-bottom: 35px;">
 
-<!-- News Section (Jekyll Posts) -->
-<div class="sloped-box-news">
-  <h2 class="heading-serif" style="margin-bottom: 25px;">
-    NEWS
-  </h2>
-
-  <div style="display: flex; flex-direction: column; gap: 20px;">
-    {% for post in site.posts limit:4 %}
-      <div style="border-bottom: 1px solid rgba(227, 218, 245, 0.2); padding-bottom: 15px;">
-        <h3 style="margin: 0 0 6px 0; font-size: 1.15rem;">
-          <a href="{{ post.url | relative_url }}" class="news-link">
-            {{ post.title }}
-          </a>
-        </h3>
-        <span style="font-size: 0.82rem; color: var(--pie-purple-pink); display: block; margin-bottom: 8px;">
-          {{ post.date | date: "%B %d, %Y" }}
-        </span>
-
-        {% if forloop.first %}
-          <p style="color: var(--pie-light-lilac); font-size: 0.92rem; line-height: 1.5; margin: 0;">
-            {{ post.content | strip_html | truncatewords: 20 }}
-          </p>
-        {% endif %}
-      </div>
-    {% endfor %}
+  <div class="home-card-wrapper">
+    <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">About the Performance in Education SIG</h2>
+    <p style="font-size: 0.9rem; line-height: 1.6; color: #333; margin: 0;">
+      The JALT Performance in Education (PIE) Special Interest Group is a community of educators, artists, and researchers dedicated to integrating performance arts—such as drama, music, storytelling, public speaking, and creative movement—into foreign language teaching and learning environments.
+    </p>
+    <p style="font-size: 0.9rem; line-height: 1.6; color: #333; margin-top: 10px; margin-bottom: 0;">
+      Whether you are an experienced practitioner or just beginning to explore performance-based pedagogy, PIE provides a welcoming platform for professional development, collaborative research, and sharing practical classroom ideas.
+    </p>
   </div>
+
+  <div class="home-card-wrapper">
+    <h2 style="color: var(--pie-heading-dark); font-size: 1.25rem; font-weight: bold; margin-bottom: 12px; margin-top: 0;">Get Involved</h2>
+    <p style="font-size: 0.9rem; line-height: 1.6; color: #333; margin: 0;">
+      Discover upcoming events, browse our journal and publications, or connect with our leadership team on the <a href="{{ site.baseurl }}/officers/" style="color: var(--pie-heading-dark); text-decoration: underline;">Officers page</a> to see how you can get involved in upcoming conferences and workshops.
+    </p>
+  </div>
+
 </div>
