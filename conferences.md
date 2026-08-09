@@ -4,12 +4,12 @@ title: Conferences & Events
 permalink: /conferences/
 ---
 
-<!-- Hero Banner -->
-<div class="hero-black-box mb-35">
+<!-- Top Hero Title Banner -->
+<div class="hero-black-box" style="margin-bottom: 30px;">
   <div>
-    <h2>PIE SIG CONFERENCES & EVENTS</h2>
-    <p class="hero-intro-text">
-      Join our active community of educators at national JALT conferences, regional workshops, and international performance-in-education symposia.
+    <h1 style="color: #ffffff; font-size: 2rem; font-weight: bold;">CONFERENCES & EVENTS</h1>
+    <p class="hero-intro-text" style="margin-top: 6px;">
+      Discover upcoming research gatherings, practical workshops, and performances sponsored by JALT PIE SIG.
     </p>
   </div>
   <div class="hero-brand-graphic">
@@ -18,51 +18,92 @@ permalink: /conferences/
   </div>
 </div>
 
-<!-- Section 1: Upcoming Events -->
-<section class="mb-40">
-  <h2 class="section-title">Upcoming Conferences & Workshops</h2>
-  <div class="conf-grid">
-    {% if site.data.conferences.upcoming %}
-      {% for event in site.data.conferences.upcoming %}
-        <div class="conf-card conf-card-upcoming">
-          <div class="conf-badge-date">{{ event.date }}</div>
-          <h3 class="conf-title">{{ event.title }}</h3>
-          <div class="conf-location">📍 {{ event.location }}</div>
-          <p class="conf-description">{{ event.description }}</p>
-          {% if event.url %}
-            <a href="{{ event.url }}" class="conf-btn" target="_blank" rel="noopener">Learn More & Register →</a>
-          {% endif %}
+<!-- 1. ABOUT PIE SIG CONFERENCES (MOVED TO TOP) -->
+<div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 25px; margin-bottom: 35px;">
+  <h2 style="color: var(--burgundy-accent); font-size: 1.3rem; font-weight: bold; margin-bottom: 12px; border-bottom: 2px solid var(--border-subtle); padding-bottom: 6px;">
+    ABOUT PIE SIG CONFERENCES
+  </h2>
+  
+  <p style="font-size: 0.92rem; line-height: 1.6; color: #333; margin-bottom: 14px;">
+    The Performance In Education SIG of the Japan Association for Language Teaching (JALT) sponsors several conferences a year, usually in convenient and interesting locations, with workshops, presentations, and performances. Families are always welcome.
+  </p>
+
+  <blockquote style="font-family: 'Georgia', serif; font-style: italic; font-size: 1.05rem; color: var(--burgundy-accent); border-left: 3px solid var(--burgundy-accent); padding-left: 14px; margin: 18px 0; background: #fdfbfb; padding-top: 8px; padding-bottom: 8px;">
+    “We are always trying to grow and spread our message through collaboration with YOU.”
+  </blockquote>
+
+  <p style="font-size: 0.92rem; line-height: 1.6; color: #333; margin-bottom: 16px;">
+    What draws many people to the PIE SIG are the amazing and effective activities described by SIG members, the creative talents of the teachers/performers, and most of all, the warm, friendly atmosphere that we work hard to create. We are useful and <strong>FUN</strong>.
+  </p>
+
+  <div style="background: #f9f9fb; border: 1px solid var(--border-subtle); border-radius: 6px; padding: 16px; margin-top: 18px;">
+    <strong style="color: var(--burgundy-accent); font-size: 0.95rem; display: block; margin-bottom: 4px;">Want to collaborate with us?</strong>
+    <p style="font-size: 0.9rem; line-height: 1.5; color: #333; margin: 0;">
+      Contact us at <a href="mailto:jaltpiesig@gmail.com" style="color: var(--burgundy-accent); font-weight: bold; text-decoration: underline;">jaltpiesig@gmail.com</a> if you are in the collaborative mood or come and see for yourself what we are about at our annual Performance in Education Research & Practice Conference.
+    </p>
+  </div>
+</div>
+
+<!-- 2. LATEST EVENT -->
+<div style="margin-bottom: 35px;">
+  <h2 style="color: var(--burgundy-accent); font-size: 1.3rem; font-weight: bold; margin-bottom: 16px; border-bottom: 2px solid var(--border-subtle); padding-bottom: 6px;">
+    LATEST EVENT
+  </h2>
+
+  {% assign latest_post = site.posts.first %}
+  {% if latest_post %}
+    <div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 25px;">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; border-bottom: 1px solid var(--border-subtle); padding-bottom: 12px; margin-bottom: 18px;">
+        <h3 style="font-size: 1.35rem; margin: 0;">
+          <a href="{{ latest_post.url }}" style="color: var(--burgundy-accent); text-decoration: none; font-weight: bold;">{{ latest_post.title }}</a>
+        </h3>
+        <span style="font-size: 0.85rem; color: #666; font-weight: bold; margin-top: 4px;">{{ latest_post.date | date: "%B %d, %Y" }}</span>
+      </div>
+      
+      <div style="font-size: 0.92rem; line-height: 1.6; color: #333;">
+        {{ latest_post.content }}
+      </div>
+    </div>
+  {% else %}
+    <p style="font-style: italic; color: #666;">No upcoming events listed at this time.</p>
+  {% endif %}
+</div>
+
+<!-- 3. ALL EVENTS -->
+<div style="margin-bottom: 35px;">
+  <h2 style="color: var(--burgundy-accent); font-size: 1.3rem; font-weight: bold; margin-bottom: 16px; border-bottom: 2px solid var(--border-subtle); padding-bottom: 6px;">
+    ALL EVENTS
+  </h2>
+
+  {% if site.posts.size > 0 %}
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 15px;">
+      {% for post in site.posts %}
+        <div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <span style="font-size: 0.8rem; color: #777; font-weight: bold; display: block; margin-bottom: 6px;">{{ post.date | date: "%B %d, %Y" }}</span>
+            <h3 style="font-size: 1.05rem; margin: 0 0 12px 0;">
+              <a href="{{ post.url }}" style="color: var(--burgundy-accent); text-decoration: none; font-weight: bold;">{{ post.title }}</a>
+            </h3>
+          </div>
+          <a href="{{ post.url }}" style="font-size: 0.85rem; color: var(--burgundy-accent); font-weight: bold; text-decoration: none;">View Event Details &rarr;</a>
         </div>
       {% endfor %}
-    {% else %}
-      <div class="conf-card">
-        <p class="conf-description">Check back soon for upcoming conference announcements and call for proposals!</p>
-      </div>
-    {% endif %}
-  </div>
-</section>
-
-<!-- Section 2: Past / Archive Events -->
-<section class="mb-40">
-  <h2 class="section-title">Past Events & Conference Archives</h2>
-  <div class="conf-grid">
-    {% for event in site.data.conferences.past %}
-      <div class="conf-card">
-        <div class="conf-badge-date conf-badge-past">{{ event.date }}</div>
-        <h3 class="conf-title">{{ event.title }}</h3>
-        <div class="conf-location">📍 {{ event.location }}</div>
-        {% if event.summary %}
-          <p class="conf-description">{{ event.summary }}</p>
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
-</section>
-
-<!-- Section 3: Proposal / Callout Box -->
-<div class="res-callout-box">
-  <h3 class="res-callout-title">Presenting with PIE SIG</h3>
-  <p class="res-callout-text">
-    Interested in hosting a workshop or presenting a performance-based paper under the PIE SIG banner? Contact our events coordinator or keep an eye out for our annual JALT National Call for Papers.
-  </p>
+    </div>
+  {% else %}
+    <p style="font-style: italic; color: #666;">No events found.</p>
+  {% endif %}
 </div>
+
+<!-- Bottom Footer -->
+<footer class="site-black-footer">
+  <div class="footer-social-links">
+    <a href="#" class="social-circle-btn" title="Facebook">f</a>
+    <a href="#" class="social-circle-btn" title="YouTube">yt</a>
+    <a href="#" class="social-circle-btn" title="X / Twitter">x</a>
+    <a href="#" class="social-circle-btn" title="LinkedIn">in</a>
+  </div>
+
+  <div class="footer-brand-logos">
+    <span>PIE sig</span> | <span>JALT</span>
+  </div>
+</footer>
