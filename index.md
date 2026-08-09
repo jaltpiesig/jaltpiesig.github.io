@@ -80,27 +80,17 @@ permalink: /
 </div>
 
 <!-- Podcast Section -->
-<div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 25px; margin-bottom: 30px;">
-  <h2 class="heading-serif" style="margin-bottom: 15px;">
+<div style="margin-bottom: 35px; padding: 10px 5px;">
+  <h2 class="heading-serif" style="margin-bottom: 12px;">
     PODCAST
   </h2>
-  <p style="font-size: 0.95rem; line-height: 1.6; color: #333; margin-bottom: 20px;">
+  <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark, #222222); margin-bottom: 20px;">
     Listen to conversations with educators, researchers, and performers in the field of language learning and performance-based education.
   </p>
   
-  <!-- Spotify Embedded Player -->
-  <div style="border-radius: 12px; overflow: hidden;">
-    <iframe 
-      style="border-radius:12px" 
-      src="https://open.spotify.com/embed/show/5yI3EBA0fQkE41mP4NUpfG?utm_source=generator" 
-      width="100%" 
-      height="152" 
-      frameBorder="0" 
-      allowfullscreen="" 
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-      loading="lazy">
-    </iframe>
-  </div>
+  <!-- Buzzsprout Podcast Player -->
+  <div id="buzzsprout-large-player"></div>
+  <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
 </div>
 
 <!-- News Section (Jekyll Posts) -->
