@@ -60,7 +60,7 @@ permalink: /about/
   <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
     <!-- Left Paragraphs -->
     <div style="flex: 1 1 300px; max-width: 650px;">
-      <h1 style="color: #ffffff; font-size: 2rem; margin-bottom: 12px; font-weight: bold; margin-top: 0;">About Us</h1>
+      <h1 style="color: #ffffff; font-size: 2rem; margin-bottom: 12px; font-weight: bold; margin-top: 0;">ABOUT US</h1>
       <p style="color: #ffffff; font-size: 0.98rem; line-height: 1.6; margin-bottom: 12px;">
         The mission of the Performance In Education SIG (formerly the Speech, Drama, and Debate SIG) is to provide a forum for teachers and academics to discuss, research, and implement oral interpretation, speech, debate, drama and other forms of performance in language education. The main activities are the publication of a newsletter and the Mask & Gavel journal, as well as sponsoring conferences and workshops. including annual conferences in Okinawa and Sapporo. Other activities have included supporting chapter events and running local, regional, and national speech contests.
       </p>
