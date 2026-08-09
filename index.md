@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<!-- 1. Black Box: Intro Text (White) on Left + PIE SIG Graphic on Right -->
+<!-- Hero Banner: Intro Text + PIE SIG Graphic -->
 <div class="hero-black-box">
   <p class="hero-intro-text">
     The Performance in Education (PIE) Special Interest Group (SIG) of the Japan Association for Language Teaching (JALT), founded in 2011 as the Speech, Drama, & Debate SIG, is involved with a myriad of teaching activities (still including drama and debate, but now much more!) that require students to cooperate and collaborate together, so it is natural that our SIG also participates in many collaborative activities with JALT chapters and SIGs.
@@ -36,7 +36,7 @@ title: Home
   </div>
 </div>
 
-<!-- 2. Black Box: News Section with Lilac Posts on Left + Social Links on Right -->
+<!-- News Section: Recent Posts + Social Links Column -->
 <div class="news-black-box">
   <div class="news-box-header">
     <h2>NEWS</h2>
@@ -53,7 +53,7 @@ title: Home
       {% endfor %}
     </div>
 
-    <!-- Vertical Social Icons on Right Side inside News Box -->
+    <!-- Vertical Social Icons Column -->
     <div class="news-social-column">
       <a href="#" class="social-circle-btn" title="Facebook">f</a>
       <a href="#" class="social-circle-btn" title="YouTube">yt</a>
@@ -63,7 +63,7 @@ title: Home
   </div>
 </div>
 
-<!-- 3. Partner Banners Row -->
+<!-- Partner Banners Row -->
 <div class="partner-logos-row">
   <div class="partner-card">
     <img src="/assets/images/beyond-classroom-logo.png" alt="Beyond the Classroom" onerror="this.parentNode.innerHTML='BEYOND THE CLASSROOM';">
@@ -75,17 +75,3 @@ title: Home
     <img src="/assets/images/jalt-logo.png" alt="JALT" onerror="this.parentNode.innerHTML='JALT';">
   </div>
 </div>
-
-<!-- 4. Black Footer Bar: Socials Bottom-Left + PIE SIG & JALT Logos Bottom-Right -->
-<footer class="site-black-footer">
-  <div class="footer-social-links">
-    <a href="#" class="social-circle-btn" title="Facebook">f</a>
-    <a href="#" class="social-circle-btn" title="YouTube">yt</a>
-    <a href="#" class="social-circle-btn" title="X / Twitter">x</a>
-    <a href="#" class="social-circle-btn" title="LinkedIn">in</a>
-  </div>
-
-  <div class="footer-brand-logos">
-    <span>PIE sig</span> | <span>JALT</span>
-  </div>
-</footer>

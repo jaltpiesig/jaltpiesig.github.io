@@ -1,9 +1,65 @@
-- name: Darren Kinsman
-  role: PIE President
-  image: /assets/images/darren.jpg
-  bio: "Darren has been teaching in Japan since 1996. Originally from eastern Canada..."
+# Detailed Officer Bios
+detailed:
+  - name: "DARREN KINSMAN"
+    role: "PIE President"
+    bio:
+      - "Darren has been teaching in Japan since 1998. Originally from eastern Canada, he earned his bachelor’s degree in political science followed by a bachelor’s degree in education with training in educational drama from renown Canadian playwright and educator Ilkay Silk. After teaching in Japan for some years, he returned to Canada to get his CELTA certification and later a Master of Arts degree."
+      - "Over his career, he has taught at language schools, and a private high school, where he instructed students in both drama and choral singing in addition to traditional subjects. He currently teaches at the university level and is a Member-at-Large for JALT Sendai Chapter. He has written articles on drama, choral English, and the use of portfolios in the writing classroom. He has given numerous talks on the topic of drama in the language classroom at local, national, and international conferences."
 
-- name: Kevin Bergman
-  role: Vice President & Drama Chair
-  image: /assets/images/kevin.jpg
-  bio: "Kevin has been involved with English education in Japan since 1986..."
+  - name: "KEVIN BERGMAN"
+    role: "Vice President & Drama Chair"
+    bio:
+      - "Kevin has been involved with English education in Japan since 1986, primarily as a full-time teacher at Musashi High School and Junior High School in Tokyo, where he recently retired after 30 years of teaching English, Speech, and Drama. Before that he team-taught with Japanese English teachers on the JET Program in Shikoku and travelled around the country as an Educational Consultant for a major ELT publishing company."
+      - "Prior to coming to Japan, he studied theater directing at West Virginia University and trained as an actor at The Juilliard School in New York. Kevin loves interacting with people who believe in, and practice drama as means of communication, and would like to help build alliances among such teachers and artists in Japan and other countries."
+
+  - name: "KIM ROCKELL"
+    role: "Music Chair"
+    bio:
+      - "Originally from New Zealand, Kim Rockell is an ethnomusicologist and classical guitarist active throughout the Asia-Pacific region. In Japan he had the opportunity to experience traditional Noh theatre, inspiring him to experiment with original English language Noh-style plays as a member of PIE. He draws on a range of musical strategies when teaching Performance in English and World Music and Culture courses at Komazawa University in Tokyo. Kim also supervises Music Liberal Arts Graduation theses at the Tokyo College of Music."
+
+  - name: "ANTHONY BRIAN GALLAGHER"
+    role: "Assistant Program Chair"
+    bio:
+      - "Brian is heavily involved with JALT (PIE & CALL SIGs) as a very active member, contributor, conference organiser, editor, and reviewer. As a youngster, Brian attended elocution and drama lessons from where he also got his first experiences with prose, theatre, and performance arts."
+      - "With a focus on THE USER EXPERIENCE (UX), the last ten years have seen research in improving student writing using virtual learning environments and computer-assisted language learning to benefit students at each of the institutions Brian has worked, and beyond. With a focus on quality assurance and an aim to help others improve their own teaching and course-quality, he continues to present at conferences in the Asia-Pacific region and provide workshops for faculty and independent groups."
+
+  - name: "DAVID KLUGE"
+    role: "PIE Founder, Membership Chair, Oral Interpretation Chair, Debate Chair, Conferences Chair"
+    bio:
+      - "David Kluge (Chukyo University, Adjunct Professor) has been teaching English for 43 years (35 at Japanese universities) and has been involved in Performance in Education (PIE) for 54 years. He is the founder and former president of the JALT Performance in Education SIG. His interests also include Computer-Assisted Language Learning (He was a founding officer of the JALT CALL SIG), cooperative learning, composition, and oral communication, having written textbooks and edited collections on these topics and on PIE."
+
+  - name: "ZACH STRICKLAND"
+    role: "PIE Drama Chair"
+    bio:
+      - "Zach Strickland is a tenured lecturer and English Coordinator at Kyoto Koka Women’s University. He earned a bachelor’s degree in journalism and TV news in his home state of Colorado and later got his master’s in Learning Design and Technology."
+      - "Zach has been in Japan since 2004 and has taught all ages and education levels from infants to seniors. He was a performer and Media Director of The Pirates of the Dotombori, a bilingual, improv comedy group for 10 of those years and performed across Japan and Asia while also teaching all-ages performance workshops. During the COVID pandemic he was lead director of a series of 36 YouTube, educational videos produced by the Osaka City Board of Education that also aired on TV Osaka. He currently lives with his wife and daughters in Osaka."
+
+  - name: "FATIMA MEI ATAKA"
+    role: "AET Liaison"
+    bio:
+      - "Fatima Mei Ataka brings twelve years of English teaching experience from her time in Pakistan and Japan to her current role in Saudi Arabia. She has been involved with English drama for high school students for the past seven years, using performance to support language learning. Fatima’s teaching focuses on engaging students through practical and diverse methods to help them develop their English skills effectively. Her interests include Drama and Second Language Acquisition and Drama in Education."
+
+  - name: "BRETT EDMAN"
+    role: "AET Liaison"
+    bio:
+      - "Brett Edman has been teaching since 2019. Originally completing a Bachelor of Engineering (Electrical) and Diploma in Languages (Chinese) at the University of Newcastle (UoN), Australia, he then studied Chinese at the Beijing Film Academy in 2012. This is where he had his first taste of teaching at evening and weekend English conversation classes."
+      - "After a few years in the mining and construction industry in Australia he decided to switch to education, completing a Master of Teaching (Secondary) at the UoN in 2018, and a Diploma in Languages (Japanese) between UoN and Nagoya University of Foreign Studies (2019). Brett has taught languages, science, and social science at both private and public schools in Australia. Outside of work hours he can often be seen in musical theatre productions. He currently teaches English at elementary and junior high schools in Kumamoto City as an ALT."
+
+# Additional Officers
+additional:
+  - name: "MAX DIAZ"
+    role: "Web Administrator"
+  - name: "ASHLEY FORD-MIHASHI"
+    role: "Assistant Publicity Chair"
+  - name: "PHILIP HEAD"
+    role: "Publication Chair, Publication Editor, & Journal Editor"
+  - name: "VIVIAN BUSSINGUER-KHAVARI"
+    role: "Program Chair"
+  - name: "YUKARI SAIKI"
+    role: "Translator / Japanese Language Coordinator"
+  - name: "GORDON REES"
+    role: "Social Events Chair"
+  - name: "JAMES HIGA"
+    role: "Treasurer"
+  - name: "DAWN KOBAYASHI"
+    role: "Membership Chair & Member-at-Large"

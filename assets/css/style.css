@@ -1,138 +1,225 @@
-/* Palette & Variables */
+/* ==========================================================================
+   PIE SIG - MASTER STYLESHEET (style.css)
+   ========================================================================== */
+
+/* --- 1. DESIGN TOKENS & VARIABLES --- */
 :root {
-  --bg-lavender: #eceaef;        /* Overall page background */
-  --dark-box-bg: #1e1b22;        /* Dark charcoal/black card background */
-  --burgundy-accent: #8b2643;    /* Accent burgundy */
-  --lilac-text: #d8ceeb;         /* Light periwinkle/lilac text for dark boxes */
-  --lilac-heading: #efebf8;      /* Bright lilac/white for headlines */
-  --text-dark: #2c2c36;
-  --border-subtle: #dcd7e8;
+  --burgundy-primary: #800020;
+  --burgundy-accent: #8b0000;
+  --burgundy-light: #a31c1c;
+  --text-dark: #111111;
+  --text-muted: #555555;
+  --border-subtle: #e0e0e0;
+  --bg-light: #f9f9f9;
+  --card-bg-lilac: #e6e6fa;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: "Arial Black", "Impact", -apple-system, sans-serif;
 }
 
-* {
+/* --- 2. GLOBAL RESET & BASE STYLES --- */
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--bg-lavender);
+  font-family: var(--font-sans);
+  background-color: #f4f4f6;
   color: var(--text-dark);
-  line-height: 1.5;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
-.site-container {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 25px 30px;
+a {
+  color: var(--burgundy-accent);
+  text-decoration: none;
 }
 
-/* Header & Navigation */
-.site-header {
-  border-bottom: 2px solid var(--border-subtle);
-  padding-bottom: 12px;
-  margin-bottom: 25px;
+a:hover {
+  text-decoration: underline;
 }
 
-.nav-wrapper {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.header-logo-compact img {
-  height: 42px;
-  width: auto;
+img {
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
-.main-nav {
+/* Page Layout Container */
+.site-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* --- 3. UTILITY CLASSES --- */
+.mb-20 { margin-bottom: 20px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-35 { margin-bottom: 35px; }
+.mb-40 { margin-bottom: 40px; }
+
+/* Global Section Titles */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--burgundy-accent);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Social Icon Buttons (Used in Header, News Box, Footer) */
+.social-circle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #111111;
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.social-circle-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* --- 4. HEADER & MAIN NAVIGATION --- */
+.site-header {
+  border-bottom: 2px solid var(--border-subtle);
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.top-bar {
   display: flex;
-  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--burgundy-accent);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.top-social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.main-nav ul {
+  display: flex;
   flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
 }
 
 .main-nav a {
+  font-weight: 600;
+  font-size: 0.95rem;
   color: var(--text-dark);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 0.82rem;
   text-transform: uppercase;
-  padding-bottom: 4px;
-  border-bottom: 3px solid transparent;
 }
 
 .main-nav a:hover,
 .main-nav a.active {
   color: var(--burgundy-accent);
-  border-bottom-color: var(--burgundy-accent);
 }
 
-/* --- 1. DARK INTRO HERO BOX --- */
+/* --- 5. HERO BLACK BOX BANNER (SHARED) --- */
 .hero-black-box {
-  background-color: var(--dark-box-bg);
+  background-color: #111111;
+  color: #ffffff;
   border-radius: 8px;
   padding: 30px;
   display: grid;
-  grid-template-columns: 1fr 240px;
+  grid-template-columns: 1fr auto;
   gap: 30px;
   align-items: center;
-  margin-bottom: 30px;
-  color: #ffffff;
 }
 
 .hero-intro-text {
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   line-height: 1.6;
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .hero-brand-graphic {
   text-align: right;
-  border-left: 1px solid rgba(255, 255, 255, 0.15);
-  padding-left: 20px;
+  border-left: 2px solid #333333;
+  padding-left: 25px;
 }
 
 .hero-brand-graphic h1 {
-  font-family: "Georgia", serif;
-  font-size: 2.8rem;
-  color: #ffffff;
-  line-height: 0.85;
-  font-weight: normal;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  color: var(--burgundy-accent);
+  line-height: 1;
+  margin-bottom: 4px;
 }
 
 .hero-brand-graphic h1 span {
-  display: block;
-  font-size: 1.6rem;
-  color: #d8819a;
-  text-transform: lowercase;
+  color: #ffffff;
 }
 
 .hero-brand-graphic p {
-  font-size: 0.6rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #cccccc;
-  margin-top: 6px;
-}
-
-/* --- PODCAST SECTION --- */
-.section-title {
-  color: var(--burgundy-accent);
-  font-size: 1.6rem;
+  font-size: 0.65rem;
   font-weight: bold;
-  margin-bottom: 12px;
+  letter-spacing: 1.5px;
+  color: #888888;
 }
 
+/* --- 6. GLOBAL FOOTER --- */
+.site-black-footer {
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-brand-logos {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.footer-brand-logos span {
+  color: var(--burgundy-accent);
+}
+
+/* --- 7. HOME PAGE MODULES --- */
+
+/* Podcast Section */
 .podcast-grid {
   display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 30px;
-  align-items: start;
-  margin-bottom: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 40px;
+  align-items: center;
 }
 
 .podcast-player-card {
@@ -140,757 +227,456 @@ body {
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 15px;
+  min-height: 200px;
+}
+
+.podcast-info-side {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-dark);
 }
 
 .podcast-info-side p {
-  font-size: 0.92rem;
-  line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .pie-pod-text-logo {
-  font-family: "Georgia", serif;
-  font-size: 2.2rem;
-  color: #3b2838;
-  line-height: 0.9;
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--burgundy-accent);
+  display: inline-block;
   margin-top: 10px;
+  line-height: 1;
 }
 
 .pie-pod-text-logo span {
-  color: var(--burgundy-accent);
-  display: block;
-  font-size: 1.5rem;
+  color: var(--text-dark);
 }
 
 .pie-pod-text-logo sub {
   display: block;
-  font-size: 0.6rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #3b2838;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #666666;
+  margin-top: 4px;
 }
 
-/* --- 2. DARK NEWS BOX --- */
+/* News Section */
 .news-black-box {
-  background-color: var(--dark-box-bg);
+  background: #111111;
+  color: #ffffff;
   border-radius: 8px;
-  padding: 25px 30px;
-  margin-bottom: 35px;
-}
-
-.news-box-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  padding-bottom: 12px;
-  margin-bottom: 20px;
+  padding: 25px;
+  margin-bottom: 40px;
 }
 
 .news-box-header h2 {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: bold;
-  text-transform: uppercase;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .news-box-grid {
   display: grid;
-  grid-template-columns: 1fr 60px;
-  gap: 20px;
+  grid-template-columns: 1fr auto;
+  gap: 25px;
+}
+
+.news-posts-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .news-post-item {
-  margin-bottom: 18px;
+  background: var(--card-bg-lilac);
+  color: #222222;
+  border-radius: 6px;
+  padding: 16px;
 }
 
 .news-post-item h3 {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 2px;
+  margin: 0 0 6px 0;
+  font-size: 1.1rem;
 }
 
 .news-post-item h3 a {
-  color: var(--lilac-heading);
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.news-post-item h3 a:hover {
-  text-decoration: underline;
+  color: var(--burgundy-accent);
+  font-weight: bold;
 }
 
 .news-post-date {
   font-size: 0.8rem;
-  color: #a89cc2;
+  color: #666666;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .news-post-excerpt {
   font-size: 0.88rem;
-  color: var(--lilac-text);
+  line-height: 1.5;
+  margin: 0;
+  color: #333333;
 }
 
 .news-social-column {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items: center;
-}
-
-.social-circle-btn {
-  width: 32px;
-  height: 32px;
-  background-color: #ffffff;
-  color: var(--dark-box-bg);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  text-decoration: none;
-  font-size: 0.8rem;
-  font-weight: bold;
 }
 
-/* --- 3. PARTNER LOGOS ROW --- */
+/* Partner Banners Row */
 .partner-logos-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .partner-card {
   background: #ffffff;
   border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  padding: 12px 20px;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   font-weight: bold;
-  font-size: 0.85rem;
-  color: var(--burgundy-accent);
-  min-width: 200px;
+  color: #555555;
+  min-height: 90px;
 }
 
-/* --- 4. BLACK FOOTER WITH SOCIALS & BRAND LOGOS --- */
-.site-black-footer {
-  background-color: var(--dark-box-bg);
-  border-radius: 6px;
-  padding: 18px 25px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #ffffff;
-  flex-wrap: wrap;
-  gap: 15px;
+.partner-card img {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
 }
 
-.footer-social-links {
-  display: flex;
-  gap: 12px;
-}
-
-.footer-brand-logos {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  font-size: 0.85rem;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-/* --- PUBLICATIONS PAGE STYLES --- */
-
-.publications-container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.publications-intro {
-  margin-bottom: 25px;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--text-dark);
-}
-
-/* Category Navigation Bar */
-.pub-nav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
-  border-bottom: 1px solid var(--border-subtle);
-  padding-bottom: 12px;
-}
-
-.pub-nav a {
-  background: var(--dark-box-bg);
-  color: var(--lilac-heading);
-  padding: 6px 14px;
-  border-radius: 15px;
-  text-decoration: none;
-  font-size: 0.82rem;
-  font-weight: bold;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-
-.pub-nav a:hover {
-  background: var(--burgundy-accent);
-  color: #ffffff;
-}
-
-/* Section Box Styling */
-.pub-section {
-  background: var(--dark-box-bg);
+/* --- 8. PUBLICATIONS PAGE MODULES --- */
+.pub-journal-card {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
   border-radius: 8px;
-  padding: 24px;
-  margin-bottom: 35px;
-  color: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
 }
 
-.pub-section h2 {
-  color: #ffffff;
-  font-size: 1.4rem;
-  margin-bottom: 6px;
-}
-
-.issn-badge {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--lilac-text);
-  font-size: 0.78rem;
-  padding: 2px 8px;
-  border-radius: 4px;
-  margin-bottom: 12px;
+.pub-journal-title {
+  color: var(--burgundy-accent);
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.pub-issn {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
 }
 
 .pub-description {
-  color: var(--lilac-text);
-  line-height: 1.6;
-  font-size: 0.92rem;
-}
-
-/* Dark-Theme Submission Guidelines Box */
-.submission-info-box {
-  background-color: var(--dark-box-bg);
-  border-left: 4px solid var(--burgundy-accent);
-  padding: 18px 22px;
-  margin: 20px 0 30px 0;
-  font-size: 0.90rem;
-  color: var(--lilac-text);
-  border-radius: 0 8px 8px 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.submission-info-box strong {
-  color: #ffffff;
-}
-
-.submission-info-box p {
-  margin-bottom: 8px;
-}
-
-.submission-info-box p:last-child {
-  margin-bottom: 0;
-}
-
-.submission-info-box a {
-  color: #79c0ff;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.submission-info-box a:hover {
-  color: #a5d6ff;
-}
-
-.publisher-info {
-  font-size: 0.80rem;
-  color: #a89cc2;
-  margin-top: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 10px;
-}
-
-/* Collapsible Volume Accordion */
-.volumes-list {
-  margin-top: 20px;
-}
-
-.publication-volume {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 6px;
-  margin-bottom: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  overflow: hidden;
-}
-
-.volume-header {
-  padding: 14px 18px;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-
-.volume-header::-webkit-details-marker {
-  display: none;
-}
-
-.volume-header::after {
-  content: "►";
-  color: var(--lilac-text);
-  font-size: 0.8rem;
-  transition: transform 0.2s ease;
-}
-
-details[open] .volume-header::after {
-  transform: rotate(90deg);
-}
-
-.volume-title {
-  color: var(--lilac-heading);
-  margin-right: 10px;
-}
-
-/* Expanded Details Area */
-.volume-content {
-  padding: 18px;
-  background-color: rgba(0, 0, 0, 0.15);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Unified Volume & Chapter DOI Blocks */
-.volume-doi-block,
-.chapter-doi-block {
-  font-size: 0.82rem;
-  color: var(--lilac-text);
-  margin-bottom: 12px;
-}
-
-.chapter-doi-block {
-  margin-top: 4px;
-  margin-bottom: 0;
-}
-
-.doi-link {
-  color: #79c0ff;
-  text-decoration: underline;
-  word-break: break-all;
-  font-weight: normal;
-}
-
-.doi-link:hover {
-  color: #a5d6ff;
-}
-
-.volume-download-bar {
-  margin-bottom: 16px;
-}
-
-.download-pdf-btn {
-  display: inline-block;
-  background-color: var(--burgundy-accent);
-  color: #ffffff;
-  padding: 8px 16px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.85rem;
-  transition: opacity 0.2s ease;
-}
-
-.download-pdf-btn:hover {
-  opacity: 0.9;
-}
-
-.chapters-heading {
-  font-size: 0.85rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  margin-top: 18px;
-  margin-bottom: 12px;
-  color: var(--lilac-heading);
-}
-
-/* Chapter Items */
-.chapter-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.chapter-item {
-  margin-bottom: 14px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.chapter-item:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.chapter-header-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.chapter-title {
   font-size: 0.95rem;
-  color: #ffffff;
-  line-height: 1.4;
-}
-
-.chapter-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.chapter-pdf-link {
-  font-size: 0.75rem;
-  font-weight: bold;
-  color: #56d364;
-  background: rgba(86, 211, 100, 0.12);
-  border: 1px solid rgba(86, 211, 100, 0.3);
-  padding: 2px 7px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.chapter-pdf-link:hover {
-  background: rgba(86, 211, 100, 0.25);
-  border-color: rgba(86, 211, 100, 0.5);
-  text-decoration: none;
-}
-
-.chapter-author {
-  display: block;
-  font-size: 0.82rem;
-  color: #a89cc2;
-  margin-top: 2px;
-}
-
-/* Collaboration Publications List */
-.collaboration-list {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-.collab-item {
-  padding: 14px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.9rem;
-  color: var(--lilac-text);
-}
-
-.collab-item:last-child {
-  border-bottom: none;
-}
-
-.collab-title {
-  color: var(--lilac-heading);
-  font-size: 1rem;
-  margin-bottom: 4px;
-}
-
-.collab-desc {
-  margin-bottom: 6px;
-  line-height: 1.4;
-  color: #ffffff;
-}
-
-.collab-link {
-  display: inline-block;
-  color: #79c0ff;
-  font-weight: bold;
-  font-size: 0.85rem;
-  text-decoration: none;
-}
-
-.collab-link:hover {
-  text-decoration: underline;
-}
-
-.no-volumes {
-  color: #a89cc2;
-  font-style: italic;
-  font-size: 0.88rem;
-}
-
-/* Global Media Queries */
-@media (max-width: 768px) {
-  .hero-black-box,
-  .podcast-grid,
-  .news-box-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .chapter-header-line {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-
-  .chapter-actions {
-    margin-top: 4px;
-  }
-}
-/* --- CONFERENCES PAGE STYLES --- */
-
-.conferences-container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.conferences-intro {
-  font-size: 1.05rem;
   line-height: 1.6;
-  color: var(--text-dark);
-  margin-bottom: 30px;
+  color: #333333;
+  margin-bottom: 15px;
 }
 
-.conf-section {
-  margin-bottom: 45px;
-}
-
-.conf-heading {
-  color: var(--burgundy-accent);
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 18px;
-  border-bottom: 2px solid var(--border-subtle);
-  padding-bottom: 8px;
-}
-
-/* Featured Event Card */
-.featured-event-card {
-  position: relative;
-  background-color: var(--dark-box-bg);
-  border-radius: 12px;
-  padding: 30px;
-  color: #ffffff;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-  border-top: 4px solid var(--burgundy-accent);
-}
-
-.featured-badge {
-  display: inline-block;
-  background-color: var(--burgundy-accent);
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  padding: 4px 10px;
-  border-radius: 4px;
-  margin-bottom: 12px;
-}
-
-.featured-event-header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  padding-bottom: 16px;
+.pub-metadata-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  background: var(--bg-light);
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-size: 0.85rem;
   margin-bottom: 20px;
 }
 
-.featured-event-title {
-  font-size: 1.75rem;
-  margin: 0 0 8px 0;
-  line-height: 1.3;
+.pub-volume-card {
+  background: var(--card-bg-lilac);
+  border-radius: 6px;
+  padding: 18px;
+  margin-bottom: 15px;
 }
 
-.featured-event-title a {
-  color: var(--lilac-heading);
+.pub-volume-title {
+  color: var(--burgundy-accent);
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.pub-doi-link {
+  font-size: 0.85rem;
+  word-break: break-all;
+}
+
+.pub-pdf-btn {
+  display: inline-block;
+  background-color: var(--burgundy-accent);
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 4px;
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
-.featured-event-title a:hover {
-  color: #ffffff;
+.pub-pdf-btn:hover {
+  background-color: var(--burgundy-primary);
+  text-decoration: none;
 }
 
-.featured-event-date {
-  font-size: 0.9rem;
-  color: #a89cc2;
-  font-weight: 500;
-}
-
-.featured-event-date .icon {
-  margin-right: 4px;
-}
-
-.featured-event-body {
-  color: var(--lilac-text);
-  line-height: 1.7;
-  font-size: 0.98rem;
-}
-
-.featured-event-body p {
-  margin-bottom: 16px;
-}
-
-.featured-event-body p:last-child {
-  margin-bottom: 0;
-}
-
-.featured-event-body a {
-  color: #79c0ff;
-  text-decoration: underline;
-}
-
-.featured-event-body a:hover {
-  color: #a5d6ff;
-}
-
-/* All Events Grid */
-.events-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 16px;
-}
-
-.event-card {
-  background-color: var(--dark-box-bg);
-  border-radius: 8px;
-  padding: 20px;
+.pub-chapter-list {
+  list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  gap: 10px;
+  margin-top: 10px;
 }
 
-.event-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  border-color: rgba(255, 255, 255, 0.2);
+.pub-chapter-item {
+  background: #ffffff;
+  border-left: 3px solid var(--burgundy-accent);
+  border-radius: 4px;
+  padding: 10px 14px;
 }
 
-.event-date-badge {
+.pub-chapter-title {
+  font-weight: bold;
+  font-size: 0.92rem;
+  color: var(--text-dark);
+}
+
+.pub-chapter-author {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.pub-chapter-meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 6px;
+}
+
+/* Collaborations Section */
+.collab-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.collab-card {
+  background: var(--card-bg-lilac);
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.collab-partner {
   font-size: 0.8rem;
-  color: #a89cc2;
-  font-weight: 600;
-  display: block;
+  font-weight: bold;
+  color: var(--burgundy-accent);
+  text-transform: uppercase;
+}
+
+.collab-title {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin: 4px 0;
+}
+
+.collab-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* --- 9. RESOURCES PAGE MODULES --- */
+.res-intro-card {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 22px;
+  margin-bottom: 30px;
+}
+
+.res-intro-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.res-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.res-card {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.res-card-title {
+  color: var(--burgundy-accent);
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.res-card-desc {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #555555;
+  margin-bottom: 18px;
+}
+
+.res-video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #000000;
+}
+
+.res-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.res-callout-box {
+  background: #f9f9f9;
+  border-left: 4px solid var(--burgundy-accent);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 35px;
+}
+
+.res-callout-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--text-dark);
   margin-bottom: 8px;
 }
 
-.event-card-title {
-  font-size: 1.1rem;
-  margin: 0 0 16px 0;
-  line-height: 1.4;
+.res-callout-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #444444;
+  margin: 0;
 }
 
-.event-card-title a {
-  color: var(--lilac-heading);
-  text-decoration: none;
-}
-
-.event-card-title a:hover {
-  color: #79c0ff;
-}
-
-.event-card-link {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #79c0ff;
-  text-decoration: none;
-  align-self: flex-start;
-}
-
-.event-card-link:hover {
+.res-callout-link {
+  color: var(--burgundy-accent);
+  font-weight: bold;
   text-decoration: underline;
 }
 
-/* Info & Collaboration Callout Box */
-.conf-info-box {
-  background-color: var(--dark-box-bg);
-  border-radius: 12px;
-  padding: 30px;
-  color: var(--lilac-text);
-  font-size: 0.98rem;
-  line-height: 1.65;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
-  margin-top: 20px;
+/* --- 10. OFFICERS PAGE MODULES --- */
+.officers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  margin-bottom: 35px;
 }
 
-.info-box-header h2 {
-  color: var(--lilac-heading);
-  font-size: 1.35rem;
-  margin-top: 0;
-  margin-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 10px;
-}
-
-.conf-quote {
-  font-family: "Georgia", serif;
-  font-style: italic;
-  font-size: 1.1rem;
-  color: #ffffff;
-  border-left: 3px solid var(--burgundy-accent);
-  margin: 22px 0;
-  padding: 8px 0 8px 18px;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 0 6px 6px 0;
-}
-
-.conf-collab-card {
-  margin-top: 25px;
-  padding: 18px 20px;
-  background-color: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+.officer-card {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
   border-radius: 8px;
+  padding: 18px;
   display: flex;
-  gap: 16px;
-  align-items: flex-start;
+  flex-direction: column;
 }
 
-.collab-icon {
-  font-size: 1.6rem;
-  line-height: 1;
-}
-
-.collab-text strong {
-  color: #ffffff;
-  display: block;
-  font-size: 1.05rem;
+.officer-role {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--burgundy-accent);
+  text-transform: uppercase;
   margin-bottom: 4px;
 }
 
-.collab-text p {
-  margin: 0;
-  font-size: 0.92rem;
-}
-
-.collab-text a {
-  color: #79c0ff;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.collab-text a:hover {
-  color: #a5d6ff;
-}
-
-.no-events {
+.officer-name {
+  font-size: 1.1rem;
+  font-weight: bold;
   color: var(--text-dark);
-  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.officer-affiliation {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.officer-bio {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: #333333;
+  margin-top: auto;
+}
+
+/* --- 11. RESPONSIVE BREAKPOINTS --- */
+@media (max-width: 768px) {
+  .site-wrapper {
+    padding: 15px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .hero-black-box {
+    grid-template-columns: 1fr;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .hero-brand-graphic {
+    border-left: none;
+    border-top: 1px solid #333333;
+    padding-left: 0;
+    padding-top: 15px;
+    text-align: left;
+  }
+
+  .podcast-grid,
+  .news-box-grid,
+  .pub-metadata-grid,
+  .collab-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-social-column {
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .site-black-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
 }
