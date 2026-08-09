@@ -66,7 +66,7 @@ permalink: /
     <!-- Left Paragraph -->
     <div style="flex: 1 1 300px; max-width: 650px;">
       <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.7; margin: 0;">
-        Welcome to the JALT Performance in Education Special Interest Group (PIE SIG). We support language educators through speech, drama, debate, music, and performance-based pedagogical approaches.
+        The Performance in Education (PIE) Special Interest Group (SIG) of the Japan Association for Language Teaching (JALT), founded in 2011 as the Speech, Drama, & Debate SIG, is involved with a myriad of teaching activities (still including drama and debate, but now much more!) that require students to cooperate and collaborate together, so it is natural that our SIG also participates in many collaborative activities with JALT chapters and SIGs.
       </p>
     </div>
     <!-- Right Brand Graphic -->
@@ -85,7 +85,7 @@ permalink: /
     PODCAST
   </h2>
   <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark, #222222); margin-bottom: 20px;">
-    Listen to conversations with educators, researchers, and performers in the field of language learning and performance-based education.
+    The PIE SIG Podcast features conversations with educators who use performance to make language teaching more engaging, creative, and effective. New episodes are released monthly. Listen on the PIE SIG website or Spotify, and follow along so you never miss one!
   </p>
   
   <!-- Buzzsprout Podcast Player -->
