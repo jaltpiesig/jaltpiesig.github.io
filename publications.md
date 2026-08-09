@@ -301,17 +301,3 @@ permalink: /publications/
     </div>
   </div>
 </section>
-
-<!-- Bottom Footer -->
-<footer class="site-black-footer">
-  <div class="footer-social-links">
-    <a href="#" class="social-circle-btn" title="Facebook">f</a>
-    <a href="#" class="social-circle-btn" title="YouTube">yt</a>
-    <a href="#" class="social-circle-btn" title="X / Twitter">x</a>
-    <a href="#" class="social-circle-btn" title="LinkedIn">in</a>
-  </div>
-
-  <div class="footer-brand-logos">
-    <span>PIE sig</span> | <span>JALT</span>
-  </div>
-</footer>

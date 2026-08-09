@@ -261,7 +261,7 @@ body {
 
 .news-post-date {
   font-size: 0.8rem;
-  color: var(--accent-orange);
+  color: var(--lilac-text); /* Replaced orange with soft lilac/white for dark box readability */
   font-weight: 600;
   display: block;
   margin-bottom: 4px;

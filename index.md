@@ -35,30 +35,20 @@ PIE
 </div>
 </div>
 
-<!-- 2. Black Box: News Section with Lilac Posts on Left + Social Links on Right -->
+<!-- 2. Black Box: News Section with Posts -->
 <div class="news-black-box">
 <div class="news-box-header">
 <h2>NEWS</h2>
 </div>
 
-<div class="news-box-grid">
 <div class="news-posts-column">
 {% for post in site.posts limit:5 %}
 <div class="news-post-item">
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-<span class="news-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+<span class="news-post-date" style="color: var(--lilac-text);">{{ post.date | date: "%Y-%m-%d" }}</span>
 <p class="news-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
 </div>
 {% endfor %}
-</div>
-
-<!-- Vertical Social Icons on Right Side inside News Box -->
-<div class="news-social-column">
-<a href="#" class="social-circle-btn" title="Facebook">f</a>
-<a href="#" class="social-circle-btn" title="YouTube">yt</a>
-<a href="#" class="social-circle-btn" title="X / Twitter">x</a>
-<a href="#" class="social-circle-btn" title="LinkedIn">in</a>
-</div>
 </div>
 </div>
 
@@ -74,17 +64,3 @@ PIE
 <img src="/assets/images/jalt-logo.png" alt="JALT" onerror="this.parentNode.innerHTML='JALT';">
 </div>
 </div>
-
-<!-- 4. Black Footer Bar: Socials Bottom-Left + PIE SIG & JALT Logos Bottom-Right -->
-<footer class="site-black-footer">
-<div class="footer-social-links">
-<a href="#" class="social-circle-btn" title="Facebook">f</a>
-<a href="#" class="social-circle-btn" title="YouTube">yt</a>
-<a href="#" class="social-circle-btn" title="X / Twitter">x</a>
-<a href="#" class="social-circle-btn" title="LinkedIn">in</a>
-</div>
-
-<div class="footer-brand-logos">
-<span>PIE sig</span> | <span>JALT</span>
-</div>
-</footer> 
