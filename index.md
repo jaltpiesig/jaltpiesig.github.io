@@ -20,9 +20,8 @@ title: Home
 <!-- Podcast Grid: Player Card Left + Intro Text & PIE pod Logo Right -->
 <div class="podcast-grid">
   <div class="podcast-player-card">
-    <p><strong>PIE SIG Podcast Episode 12</strong></p>
-    <p style="font-size:0.85rem; color:#555; margin-bottom:10px;">Why Settle for Student Participation When You Can Have Student Engagement?</p>
-    <a href="https://open.spotify.com" target="_blank" style="display:inline-block; background:#1db954; color:#fff; padding:6px 14px; border-radius:15px; text-decoration:none; font-size:0.8rem; font-weight:bold;">Listen on Spotify</a>
+    <div id="buzzsprout-large-player"></div>
+    <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
   </div>
 
   <div class="podcast-info-side">
