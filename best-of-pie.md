@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Best of PIE SIG
-permalink: /best-of-pie/
+permalink: /best-of-pie-sig/
 ---
 
-<!-- Hero Header -->
-<div class="hero-black-box">
+<!-- Hero Banner -->
+<div class="hero-black-box mb-35">
   <div>
     <h2>BEST OF PIE SIG</h2>
     <p class="hero-intro-text">
-      Recognizing excellence in Performance in Education presentations, workshops, and student performances over the past decade.
+      A curated collection celebrating outstanding research, creative lesson ideas, and teacher reflections published across 10+ years of Performance in Education.
     </p>
   </div>
   <div class="hero-brand-graphic">
@@ -18,40 +18,48 @@ permalink: /best-of-pie/
   </div>
 </div>
 
-<!-- Intro Card -->
-<div class="awards-intro-card">
-  <p>
-    PIE SIG has been giving awards for over 10 years to PIE SIG presenters who have demonstrated excellence in their presentations. Some of these individuals and their contributions have been recognized through JALT's <strong>Michele Steele Best of JALT Awards</strong>, and others through our own <strong>PIE SIG Best Presentation, Best Performance, and Best Student Performance awards</strong>.
+<!-- Main Publication Card -->
+<div class="pub-journal-card mb-40">
+  <h2 class="pub-journal-title">The Best of Performance in Education</h2>
+  <div class="pub-issn">Special Commemorative Anthology Series</div>
+  
+  <p class="pub-description">
+    Bringing together benchmark papers, innovative drama frameworks, and practical speech & debate guides into landmark collections. Available for free download in PDF format.
   </p>
-</div>
 
-<!-- Grid Layout for Award Categories -->
-<div class="awards-grid">
+  <div class="pub-metadata-grid">
+    <div><strong>Publisher:</strong> JALT Performance in Education SIG</div>
+    <div><strong>Format:</strong> Digital PDF (Open Access)</div>
+  </div>
 
-  <!-- Section 1: Best of JALT Awards -->
-  <div class="awards-card">
-    <h2 class="awards-card-title">PIE SIG Best of JALT Awards</h2>
-    <ul class="awards-list">
-      {% for award in site.data.awards.best_of_jalt %}
-        <li>
-          <strong>{{ award.year }}:</strong> {{ award.recipient }}
-          {% if award.title != "" %}
-            — <em>{{ award.title }}</em>
-          {% endif %}
+  <!-- Volume 1 -->
+  <div class="pub-volume-card">
+    <div class="pub-volume-header">
+      <h3 class="pub-volume-title">Volume 1 (10th Anniversary Issue)</h3>
+      {% if site.data.best_of_pie.vol1_pdf %}
+        <a href="{{ site.data.best_of_pie.vol1_pdf }}" class="pub-pdf-btn" target="_blank" rel="noopener">Download PDF</a>
+      {% endif %}
+    </div>
+
+    <ul class="pub-chapter-list">
+      {% for chapter in site.data.best_of_pie.vol1_chapters %}
+        <li class="pub-chapter-item">
+          <div class="pub-chapter-title">{{ chapter.title }}</div>
+          <div class="pub-chapter-author">by {{ chapter.author }}</div>
+          <div class="pub-chapter-meta">
+            <span class="pub-tag">{{ chapter.category | default: "Article" }}</span>
+            {% if chapter.pages %}<span class="pub-pages">pp. {{ chapter.pages }}</span>{% endif %}
+          </div>
         </li>
       {% endfor %}
     </ul>
   </div>
+</div>
 
-  <!-- Section 2: Presentation and Performance Awards -->
-  <div class="awards-card">
-    <h2 class="awards-card-title">PIE SIG Presentation & Performance Awards</h2>
-    {% for item in site.data.awards.presentation_and_performance %}
-      <div class="award-sub-block">
-        <h3>{{ item.category }}</h3>
-        <p><strong>{{ item.year }}:</strong> {{ item.recipient }}</p>
-      </div>
-    {% endfor %}
-  </div>
-
+<!-- Callout / Submission Box -->
+<div class="res-callout-box">
+  <h3 class="res-callout-title">Submit to Future Editions</h3>
+  <p class="res-callout-text">
+    Have you published an article in our publications or presented at a PIE SIG event? Contact our publications chair to learn about upcoming anthology selection criteria and submission windows.
+  </p>
 </div>

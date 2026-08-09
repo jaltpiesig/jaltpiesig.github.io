@@ -4,12 +4,12 @@ title: Publications
 permalink: /publications/
 ---
 
-<!-- Top Hero Title Banner -->
-<div class="hero-black-box mb-30">
+<!-- Hero Banner -->
+<div class="hero-black-box mb-35">
   <div>
-    <h2>PUBLICATIONS</h2>
+    <h2>PIE SIG PUBLICATIONS</h2>
     <p class="hero-intro-text">
-      Explore our peer-reviewed journals, classroom resource collections, conference reviews, and collaborative works.
+      Explore peer-reviewed journals, special anthology volumes, and collaborative publications produced by the Performance in Education SIG.
     </p>
   </div>
   <div class="hero-brand-graphic">
@@ -18,233 +18,96 @@ permalink: /publications/
   </div>
 </div>
 
-<!-- Intro & Submission Info Card -->
-<div class="pub-intro-card">
-  <p class="pub-intro-text">
-    The PIE SIG publishes two main journals: <strong>Mask & Gavel</strong> is our official peer-reviewed journal and the <strong>PIE SIG Classroom Resources Journal</strong> which is a collection of My Share-type articles. Article submissions are accepted year-round, will be published online as they are finalized (with page numbers and DOIs for citation), and will be collected into full volumes that will be published as PDFs once we accumulate a sufficient number of articles.
+<!-- Section 1: Main Academic Journals -->
+<section class="mb-40">
+  <h2 class="section-title">Peer-Reviewed Journals & Publications</h2>
+
+  <!-- Journal Card: Mask & Gavel -->
+  <div class="pub-journal-card mb-30">
+    <h3 class="pub-journal-title">Mask & Gavel</h3>
+    <div class="pub-issn">ISSN: 2188-4609 (Online)</div>
+    
+    <p class="pub-description">
+      The primary peer-reviewed publication of the PIE SIG, featuring research articles, practical teaching ideas, book reviews, and creative reflections on speech, drama, debate, and performance in language learning.
+    </p>
+
+    <div class="pub-metadata-grid">
+      <div><strong>Editor-in-Chief:</strong> PIE SIG Editorial Board</div>
+      <div><strong>Frequency:</strong> Annual / Bi-Annual</div>
+      <div><strong>Access:</strong> Open Access (Digital PDF)</div>
+      <div><strong>Scope:</strong> Speech, Drama, Debate & Oral Interpretation</div>
+    </div>
+
+    <!-- Volume / Issues Container -->
+    <div class="pub-volume-card">
+      <div class="pub-volume-header">
+        <h4 class="pub-volume-title">Featured Issue: Volume 9 (Latest Release)</h4>
+        {% if site.data.publications.latest_issue_pdf %}
+          <a href="{{ site.data.publications.latest_issue_pdf }}" class="pub-pdf-btn" target="_blank" rel="noopener">Download Full PDF</a>
+        {% endif %}
+      </div>
+
+      <ul class="pub-chapter-list">
+        {% for article in site.data.publications.latest_articles %}
+          <li class="pub-chapter-item">
+            <div class="pub-chapter-title">{{ article.title }}</div>
+            <div class="pub-chapter-author">by {{ article.author }}</div>
+            <div class="pub-chapter-meta">
+              <span class="pub-tag">{{ article.type | default: "Research Article" }}</span>
+              {% if article.pages %}<span class="pub-pages">pp. {{ article.pages }}</span>{% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="mt-15">
+      <a href="/mask-and-gavel/" class="conf-btn">Browse Full Mask & Gavel Archives →</a>
+    </div>
+  </div>
+
+  <!-- Journal Card: Best of PIE SIG Anthology -->
+  <div class="pub-journal-card">
+    <h3 class="pub-journal-title">The Best of Performance in Education</h3>
+    <div class="pub-issn">Special Commemorative Series</div>
+    
+    <p class="pub-description">
+      A landmark collection highlighting benchmark papers and practical performance frameworks selected from a decade of PIE SIG contributions.
+    </p>
+
+    <div class="pub-metadata-grid">
+      <div><strong>Publisher:</strong> JALT Performance in Education SIG</div>
+      <div><strong>Format:</strong> Digital Anthology (PDF)</div>
+    </div>
+
+    <a href="/best-of-pie-sig/" class="conf-btn">Explore Anthology & Articles →</a>
+  </div>
+</section>
+
+<!-- Section 2: Special Collaborations -->
+<section class="mb-40">
+  <h2 class="section-title">Special Collaborations & Joint Publications</h2>
+  <div class="collab-grid">
+    {% for collab in site.data.publications.collaborations %}
+      <div class="collab-card">
+        <span class="collab-partner">{{ collab.partner }}</span>
+        <h4 class="collab-title">{{ collab.title }}</h4>
+        <div class="collab-date">{{ collab.date }}</div>
+        {% if collab.description %}
+          <p class="news-post-excerpt mt-10">{{ collab.description }}</p>
+        {% endif %}
+        {% if collab.url %}
+          <a href="{{ collab.url }}" class="res-callout-link mt-10" style="display:inline-block;" target="_blank" rel="noopener">Read Issue →</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Section 3: Call for Papers Callout -->
+<div class="res-callout-box">
+  <h3 class="res-callout-title">Call for Papers & Submissions</h3>
+  <p class="res-callout-text">
+    We welcome submissions year-round from researchers, teachers, and performance practitioners. Check out our submission guidelines to submit your research paper, practical lesson plan, or performance review.
   </p>
-
-  <!-- Submission Details Box -->
-  <div class="pub-submission-box">
-    <p class="pub-submission-line">
-      <strong>Submission Guidelines:</strong> <a href="https://jalt-publications.org/tlt/submissions" target="_blank" rel="noopener">View JALT Guidelines</a>
-    </p>
-    <p class="pub-submission-line">
-      <strong>Send Submissions To:</strong> Philip Head (<a href="mailto:piesigpublications@gmail.com">piesigpublications@gmail.com</a>)
-    </p>
-    <p class="pub-publisher-footnote">
-      Published by the Performance in Education Special Interest Group, The Japan Association for Language Teaching, JALT Central Office, Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo.
-    </p>
-  </div>
 </div>
-
-<!-- Category Navigation -->
-<nav class="pub-category-nav">
-  <a href="#mask-and-gavel">Mask & Gavel</a>
-  <a href="#classroom-resources">Classroom Resources Journal</a>
-  <a href="#pie-review">PIE Review</a>
-  <a href="#collaborations">Collaborations</a>
-</nav>
-
-<!-- 1. MASK & GAVEL -->
-<section id="mask-and-gavel" class="pub-section">
-  {% assign mg = site.data.publications.mask_and_gavel %}
-  <div class="pub-card">
-    <div class="pub-card-header">
-      <h2>MASK & GAVEL</h2>
-      {%- if mg.issn -%}
-        <span class="pub-issn-badge">ISSN {{ mg.issn }}</span>
-      {%- endif -%}
-    </div>
-
-    <p class="pub-journal-desc">
-      Mask & Gavel is the peer-reviewed academic journal of the Performance in Education SIG.
-      <br><br>
-      Article submissions are accepted year-round and published online as soon as they are finalized, before being collected into the full journal published online bi-annually. All articles are vetted by an editor, blinded, and peer-reviewed by two reviewers before publication. We welcome research-based, comment & opinion, interview, and review-based articles. Practical lesson resource articles should be submitted to the Classroom Resources journal. For submission guidelines please refer to the specifications outlined in The Language Teacher.
-    </p>
-
-    <!-- Volumes -->
-    {%- if mg.volumes.size > 0 -%}
-      {%- for vol in mg.volumes -%}
-        <details class="pub-volume-details">
-          <summary>{{ vol.volume }}</summary>
-          <div class="pub-volume-content">
-            {%- if vol.doi -%}
-              <p class="pub-meta-line"><strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
-            {%- endif -%}
-            {%- if vol.pdf -%}
-              <p class="pub-meta-line">
-                <a href="{{ vol.pdf }}" target="_blank" download class="pub-pdf-download">📄 Download Full {{ vol.volume }} PDF</a>
-              </p>
-            {%- endif -%}
-
-            {%- if vol.chapters -%}
-              <strong class="pub-toc-heading">Table of Contents</strong>
-              <ul class="pub-toc-list">
-                {%- for chapter in vol.chapters -%}
-                  <li>
-                    <div class="pub-toc-row">
-                      <strong>{{ chapter.title }}</strong>
-                      {%- if chapter.pdf -%}
-                        <a href="{{ chapter.pdf }}" target="_blank" download>[PDF]</a>
-                      {%- endif -%}
-                    </div>
-                    {%- if chapter.author -%}
-                      <span class="pub-chapter-author">By {{ chapter.author }}</span>
-                    {%- endif -%}
-                    {%- if chapter.doi -%}
-                      <span class="pub-chapter-doi">DOI: <a href="{{ chapter.doi }}" target="_blank" rel="noopener">{{ chapter.doi }}</a></span>
-                    {%- endif -%}
-                  </li>
-                {%- endfor -%}
-              </ul>
-            {%- endif -%}
-          </div>
-        </details>
-      {%- endfor -%}
-    {%- else -%}
-      <p class="pub-empty-text">Volume details coming soon.</p>
-    {%- endif -%}
-  </div>
-</section>
-
-<!-- 2. CLASSROOM RESOURCES JOURNAL -->
-<section id="classroom-resources" class="pub-section">
-  {% assign cr = site.data.publications.classroom_resources %}
-  <div class="pub-card">
-    <div class="pub-card-header">
-      <h2>PIE SIG CLASSROOM RESOURCES JOURNAL</h2>
-      {%- if cr.issn -%}
-        <span class="pub-issn-badge">ISSN {{ cr.issn }}</span>
-      {%- endif -%}
-    </div>
-
-    <p class="pub-journal-desc">
-      The classroom resource journal of the Performance in Education SIG. PIE SIG has put together a new lesson resource online publication, and it is now available online. This is the publication for the sharing of practical lesson resources.
-    </p>
-
-    {%- if cr.volumes.size > 0 -%}
-      {%- for vol in cr.volumes -%}
-        <details class="pub-volume-details">
-          <summary>{{ vol.volume }}</summary>
-          <div class="pub-volume-content">
-            {%- if vol.doi -%}
-              <p class="pub-meta-line"><strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
-            {%- endif -%}
-            {%- if vol.pdf -%}
-              <p class="pub-meta-line">
-                <a href="{{ vol.pdf }}" target="_blank" download class="pub-pdf-download">📄 Download Full {{ vol.volume }} PDF</a>
-              </p>
-            {%- endif -%}
-
-            {%- if vol.chapters -%}
-              <strong class="pub-toc-heading">Table of Contents</strong>
-              <ul class="pub-toc-list">
-                {%- for chapter in vol.chapters -%}
-                  <li>
-                    <div class="pub-toc-row">
-                      <strong>{{ chapter.title }}</strong>
-                      {%- if chapter.pdf -%}
-                        <a href="{{ chapter.pdf }}" target="_blank" download>[PDF]</a>
-                      {%- endif -%}
-                    </div>
-                    {%- if chapter.author -%}
-                      <span class="pub-chapter-author">By {{ chapter.author }}</span>
-                    {%- endif -%}
-                    {%- if chapter.doi -%}
-                      <span class="pub-chapter-doi">DOI: <a href="{{ chapter.doi }}" target="_blank" rel="noopener">{{ chapter.doi }}</a></span>
-                    {%- endif -%}
-                  </li>
-                {%- endfor -%}
-              </ul>
-            {%- endif -%}
-          </div>
-        </details>
-      {%- endfor -%}
-    {%- else -%}
-      <p class="pub-empty-text">Volume details coming soon.</p>
-    {%- endif -%}
-  </div>
-</section>
-
-<!-- 3. PIE REVIEW -->
-<section id="pie-review" class="pub-section">
-  {% assign pr = site.data.publications.pie_review %}
-  <div class="pub-card">
-    <div class="pub-card-header">
-      <h2>PERFORMANCE IN EDUCATION REVIEW</h2>
-      {%- if pr.issn -%}
-        <span class="pub-issn-badge">ISSN {{ pr.issn }}</span>
-      {%- endif -%}
-    </div>
-
-    <p class="pub-journal-desc">
-      Some of PIE SIG’s amazing conference presenters have been kind enough to write scholarly articles on their presentations, workshops, and performances. The Performance in Education Review presents some of these notable articles previously presented at PIE SIG conferences. The intention of this journal is to create a montage of the year in PIE conferences, but some volumes may cover multiple years due to the time needed to gather all proposals.
-    </p>
-
-    {%- if pr.volumes.size > 0 -%}
-      {%- for vol in pr.volumes -%}
-        <details class="pub-volume-details">
-          <summary>{{ vol.volume }}</summary>
-          <div class="pub-volume-content">
-            {%- if vol.doi -%}
-              <p class="pub-meta-line"><strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
-            {%- endif -%}
-            {%- if vol.pdf -%}
-              <p class="pub-meta-line">
-                <a href="{{ vol.pdf }}" target="_blank" download class="pub-pdf-download">📄 Download Full {{ vol.volume }} PDF</a>
-              </p>
-            {%- endif -%}
-
-            {%- if vol.chapters -%}
-              <strong class="pub-toc-heading">Table of Contents</strong>
-              <ul class="pub-toc-list">
-                {%- for chapter in vol.chapters -%}
-                  <li>
-                    <div class="pub-toc-row">
-                      <strong>{{ chapter.title }}</strong>
-                      {%- if chapter.pdf -%}
-                        <a href="{{ chapter.pdf }}" target="_blank" download>[PDF]</a>
-                      {%- endif -%}
-                    </div>
-                    {%- if chapter.author -%}
-                      <span class="pub-chapter-author">By {{ chapter.author }}</span>
-                    {%- endif -%}
-                    {%- if chapter.doi -%}
-                      <span class="pub-chapter-doi">DOI: <a href="{{ chapter.doi }}" target="_blank" rel="noopener">{{ chapter.doi }}</a></span>
-                    {%- endif -%}
-                  </li>
-                {%- endfor -%}
-              </ul>
-            {%- endif -%}
-          </div>
-        </details>
-      {%- endfor -%}
-    {%- else -%}
-      <p class="pub-empty-text">Volume details coming soon.</p>
-    {%- endif -%}
-  </div>
-</section>
-
-<!-- 4. COLLABORATIONS -->
-<section id="collaborations" class="pub-section">
-  <div class="pub-card">
-    <h2 class="pub-section-heading">COLLABORATION PUBLICATIONS</h2>
-    <p class="pub-journal-desc">
-      PIE SIG also co-publishes issues centered around PIE’s focal areas, including on Debate, Discussion, and Drama. Below, you can find a list of these Collaboration Publications.
-    </p>
-
-    <div class="pub-collab-grid">
-      {% for collab in site.data.publications.collaborations %}
-        <div class="pub-collab-card">
-          <div>
-            <strong class="pub-collab-partner">{{ collab.partner }}</strong>
-            <span class="pub-collab-date">{{ collab.date }}</span>
-            <p class="pub-collab-title">{{ collab.title }}</p>
-          </div>
-          <a href="{{ collab.url }}" target="_blank" rel="noopener" class="pub-collab-link">View Collaboration &rarr;</a>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>

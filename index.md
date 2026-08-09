@@ -36,30 +36,20 @@ title: Home
   </div>
 </div>
 
-<!-- News Section: Recent Posts + Social Links Column -->
+<!-- News Section: Recent Posts -->
 <div class="news-black-box">
   <div class="news-box-header">
     <h2>NEWS</h2>
   </div>
 
-  <div class="news-box-grid">
-    <div class="news-posts-column">
-      {% for post in site.posts limit:5 %}
-        <div class="news-post-item">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <span class="news-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-          <p class="news-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-        </div>
-      {% endfor %}
-    </div>
-
-    <!-- Vertical Social Icons Column -->
-    <div class="news-social-column">
-      <a href="#" class="social-circle-btn" title="Facebook">f</a>
-      <a href="#" class="social-circle-btn" title="YouTube">yt</a>
-      <a href="#" class="social-circle-btn" title="X / Twitter">x</a>
-      <a href="#" class="social-circle-btn" title="LinkedIn">in</a>
-    </div>
+  <div class="news-posts-column">
+    {% for post in site.posts limit:5 %}
+      <div class="news-post-item">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <span class="news-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <p class="news-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      </div>
+    {% endfor %}
   </div>
 </div>
 
