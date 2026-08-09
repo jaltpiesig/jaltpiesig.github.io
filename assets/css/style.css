@@ -369,6 +369,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.footer-brand-logos .pie-link,
 .footer-brand-logos .jalt-link {
   color: var(--lilac-text);
   text-decoration: none;
@@ -376,6 +377,7 @@ body {
 }
 
 /* Matching footer text links to header hover style */
+.footer-brand-logos .pie-link:hover,
 .footer-brand-logos .jalt-link:hover,
 .site-black-footer a:not(.social-circle-btn):hover {
   color: var(--burgundy-accent) !important;
