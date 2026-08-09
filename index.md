@@ -1,66 +1,102 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
-<!-- 1. Black Box: Intro Text (White) on Left + PIE SIG Graphic on Right -->
-<div class="hero-black-box">
-<p class="hero-intro-text">
-The Performance in Education (PIE) Special Interest Group (SIG) of the Japan Association for Language Teaching (JALT), founded in 2011 as the Speech, Drama, & Debate SIG, is involved with a myriad of teaching activities (still including drama and debate, but now much more!) that require students to cooperate and collaborate together, so it is natural that our SIG also participates in many collaborative activities with JALT chapters and SIGs.
-</p>
+<!-- Custom Sloped Bounding Box Styles -->
+<style>
+  .sloped-box {
+    position: relative;
+    background: #111111;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), 0 100%);
+    padding: 30px 25px 45px 25px;
+    margin-bottom: 35px;
+  }
 
-<div class="hero-brand-graphic">
-<h1>PIE <span>sig</span></h1>
-<p>PERFORMANCE IN EDUCATION</p>
-</div>
+  .sloped-box-news {
+    position: relative;
+    background: #111111;
+    clip-path: polygon(0 15px, 100% 0, 100% calc(100% - 15px), 0 100%);
+    padding: 40px 25px 45px 25px;
+    margin-bottom: 35px;
+  }
+
+  .gradient-border-bottom {
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #d8b4fe, #ec4899) 1;
+  }
+
+  .gradient-border-top-bottom {
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #6b7280, #9ca3af) 1;
+  }
+
+  .text-lilac {
+    color: #c084fc !important;
+  }
+
+  .text-purple-pink {
+    color: #f472b6 !important;
+  }
+
+  .text-light-lilac {
+    color: #e9d5ff !important;
+  }
+</style>
+
+<!-- Hero / Intro Box -->
+<div class="sloped-box gradient-border-bottom">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
+    <div style="max-width: 650px;">
+      <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.7; margin: 0;">
+        Welcome to the JALT Performance in Education Special Interest Group (PIE SIG). We support language educators through speech, drama, debate, music, and performance-based pedagogical approaches.
+      </p>
+    </div>
+    <div class="hero-brand-graphic">
+      <h1 style="font-size: 2.2rem; margin: 0; font-weight: bold;">
+        <span class="text-lilac">PIE</span> <span class="text-purple-pink">sig</span>
+      </h1>
+      <p style="color: #aaa; font-size: 0.75rem; letter-spacing: 1px; margin-top: 4px;">PERFORMANCE IN EDUCATION</p>
+    </div>
+  </div>
 </div>
 
-<h2 class="section-title">Podcast</h2>
+<!-- News Section (Jekyll Posts) -->
+<div class="sloped-box-news gradient-border-top-bottom">
+  <h2 class="text-lilac" style="font-size: 1.8rem; font-weight: bold; margin-bottom: 25px; text-transform: uppercase;">
+    NEWS
+  </h2>
 
-<!-- Podcast Grid: Player Card Left + Intro Text & PIE pod Logo Right -->
-<div class="podcast-grid">
-<div class="podcast-player-card">
-<div id="buzzsprout-large-player"></div>
-<script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
-</div>
+  <div style="display: flex; flex-direction: column; gap: 20px;">
+    {% for post in site.posts limit:4 %}
+      <div style="border-bottom: 1px solid rgba(233, 213, 255, 0.2); padding-bottom: 15px;">
+        <h3 style="margin: 0 0 6px 0; font-size: 1.15rem;">
+          <a href="{{ post.url | relative_url }}" class="text-light-lilac" style="text-decoration: underline; font-weight: bold;">
+            {{ post.title }}
+          </a>
+        </h3>
+        <span style="font-size: 0.82rem; color: #a855f7; display: block; margin-bottom: 8px;">
+          {{ post.date | date: "%B %d, %Y" }}
+        </span>
 
-<div class="podcast-info-side">
-<p>The PIE SIG Podcast features conversations with educators who use performance to make language teaching more engaging, creative, and effective. New episodes are released monthly.</p>
-<p>Listen on the PIE SIG website or Spotify, and follow along so you never miss one!</p>
-<div class="pie-pod-text-logo">
-PIE
-<span>pod</span>
-<sub>PODCAST IN EDUCATION</sub>
-</div>
-</div>
-</div>
-
-<!-- 2. Black Box: News Section with Posts -->
-<div class="news-black-box">
-<div class="news-box-header">
-<h2>NEWS</h2>
-</div>
-
-<div class="news-posts-column">
-{% for post in site.posts limit:5 %}
-<div class="news-post-item">
-<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-<span class="news-post-date" style="color: var(--lilac-text);">{{ post.date | date: "%Y-%m-%d" }}</span>
-<p class="news-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-</div>
-{% endfor %}
-</div>
+        {% if forloop.first %}
+          <p class="text-light-lilac" style="font-size: 0.92rem; line-height: 1.5; margin: 0;">
+            {{ post.content | strip_html | truncatewords: 20 }}
+          </p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
-<!-- 3. Partner Banners Row -->
-<div class="partner-logos-row">
-<div class="partner-card">
-<img src="/assets/images/beyond-classroom-logo.png" alt="Beyond the Classroom" onerror="this.parentNode.innerHTML='BEYOND THE CLASSROOM';">
-</div>
-<div class="partner-card">
-<img src="/assets/images/pansig-logo.png" alt="PanSIG Chukyo University" onerror="this.parentNode.innerHTML='PanSIG CHUKYO UNIVERSITY';">
-</div>
-<div class="partner-card">
-<img src="/assets/images/jalt-logo.png" alt="JALT" onerror="this.parentNode.innerHTML='JALT';">
-</div>
+<!-- Podcast Section -->
+<div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 25px; margin-bottom: 35px;">
+  <h2 class="text-lilac" style="font-size: 1.8rem; font-weight: bold; margin-bottom: 15px; text-transform: uppercase;">
+    PODCAST
+  </h2>
+  <p style="font-size: 0.95rem; line-height: 1.6; color: #333; margin: 0;">
+    Listen to conversations with educators, researchers, and performers in the field of language learning and performance-based education.
+  </p>
 </div>
