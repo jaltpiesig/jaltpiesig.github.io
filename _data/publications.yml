@@ -1,7 +1,7 @@
 # 1. MASK & GAVEL
 mask_and_gavel:
   issn: "2188-6628"
-  description: >
+  description: >-
     Mask & Gavel was a peer-reviewed online journal published by the Speech, Drama, & Debate SIG
     of the Japan Association for Language Teaching (JALT) until the SIG name was changed to Performance
     in Education SIG.
@@ -14,7 +14,7 @@ mask_and_gavel:
 # 2. PIE SIG CLASSROOM RESOURCES JOURNAL
 classroom_resources:
   issn: "2435-676X"
-  description: >
+  description: >-
     The classroom resource journal of the Performance in Education SIG. PIE SIG has put together a new
     lesson resource online publication, and it is now available online. This is the publication for the
     sharing of practical lesson resources. For the classroom resource journal submission style, use JALT’s
@@ -112,7 +112,7 @@ pie_review:
   publisher_info: "Published by the Performance in Education Special Interest Group, The Japan Association for Language Teaching, JALT Central Office, Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo."
   volumes:
     - volume: "Volume 1 (2020)"
-      pdf: "/assets/publications/pie-review/Performance-in-Education-Review-2020-FINAL-.pdf"
+      pdf: "/assets/publications/pie-review/Performance-in-Education-Review-2020.pdf"
       sections:
         - category: "EDITORIAL"
           items:
