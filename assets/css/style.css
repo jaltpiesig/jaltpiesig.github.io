@@ -1,12 +1,24 @@
-/* Palette & Variables */
+/* ==========================================================================
+   PIE SIG Theme & Color Palette
+   ========================================================================== */
 :root {
-  --bg-lavender: #eceaef;        /* Overall page background */
-  --dark-box-bg: #1e1b22;        /* Dark charcoal/black card background */
-  --burgundy-accent: #8b2643;    /* Accent burgundy */
-  --lilac-text: #d8ceeb;         /* Light periwinkle/lilac text for dark boxes */
-  --lilac-heading: #efebf8;      /* Bright lilac/white for headlines */
-  --text-dark: #2c2c36;
-  --border-subtle: #dcd7e8;
+  /* Core Brand Colors */
+  --primary-navy: #1C2B36;       /* PIE/PanSIG main dark headers & boxes */
+  --burgundy-accent: #7A0C2E;    /* PIE Pod accent & titles */
+  --accent-orange: #E88548;      /* Warm orange highlights */
+  --accent-blue: #4A90E2;        /* Bright blue secondary accent */
+
+  /* Neutral & Background Colors */
+  --bg-lavender: #F4F3F7;        /* Soft background tint */
+  --dark-box-bg: #1C2B36;        /* Dark navy card container background */
+  --card-bg: #FFFFFF;            /* Pure white background for light cards */
+  --text-dark: #222222;          /* Body text color */
+  --border-subtle: #D0D5DD;      /* Subtle dividers and card borders */
+
+  /* Text Colors for Dark Containers */
+  --lilac-text: #E2E8F0;         /* Secondary text on dark backgrounds */
+  --lilac-heading: #FFFFFF;      /* Primary headings on dark backgrounds */
+  --text-muted-dark: #A0AEC0;    /* Dates, meta, and muted captions on dark */
 }
 
 * {
@@ -16,7 +28,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: var(--bg-lavender);
   color: var(--text-dark);
   line-height: 1.5;
@@ -28,7 +40,9 @@ body {
   padding: 25px 30px;
 }
 
-/* Header & Navigation */
+/* ==========================================================================
+   Header & Navigation
+   ========================================================================== */
 .site-header {
   border-bottom: 2px solid var(--border-subtle);
   padding-bottom: 12px;
@@ -63,6 +77,7 @@ body {
   text-transform: uppercase;
   padding-bottom: 4px;
   border-bottom: 3px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .main-nav a:hover,
@@ -71,7 +86,9 @@ body {
   border-bottom-color: var(--burgundy-accent);
 }
 
-/* --- 1. DARK INTRO HERO BOX --- */
+/* ==========================================================================
+   1. HERO / INTRO BOX
+   ========================================================================== */
 .hero-black-box {
   background-color: var(--dark-box-bg);
   border-radius: 8px;
@@ -82,12 +99,13 @@ body {
   align-items: center;
   margin-bottom: 30px;
   color: #ffffff;
+  box-shadow: 0 4px 12px rgba(28, 43, 54, 0.15);
 }
 
 .hero-intro-text {
   font-size: 0.98rem;
   line-height: 1.6;
-  color: #ffffff;
+  color: var(--lilac-text);
 }
 
 .hero-brand-graphic {
@@ -107,7 +125,7 @@ body {
 .hero-brand-graphic h1 span {
   display: block;
   font-size: 1.6rem;
-  color: #d8819a;
+  color: var(--accent-orange);
   text-transform: lowercase;
 }
 
@@ -115,13 +133,16 @@ body {
   font-size: 0.6rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #cccccc;
+  color: var(--text-muted-dark);
   margin-top: 6px;
 }
 
-/* --- PODCAST SECTION --- */
+/* ==========================================================================
+   2. PODCAST SECTION
+   ========================================================================== */
 .section-title {
   color: var(--burgundy-accent);
+  font-family: "Georgia", serif;
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 12px;
@@ -136,10 +157,11 @@ body {
 }
 
 .podcast-player-card {
-  background: #ffffff;
+  background: var(--card-bg);
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 .podcast-info-side p {
@@ -151,7 +173,7 @@ body {
 .pie-pod-text-logo {
   font-family: "Georgia", serif;
   font-size: 2.2rem;
-  color: #3b2838;
+  color: var(--primary-navy);
   line-height: 0.9;
   margin-top: 10px;
 }
@@ -167,15 +189,18 @@ body {
   font-size: 0.6rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #3b2838;
+  color: var(--text-dark);
 }
 
-/* --- 2. DARK NEWS BOX --- */
+/* ==========================================================================
+   3. NEWS BOX
+   ========================================================================== */
 .news-black-box {
   background-color: var(--dark-box-bg);
   border-radius: 8px;
   padding: 25px 30px;
   margin-bottom: 35px;
+  box-shadow: 0 4px 12px rgba(28, 43, 54, 0.15);
 }
 
 .news-box-header {
@@ -214,15 +239,18 @@ body {
   color: var(--lilac-heading);
   text-decoration: none;
   text-transform: uppercase;
+  transition: color 0.2s ease;
 }
 
 .news-post-item h3 a:hover {
+  color: var(--accent-orange);
   text-decoration: underline;
 }
 
 .news-post-date {
   font-size: 0.8rem;
-  color: #a89cc2;
+  color: var(--accent-orange);
+  font-weight: 600;
   display: block;
   margin-bottom: 4px;
 }
@@ -243,7 +271,7 @@ body {
   width: 32px;
   height: 32px;
   background-color: #ffffff;
-  color: var(--dark-box-bg);
+  color: var(--primary-navy);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -251,9 +279,17 @@ body {
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: bold;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-/* --- 3. PARTNER LOGOS ROW --- */
+.social-circle-btn:hover {
+  background-color: var(--accent-orange);
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   4. PARTNER LOGOS ROW
+   ========================================================================== */
 .partner-logos-row {
   display: flex;
   justify-content: space-around;
@@ -264,7 +300,7 @@ body {
 }
 
 .partner-card {
-  background: #ffffff;
+  background: var(--card-bg);
   border: 1px solid var(--border-subtle);
   border-radius: 6px;
   padding: 12px 20px;
@@ -273,9 +309,12 @@ body {
   font-size: 0.85rem;
   color: var(--burgundy-accent);
   min-width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
 }
 
-/* --- 4. BLACK FOOTER WITH SOCIALS & BRAND LOGOS --- */
+/* ==========================================================================
+   5. FOOTER
+   ========================================================================== */
 .site-black-footer {
   background-color: var(--dark-box-bg);
   border-radius: 6px;
@@ -302,8 +341,9 @@ body {
   color: #ffffff;
 }
 
-/* --- PUBLICATIONS PAGE STYLES --- */
-
+/* ==========================================================================
+   6. PUBLICATIONS PAGE STYLES
+   ========================================================================== */
 .publications-container {
   max-width: 900px;
   margin: 0 auto;
@@ -355,12 +395,13 @@ body {
   color: #ffffff;
   font-size: 1.4rem;
   margin-bottom: 6px;
+  font-family: "Georgia", serif;
 }
 
 .issn-badge {
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
-  color: var(--lilac-text);
+  color: var(--accent-orange);
   font-size: 0.78rem;
   padding: 2px 8px;
   border-radius: 4px;
@@ -374,10 +415,10 @@ body {
   font-size: 0.92rem;
 }
 
-/* Dark-Theme Submission Guidelines Box */
+/* Submission Guidelines Box */
 .submission-info-box {
   background-color: var(--dark-box-bg);
-  border-left: 4px solid var(--burgundy-accent);
+  border-left: 4px solid var(--accent-orange);
   padding: 18px 22px;
   margin: 20px 0 30px 0;
   font-size: 0.90rem;
@@ -399,18 +440,18 @@ body {
 }
 
 .submission-info-box a {
-  color: #79c0ff;
+  color: var(--accent-blue);
   font-weight: bold;
   text-decoration: underline;
 }
 
 .submission-info-box a:hover {
-  color: #a5d6ff;
+  color: #70A7FF;
 }
 
 .publisher-info {
   font-size: 0.80rem;
-  color: #a89cc2;
+  color: var(--text-muted-dark);
   margin-top: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 10px;
@@ -482,14 +523,14 @@ details[open] .volume-header::after {
 }
 
 .doi-link {
-  color: #79c0ff;
+  color: var(--accent-blue);
   text-decoration: underline;
   word-break: break-all;
   font-weight: normal;
 }
 
 .doi-link:hover {
-  color: #a5d6ff;
+  color: #70A7FF;
 }
 
 .volume-download-bar {
@@ -505,11 +546,11 @@ details[open] .volume-header::after {
   text-decoration: none;
   font-weight: bold;
   font-size: 0.85rem;
-  transition: opacity 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 .download-pdf-btn:hover {
-  opacity: 0.9;
+  background-color: var(--accent-orange);
 }
 
 .chapters-heading {
@@ -582,7 +623,7 @@ details[open] .volume-header::after {
 .chapter-author {
   display: block;
   font-size: 0.82rem;
-  color: #a89cc2;
+  color: var(--text-muted-dark);
   margin-top: 2px;
 }
 
@@ -618,7 +659,7 @@ details[open] .volume-header::after {
 
 .collab-link {
   display: inline-block;
-  color: #79c0ff;
+  color: var(--accent-blue);
   font-weight: bold;
   font-size: 0.85rem;
   text-decoration: none;
@@ -629,12 +670,14 @@ details[open] .volume-header::after {
 }
 
 .no-volumes {
-  color: #a89cc2;
+  color: var(--text-muted-dark);
   font-style: italic;
   font-size: 0.88rem;
 }
 
-/* Global Media Queries */
+/* ==========================================================================
+   Global Responsive Breakpoints
+   ========================================================================== */
 @media (max-width: 768px) {
   .hero-black-box,
   .podcast-grid,
