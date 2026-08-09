@@ -6,14 +6,17 @@
 
     <!-- Hamburger Toggle Button (Hidden on Desktop, Visible on Mobile) -->
     <button class="mobile-nav-toggle" aria-label="Toggle Navigation" onclick="document.querySelector('.main-nav').classList.toggle('is-open')">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
     </button>
 
     <nav class="main-nav">
       <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">PIE SIG</a>
       <a href="{{ '/about/' | relative_url }}" class="{% if page.url == '/about/' %}active{% endif %}">ABOUT</a>
-      <a href="{{ '/officers/' | relative_url }}" class="{% if page.url == '/officers/' %}active{% endif %}">MEET THE OFFICERS</a>
-      <a href="{{ '/best-of-pie/' | relative_url }}" class="{% if page.url == '/best-of-pie/' %}active{% endif %}">BEST OF PIE SIG</a>
+      <a href="{{ '/best-of-pie-sig/' | relative_url }}" class="{% if page.url == '/best-of-pie-sig/' or page.url == '/best-of-pie/' %}active{% endif %}">BEST OF PIE SIG</a>
       <a href="{{ '/conferences/' | relative_url }}" class="{% if page.url == '/conferences/' %}active{% endif %}">CONFERENCES & EVENTS</a>
       <a href="{{ '/publications/' | relative_url }}" class="{% if page.url == '/publications/' %}active{% endif %}">PUBLICATIONS</a>
       <a href="{{ '/resources/' | relative_url }}" class="{% if page.url == '/resources/' %}active{% endif %}">RESOURCES</a>

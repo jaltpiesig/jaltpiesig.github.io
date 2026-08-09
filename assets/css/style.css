@@ -2,18 +2,18 @@
    PIE SIG Theme & Color Palette
    ========================================================================== */
 :root {
-  /* Core Brand Colors */
-  --primary-navy: #1C2B36;       /* PIE/PanSIG main dark headers & boxes */
-  --burgundy-accent: #7A0C2E;    /* PIE Pod accent & titles */
+  /* Core Brand Colors extracted from PIE SIG design */
+  --primary-navy: #1C2B36;       /* Main dark headers & dark boxes */
+  --burgundy-accent: #7A0C2E;    /* PIE Pod accent & primary titles */
   --accent-orange: #E88548;      /* Warm orange highlights */
-  --accent-blue: #4A90E2;        /* Bright blue secondary accent */
+  --accent-blue: #4A90E2;        /* Secondary blue accent */
 
   /* Neutral & Background Colors */
-  --bg-lavender: #F4F3F7;        /* Soft background tint */
+  --bg-lavender: #F4F3F7;        /* Soft page background tint */
   --dark-box-bg: #1C2B36;        /* Dark navy card container background */
   --card-bg: #FFFFFF;            /* Pure white background for light cards */
-  --text-dark: #222222;          /* Body text color */
-  --border-subtle: #D0D5DD;      /* Subtle dividers and card borders */
+  --text-dark: #222222;          /* Primary body text color */
+  --border-subtle: #D0D5DD;      /* Dividers and card borders */
 
   /* Text Colors for Dark Containers */
   --lilac-text: #E2E8F0;         /* Secondary text on dark backgrounds */
@@ -63,8 +63,10 @@ body {
   display: block;
 }
 
+/* Desktop Navigation (Horizontal Row) */
 .main-nav {
   display: flex;
+  align-items: center;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -84,6 +86,16 @@ body {
 .main-nav a.active {
   color: var(--burgundy-accent);
   border-bottom-color: var(--burgundy-accent);
+}
+
+/* Hamburger Button (Hidden on Desktop) */
+.mobile-nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  cursor: pointer;
+  padding: 4px;
 }
 
 /* ==========================================================================
@@ -316,8 +328,8 @@ body {
    5. FOOTER
    ========================================================================== */
 .site-black-footer {
-  background-color: var(--dark-box-bg);
-  border-radius: 6px;
+  background-color: var(--dark-box-bg); /* #1C2B36 primary navy container */
+  border-radius: 8px;
   padding: 18px 25px;
   display: flex;
   justify-content: space-between;
@@ -325,20 +337,38 @@ body {
   color: #ffffff;
   flex-wrap: wrap;
   gap: 15px;
+  box-shadow: 0 4px 12px rgba(28, 43, 54, 0.15);
 }
 
 .footer-social-links {
   display: flex;
+  align-items: center;
   gap: 12px;
 }
 
 .footer-brand-logos {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   font-size: 0.85rem;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.footer-brand-logos .divider {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-brand-logos .jalt-link {
+  color: var(--lilac-text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-brand-logos .jalt-link:hover {
+  color: var(--accent-orange);
+  text-decoration: underline;
 }
 
 /* ==========================================================================
@@ -679,10 +709,50 @@ details[open] .volume-header::after {
    Global Responsive Breakpoints
    ========================================================================== */
 @media (max-width: 768px) {
+  /* Mobile Navigation Switch */
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 15px;
+    margin-top: 10px;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .main-nav.is-open {
+    display: flex;
+  }
+
+  .main-nav a {
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .main-nav a:hover,
+  .main-nav a.active {
+    border-bottom-color: var(--burgundy-accent);
+  }
+
+  /* Grid layouts collapse to single column */
   .hero-black-box,
   .podcast-grid,
   .news-box-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-brand-graphic {
+    text-align: left;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-left: 0;
+    padding-top: 15px;
   }
 }
 
