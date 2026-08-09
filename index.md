@@ -27,6 +27,33 @@ permalink: /
     border-image: linear-gradient(to right, var(--pie-heading-dark), var(--pie-purple-pink)) 1;
   }
 
+  /* Dark box styling for the news section */
+  .sloped-box-news {
+    position: relative;
+    background-color: var(--primary-navy, #1C2B36) !important;
+    clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
+    padding: 35px 25px 40px 25px;
+    margin-bottom: 35px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, var(--pie-heading-dark), var(--pie-purple-pink)) 1;
+  }
+
+  .sloped-box-news .heading-serif {
+    color: #ffffff;
+  }
+
+  .news-link {
+    color: var(--pie-light-lilac);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+
+  .news-link:hover {
+    color: var(--pie-purple-pink);
+    text-decoration: underline;
+  }
+
   .home-card-wrapper {
     background: #ffffff;
     border: 1px solid rgba(138, 72, 184, 0.18);
@@ -99,7 +126,7 @@ permalink: /
   <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
 </div>
 
-<!-- News Section (Jekyll Posts) -->
+<!-- News Section (Jekyll Posts inside Dark Sloped Box) -->
 <div class="sloped-box-news">
   <h2 class="heading-serif" style="margin-bottom: 25px;">
     NEWS
