@@ -304,7 +304,6 @@ body {
 
 /* --- PUBLICATIONS PAGE STYLES --- */
 
-/* Publications Container */
 .publications-container {
   max-width: 900px;
   margin: 0 auto;
@@ -450,12 +449,6 @@ details[open] .volume-header::after {
   margin-right: 10px;
 }
 
-.volume-subtitle {
-  font-weight: normal;
-  font-size: 0.88rem;
-  color: #a89cc2;
-}
-
 /* Expanded Details Area */
 .volume-content {
   padding: 18px;
@@ -463,7 +456,6 @@ details[open] .volume-header::after {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Volume DOI Banner */
 .volume-doi {
   font-size: 0.85rem;
   margin-bottom: 12px;
@@ -496,7 +488,6 @@ details[open] .volume-header::after {
   opacity: 0.9;
 }
 
-/* Chapter Section Headings */
 .chapters-heading {
   font-size: 0.85rem;
   font-weight: bold;
@@ -540,32 +531,10 @@ details[open] .volume-header::after {
   line-height: 1.4;
 }
 
-/* Action Links (Full DOI & PDF Badges) */
 .chapter-actions {
   display: flex;
   align-items: center;
   gap: 8px;
-  flex-wrap: wrap;
-}
-
-.doi-link {
-  font-size: 0.75rem;
-  font-weight: bold;
-  letter-spacing: 0.3px;
-  color: #79c0ff;
-  background: rgba(121, 192, 255, 0.12);
-  border: 1px solid rgba(121, 192, 255, 0.3);
-  padding: 2px 7px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  word-break: break-all;
-}
-
-.doi-link:hover {
-  background: rgba(121, 192, 255, 0.25);
-  border-color: rgba(121, 192, 255, 0.5);
-  text-decoration: none;
 }
 
 .chapter-pdf-link {
@@ -593,54 +562,62 @@ details[open] .volume-header::after {
   margin-top: 2px;
 }
 
-.chapter-abstract {
-  font-size: 0.88rem;
+.chapter-doi-block {
+  font-size: 0.80rem;
   color: var(--lilac-text);
-  margin-top: 6px;
-  line-height: 1.4;
+  margin-top: 4px;
 }
 
-.chapter-page-no {
-  font-size: 0.82rem;
-  color: #a89cc2;
+.chapter-doi-block .doi-link {
+  color: #79c0ff;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.chapter-doi-block .doi-link:hover {
+  color: #a5d6ff;
 }
 
 /* Collaboration Publications List */
 .collaboration-list {
   list-style: none;
   padding: 0;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .collab-item {
-  padding: 10px 0;
+  padding: 14px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 0.9rem;
   color: var(--lilac-text);
 }
 
-.collab-item a {
+.collab-item:last-child {
+  border-bottom: none;
+}
+
+.collab-title {
   color: var(--lilac-heading);
-  text-decoration: none;
-  margin-left: 6px;
-  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 4px;
 }
 
-.collab-item a:hover {
-  text-decoration: underline;
-}
-
-/* External Link Button */
-.external-link-btn {
-  display: inline-block;
-  background-color: var(--burgundy-accent);
+.collab-desc {
+  margin-bottom: 6px;
+  line-height: 1.4;
   color: #ffffff;
-  padding: 10px 18px;
-  border-radius: 6px;
-  text-decoration: none;
+}
+
+.collab-link {
+  display: inline-block;
+  color: #79c0ff;
   font-weight: bold;
-  font-size: 0.88rem;
-  margin-top: 15px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.collab-link:hover {
+  text-decoration: underline;
 }
 
 .no-volumes {

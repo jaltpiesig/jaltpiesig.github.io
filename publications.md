@@ -40,7 +40,7 @@ title: Publications
             </summary>
             <div class="volume-content">
               {%- if vol.doi -%}
-                <p class="volume-doi"><strong>DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
+                <p class="volume-doi"><strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
               {%- endif -%}
 
               {%- if vol.pdf -%}
@@ -59,16 +59,20 @@ title: Publications
                       <div class="chapter-header-line">
                         <strong class="chapter-title">{{ chapter.title }}</strong>
                         <div class="chapter-actions">
-                          {%- if chapter.doi -%}
-                            <a href="{{ chapter.doi }}" target="_blank" rel="noopener" class="doi-link">{{ chapter.doi }}</a>
-                          {%- endif -%}
                           {%- if chapter.pdf -%}
                             <a href="{{ chapter.pdf }}" class="chapter-pdf-link" target="_blank" download>[PDF]</a>
                           {%- endif -%}
                         </div>
                       </div>
+                      
                       {%- if chapter.author -%}
                         <span class="chapter-author">By {{ chapter.author }}</span>
+                      {%- endif -%}
+
+                      {%- if chapter.doi -%}
+                        <div class="chapter-doi-block">
+                          <strong>DOI:</strong> <a href="{{ chapter.doi }}" target="_blank" rel="noopener" class="doi-link">{{ chapter.doi }}</a>
+                        </div>
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
@@ -99,7 +103,7 @@ title: Publications
             </summary>
             <div class="volume-content">
               {%- if vol.doi -%}
-                <p class="volume-doi"><strong>DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
+                <p class="volume-doi"><strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
               {%- endif -%}
 
               {%- if vol.pdf -%}
@@ -118,16 +122,20 @@ title: Publications
                       <div class="chapter-header-line">
                         <strong class="chapter-title">{{ chapter.title }}</strong>
                         <div class="chapter-actions">
-                          {%- if chapter.doi -%}
-                            <a href="{{ chapter.doi }}" target="_blank" rel="noopener" class="doi-link">{{ chapter.doi }}</a>
-                          {%- endif -%}
                           {%- if chapter.pdf -%}
                             <a href="{{ chapter.pdf }}" class="chapter-pdf-link" target="_blank" download>[PDF]</a>
                           {%- endif -%}
                         </div>
                       </div>
+
                       {%- if chapter.author -%}
                         <span class="chapter-author">By {{ chapter.author }}</span>
+                      {%- endif -%}
+
+                      {%- if chapter.doi -%}
+                        <div class="chapter-doi-block">
+                          <strong>DOI:</strong> <a href="{{ chapter.doi }}" target="_blank" rel="noopener" class="doi-link">{{ chapter.doi }}</a>
+                        </div>
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
@@ -144,23 +152,48 @@ title: Publications
 
   <!-- 3. COLLABORATIONS -->
   <section id="collaborations" class="pub-section">
-    {% assign col = site.data.publications.collaborations %}
-    <h2>Collaborations</h2>
-    <p class="pub-description">{{ col.description }}</p>
+    <h2>Collaboration Publications</h2>
+    <p class="pub-description">
+      PIE SIG also co-publishes issues centered around PIE’s focal areas, including on Debate, Discussion, and Drama. Below, you can find a list of these Collaboration Publications.
+    </p>
 
-    {%- if col.items.size > 0 -%}
-      <ul class="collaboration-list">
-        {%- for item in col.items -%}
-          <li class="collab-item">
-            <strong>{{ item.title }}</strong>
-            {%- if item.description -%} &ndash; {{ item.description }}{%- endif -%}
-            {%- if item.url -%}
-              <a href="{{ item.url }}" target="_blank" rel="noopener">View Collaboration &rarr;</a>
-            {%- endif -%}
-          </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+    <ul class="collaboration-list">
+      <li class="collab-item">
+        <div class="collab-title"><strong>Mind, Brain, Education SIG</strong> (August 2025)</div>
+        <p class="collab-desc">Public Speaking in the Language Classroom</p>
+        <a href="https://www.mindbrained.org/august-2025-public-speaking/" class="collab-link" target="_blank" rel="noopener">View Collaboration &rarr;</a>
+      </li>
+
+      <li class="collab-item">
+        <div class="collab-title"><strong>Mind, Brain, Education SIG</strong> (March 2025)</div>
+        <p class="collab-desc">Teaching Speech and Presentation in the Language Classroom</p>
+        <a href="https://www.mindbrained.org/march-2025-speech-presentation/" class="collab-link" target="_blank" rel="noopener">View Collaboration &rarr;</a>
+      </li>
+
+      <li class="collab-item">
+        <div class="collab-title"><strong>Mind, Brain, Education SIG</strong> (February 2025)</div>
+        <p class="collab-desc">Integrating Music and Performance in the Language Classroom</p>
+        <a href="https://www.mindbrained.org/february-2025-music/" class="collab-link" target="_blank" rel="noopener">View Collaboration &rarr;</a>
+      </li>
+
+      <li class="collab-item">
+        <div class="collab-title"><strong>Mind, Brain, Education SIG</strong> (December 2024)</div>
+        <p class="collab-desc">Setting Up Discussions in the Language Classroom</p>
+        <a href="https://www.mindbrained.org/december-2024-discussion/" class="collab-link" target="_blank" rel="noopener">View Collaboration &rarr;</a>
+      </li>
+
+      <li class="collab-item">
+        <div class="collab-title"><strong>Mind, Brain, Education SIG</strong> (November 2024)</div>
+        <p class="collab-desc">Debate</p>
+        <a href="https://www.mindbrained.org/november-2024-debate/" class="collab-link" target="_blank" rel="noopener">View Collaboration &rarr;</a>
+      </li>
+
+      <li class="collab-item">
+        <div class="collab-title"><strong>Mind, Brain, Education SIG</strong> (December 2021)</div>
+        <p class="collab-desc">Drama</p>
+        <a href="https://www.mindbrained.org/december-2021-drama/" class="collab-link" target="_blank" rel="noopener">View Collaboration &rarr;</a>
+      </li>
+    </ul>
   </section>
 
 </div>
