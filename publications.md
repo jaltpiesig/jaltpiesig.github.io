@@ -14,7 +14,7 @@ permalink: /publications/
   <!-- Global Submission & Publisher Info Box -->
   <div class="submission-info-box">
     <p><strong>Submission Guidelines:</strong> <a href="https://jalt-publications.org/tlt/submissions" target="_blank" rel="noopener">View JALT Guidelines</a></p>
-    <p><strong>Send Submissions To:</strong> Philip Head (<a href="mailto:head.philip@gmail.com">head.philip@gmail.com</a>)</p>
+    <p><strong>Send Submissions To:</strong> Philip Head (<a href="mailto:piesigpublications@gmail.com">piesigpublications@gmail.com</a>)</p>
     <p class="publisher-info">Published by the Performance in Education Special Interest Group, The Japan Association for Language Teaching, JALT Central Office, Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo.</p>
   </div>
 
