@@ -370,7 +370,11 @@ body {
 }
 
 .footer-brand-logos .pie-link,
-.footer-brand-logos .jalt-link {
+.footer-brand-logos .pie-link:link,
+.footer-brand-logos .pie-link:visited,
+.footer-brand-logos .jalt-link,
+.footer-brand-logos .jalt-link:link,
+.footer-brand-logos .jalt-link:visited {
   color: var(--lilac-text);
   text-decoration: none;
   transition: color 0.2s ease;
@@ -378,7 +382,9 @@ body {
 
 /* Matching footer text links to header hover style */
 .footer-brand-logos .pie-link:hover,
+.footer-brand-logos .pie-link:active,
 .footer-brand-logos .jalt-link:hover,
+.footer-brand-logos .jalt-link:active,
 .site-black-footer a:not(.social-circle-btn):hover {
   color: var(--burgundy-accent) !important;
   text-decoration: underline;
