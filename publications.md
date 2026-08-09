@@ -15,7 +15,7 @@ permalink: /publications/
 <section id="mask-and-gavel" class="pub-section">
   {% assign mg = site.data.publications.mask_and_gavel %}
   <h2>Mask & Gavel</h2>
-  {% if mg.issn %}<span class="issn-badge">ISSN {{ mg.issn }}</span>{% endif %}
+  {%- if mg.issn -%}<span class="issn-badge">ISSN {{ mg.issn }}</span>{%- endif -%}
   <p class="pub-description">{{ mg.description }}</p>
 
   <div class="submission-info-box">
@@ -25,41 +25,54 @@ permalink: /publications/
   </div>
 
   <div class="volumes-list">
-    {% if mg.volumes.size > 0 %}
-      {% for vol in mg.volumes %}
+    {%- if mg.volumes.size > 0 -%}
+      {%- for vol in mg.volumes -%}
         <details class="publication-volume">
           <summary class="volume-header">
             <span class="volume-title">{{ vol.volume }}</span>
           </summary>
           <div class="volume-content">
-            {% if vol.pdf %}
+            {%- if vol.doi -%}
+              <p class="volume-doi"><strong>DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
+            {%- endif -%}
+
+            {%- if vol.pdf -%}
               <div class="volume-download-bar">
                 <a href="{{ vol.pdf }}" class="download-pdf-btn" target="_blank" download>
                   📄 Download Full {{ vol.volume }} PDF
                 </a>
               </div>
-            {% endif %}
+            {%- endif -%}
 
-            {% if vol.chapters %}
-              <h3 class="chapters-heading">Table of Contents</h3>
+            {%- if vol.chapters -%}
+              <h3 class="chapters-heading" style="margin-top: 15px; margin-bottom: 10px; font-size: 0.95rem;">Table of Contents</h3>
               <ul class="chapter-list">
-                {% for chapter in vol.chapters %}
-                  <li class="chapter-item">
-                    <div class="chapter-header-line">
-                      <strong class="chapter-title">{{ chapter.title }}</strong>
-                      {% if chapter.page %}<span class="chapter-page-no">({{ chapter.page }})</span>{% endif %}
+                {%- for chapter in vol.chapters -%}
+                  <li class="chapter-item" style="margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px dotted rgba(255,255,255,0.15);">
+                    <div class="chapter-header-line" style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px;">
+                      <strong class="chapter-title" style="font-size: 0.95rem; color: #ffffff;">{{ chapter.title }}</strong>
+                      <div class="chapter-actions" style="white-space: nowrap; font-size: 0.85rem;">
+                        {%- if chapter.doi -%}
+                          <a href="{{ chapter.doi }}" target="_blank" rel="noopener" class="doi-link" style="margin-right: 8px;">DOI</a>
+                        {%- endif -%}
+                        {%- if chapter.pdf -%}
+                          <a href="{{ chapter.pdf }}" class="chapter-pdf-link" target="_blank" download>[PDF]</a>
+                        {%- endif -%}
+                      </div>
                     </div>
-                    {% if chapter.author %}<span class="chapter-author">By {{ chapter.author }}</span>{% endif %}
+                    {%- if chapter.author -%}
+                      <span class="chapter-author" style="display: block; font-size: 0.85rem; opacity: 0.8; margin-top: 2px;">By {{ chapter.author }}</span>
+                    {%- endif -%}
                   </li>
-                {% endfor %}
+                {%- endfor -%}
               </ul>
-            {% endif %}
+            {%- endif -%}
           </div>
         </details>
-      {% endfor %}
-    {% else %}
+      {%- endfor -%}
+    {%- else -%}
       <p class="no-volumes">Volume details coming soon.</p>
-    {% endif %}
+    {%- endif -%}
   </div>
 </section>
 
