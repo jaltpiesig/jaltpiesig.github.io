@@ -4,50 +4,65 @@ title: Home
 permalink: /
 ---
 
-<!-- Custom Sloped Bounding Box Styles -->
+<!-- Custom CSS for Styles, Colors, Slopes, and Hover Effects -->
 <style>
-  .sloped-box {
+  :root {
+    --pie-dark-navy: #121624;       /* Dark navy-black from original box design */
+    --pie-bg-purple: #f4effa;       /* Very light purple tint between boxes */
+    --pie-lilac: #c3b2e7;           /* Lilac accent color for headers & links */
+    --pie-purple-pink: #e28cb9;     /* Purple-pink color for 'sig' */
+    --pie-light-lilac: #e3daf5;     /* Light lilac text inside dark boxes */
+    --pie-lilac-hover: #ffffff;      /* Hover color for news links */
+  }
+
+  body {
+    background-color: var(--pie-bg-purple);
+  }
+
+  /* Slopes down and to the right */
+  .sloped-box-top {
     position: relative;
-    background: #111111;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), 0 100%);
-    padding: 30px 25px 45px 25px;
-    margin-bottom: 35px;
+    background: var(--pie-dark-navy);
+    clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
+    padding: 30px 25px 40px 25px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, var(--pie-lilac), var(--pie-purple-pink)) 1;
   }
 
   .sloped-box-news {
     position: relative;
-    background: #111111;
-    clip-path: polygon(0 15px, 100% 0, 100% calc(100% - 15px), 0 100%);
-    padding: 40px 25px 45px 25px;
-    margin-bottom: 35px;
+    background: var(--pie-dark-navy);
+    clip-path: polygon(0 0, 100% 12px, 100% 100%, 0 calc(100% - 12px));
+    padding: 35px 25px 40px 25px;
+    margin-bottom: 30px;
+    border-top: 4px solid #6c757d;
+    border-bottom: 4px solid #6c757d;
   }
 
-  .gradient-border-bottom {
-    border-bottom: 4px solid;
-    border-image: linear-gradient(to right, #d8b4fe, #ec4899) 1;
+  .heading-serif {
+    font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+    color: var(--pie-lilac);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
 
-  .gradient-border-top-bottom {
-    border-top: 4px solid;
-    border-bottom: 4px solid;
-    border-image: linear-gradient(to right, #6b7280, #9ca3af) 1;
+  .news-link {
+    color: var(--pie-light-lilac);
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
   }
 
-  .text-lilac {
-    color: #c084fc !important;
-  }
-
-  .text-purple-pink {
-    color: #f472b6 !important;
-  }
-
-  .text-light-lilac {
-    color: #e9d5ff !important;
+  .news-link:hover {
+    color: var(--pie-lilac-hover);
   }
 </style>
 
 <!-- Hero / Intro Box -->
-<div class="sloped-box gradient-border-bottom">
+<div class="sloped-box-top">
   <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
     <div style="max-width: 650px;">
       <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.7; margin: 0;">
@@ -56,47 +71,61 @@ permalink: /
     </div>
     <div class="hero-brand-graphic">
       <h1 style="font-size: 2.2rem; margin: 0; font-weight: bold;">
-        <span class="text-lilac">PIE</span> <span class="text-purple-pink">sig</span>
+        <span style="color: var(--pie-lilac);">PIE</span> <span style="color: var(--pie-purple-pink);">sig</span>
       </h1>
-      <p style="color: #aaa; font-size: 0.75rem; letter-spacing: 1px; margin-top: 4px;">PERFORMANCE IN EDUCATION</p>
+      <p style="color: #b0b5c0; font-size: 0.75rem; letter-spacing: 1px; margin-top: 4px;">PERFORMANCE IN EDUCATION</p>
     </div>
   </div>
 </div>
 
+<!-- Podcast Section -->
+<div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 25px; margin-bottom: 30px;">
+  <h2 class="heading-serif" style="margin-bottom: 15px;">
+    PODCAST
+  </h2>
+  <p style="font-size: 0.95rem; line-height: 1.6; color: #333; margin-bottom: 20px;">
+    Listen to conversations with educators, researchers, and performers in the field of language learning and performance-based education.
+  </p>
+  
+  <!-- Spotify Embedded Player -->
+  <div style="border-radius: 12px; overflow: hidden;">
+    <iframe 
+      style="border-radius:12px" 
+      src="https://open.spotify.com/embed/show/5yI3EBA0fQkE41mP4NUpfG?utm_source=generator" 
+      width="100%" 
+      height="152" 
+      frameBorder="0" 
+      allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
+
 <!-- News Section (Jekyll Posts) -->
-<div class="sloped-box-news gradient-border-top-bottom">
-  <h2 class="text-lilac" style="font-size: 1.8rem; font-weight: bold; margin-bottom: 25px; text-transform: uppercase;">
+<div class="sloped-box-news">
+  <h2 class="heading-serif" style="margin-bottom: 25px;">
     NEWS
   </h2>
 
   <div style="display: flex; flex-direction: column; gap: 20px;">
     {% for post in site.posts limit:4 %}
-      <div style="border-bottom: 1px solid rgba(233, 213, 255, 0.2); padding-bottom: 15px;">
+      <div style="border-bottom: 1px solid rgba(227, 218, 245, 0.2); padding-bottom: 15px;">
         <h3 style="margin: 0 0 6px 0; font-size: 1.15rem;">
-          <a href="{{ post.url | relative_url }}" class="text-light-lilac" style="text-decoration: underline; font-weight: bold;">
+          <a href="{{ post.url | relative_url }}" class="news-link">
             {{ post.title }}
           </a>
         </h3>
-        <span style="font-size: 0.82rem; color: #a855f7; display: block; margin-bottom: 8px;">
+        <span style="font-size: 0.82rem; color: var(--pie-purple-pink); display: block; margin-bottom: 8px;">
           {{ post.date | date: "%B %d, %Y" }}
         </span>
 
         {% if forloop.first %}
-          <p class="text-light-lilac" style="font-size: 0.92rem; line-height: 1.5; margin: 0;">
+          <p style="color: var(--pie-light-lilac); font-size: 0.92rem; line-height: 1.5; margin: 0;">
             {{ post.content | strip_html | truncatewords: 20 }}
           </p>
         {% endif %}
       </div>
     {% endfor %}
   </div>
-</div>
-
-<!-- Podcast Section -->
-<div style="background: #ffffff; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 25px; margin-bottom: 35px;">
-  <h2 class="text-lilac" style="font-size: 1.8rem; font-weight: bold; margin-bottom: 15px; text-transform: uppercase;">
-    PODCAST
-  </h2>
-  <p style="font-size: 0.95rem; line-height: 1.6; color: #333; margin: 0;">
-    Listen to conversations with educators, researchers, and performers in the field of language learning and performance-based education.
-  </p>
 </div>
