@@ -22,6 +22,7 @@ permalink: /publications/
   <nav class="pub-nav">
     <a href="#mask-and-gavel">Mask & Gavel</a>
     <a href="#classroom-resources">Classroom Resources Journal</a>
+    <a href="#pie-review">PIE Review</a>
     <a href="#collaborations">Collaborations</a>
   </nav>
 
@@ -30,7 +31,11 @@ permalink: /publications/
     {% assign mg = site.data.publications.mask_and_gavel %}
     <h2>Mask & Gavel</h2>
     {%- if mg.issn -%}<span class="issn-badge">ISSN {{ mg.issn }}</span>{%- endif -%}
-    <p class="pub-description">{{ mg.description }}</p>
+    <p class="pub-description">
+      Mask & Gavel is the peer-reviewed academic journal of the Performance in Education SIG.
+      <br><br>
+      Article submissions are accepted year-round and published online as soon as they are finalized, before being collected into the full journal published online bi-annually. All articles are vetted by an editor, blinded, and peer-reviewed by two reviewers before publication. We welcome research-based, comment & opinion, interview, and review-based articles. Practical lesson resource articles should be submitted to the Classroom Resources journal. For submission guidelines please refer to the specifications outlined in The Language Teacher.
+    </p>
 
     <div class="volumes-list">
       {%- if mg.volumes.size > 0 -%}
@@ -41,7 +46,9 @@ permalink: /publications/
             </summary>
             <div class="volume-content">
               {%- if vol.doi -%}
-                <p class="volume-doi"><strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
+                <div class="volume-doi-block">
+                  <strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener" class="doi-link">{{ vol.doi }}</a>
+                </div>
               {%- endif -%}
 
               {%- if vol.pdf -%}
@@ -93,7 +100,9 @@ permalink: /publications/
     {% assign cr = site.data.publications.classroom_resources %}
     <h2>PIE SIG Classroom Resources Journal</h2>
     {%- if cr.issn -%}<span class="issn-badge">ISSN {{ cr.issn }}</span>{%- endif -%}
-    <p class="pub-description">{{ cr.description }}</p>
+    <p class="pub-description">
+      The classroom resource journal of the Performance in Education SIG. PIE SIG has put together a new lesson resource online publication, and it is now available online. This is the publication for the sharing of practical lesson resources.
+    </p>
 
     <div class="volumes-list">
       {%- if cr.volumes.size > 0 -%}
@@ -104,7 +113,9 @@ permalink: /publications/
             </summary>
             <div class="volume-content">
               {%- if vol.doi -%}
-                <p class="volume-doi"><strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener">{{ vol.doi }}</a></p>
+                <div class="volume-doi-block">
+                  <strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener" class="doi-link">{{ vol.doi }}</a>
+                </div>
               {%- endif -%}
 
               {%- if vol.pdf -%}
@@ -151,7 +162,74 @@ permalink: /publications/
     </div>
   </section>
 
-  <!-- 3. COLLABORATIONS -->
+  <!-- 3. PIE REVIEW -->
+  <section id="pie-review" class="pub-section">
+    {% assign pr = site.data.publications.pie_review %}
+    <h2>Performance in Education Review</h2>
+    {%- if pr.issn -%}<span class="issn-badge">ISSN {{ pr.issn }}</span>{%- endif -%}
+    <p class="pub-description">
+      Some of PIE SIG’s amazing conference presenters have been kind enough to write scholarly articles on their presentations, workshops, and performances. The Performance in Education Review presents some of these notable articles previously presented at PIE SIG conferences. The intention of this journal is to create a montage of the year in PIE conferences, but some volumes may cover multiple years due to the time needed to gather all proposals.
+    </p>
+
+    <div class="volumes-list">
+      {%- if pr.volumes.size > 0 -%}
+        {%- for vol in pr.volumes -%}
+          <details class="publication-volume">
+            <summary class="volume-header">
+              <span class="volume-title">{{ vol.volume }}</span>
+            </summary>
+            <div class="volume-content">
+              {%- if vol.doi -%}
+                <div class="volume-doi-block">
+                  <strong>Volume DOI:</strong> <a href="{{ vol.doi }}" target="_blank" rel="noopener" class="doi-link">{{ vol.doi }}</a>
+                </div>
+              {%- endif -%}
+
+              {%- if vol.pdf -%}
+                <div class="volume-download-bar">
+                  <a href="{{ vol.pdf }}" class="download-pdf-btn" target="_blank" download>
+                    📄 Download Full {{ vol.volume }} PDF
+                  </a>
+                </div>
+              {%- endif -%}
+
+              {%- if vol.chapters -%}
+                <h3 class="chapters-heading">Table of Contents</h3>
+                <ul class="chapter-list">
+                  {%- for chapter in vol.chapters -%}
+                    <li class="chapter-item">
+                      <div class="chapter-header-line">
+                        <strong class="chapter-title">{{ chapter.title }}</strong>
+                        <div class="chapter-actions">
+                          {%- if chapter.pdf -%}
+                            <a href="{{ chapter.pdf }}" class="chapter-pdf-link" target="_blank" download>[PDF]</a>
+                          {%- endif -%}
+                        </div>
+                      </div>
+
+                      {%- if chapter.author -%}
+                        <span class="chapter-author">By {{ chapter.author }}</span>
+                      {%- endif -%}
+
+                      {%- if chapter.doi -%}
+                        <div class="chapter-doi-block">
+                          <strong>DOI:</strong> <a href="{{ chapter.doi }}" target="_blank" rel="noopener" class="doi-link">{{ chapter.doi }}</a>
+                        </div>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            </div>
+          </details>
+        {%- endfor -%}
+      {%- else -%}
+        <p class="no-volumes">Volume details coming soon.</p>
+      {%- endif -%}
+    </div>
+  </section>
+
+  <!-- 4. COLLABORATIONS -->
   <section id="collaborations" class="pub-section">
     <h2>Collaboration Publications</h2>
     <p class="pub-description">
