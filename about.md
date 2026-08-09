@@ -84,7 +84,7 @@ permalink: /about/
   <a href="#what-we-are" class="about-nav-btn">WHAT WE ARE</a>
   <a href="#what-we-do" class="about-nav-btn">WHAT WE DO</a>
   <a href="/officers/" class="about-nav-btn">PIE SIG OFFICERS</a>
-  <a href="#" class="about-nav-btn">CONSTITUTION</a>
+  <a href="/assets/documents/Constitution-and-Bylaws-PIE-SIG-Updated-Feb-16-2026.pdf" class="about-nav-btn">CONSTITUTION</a>
 </div>
 
 <!-- WHAT WE ARE Section -->
