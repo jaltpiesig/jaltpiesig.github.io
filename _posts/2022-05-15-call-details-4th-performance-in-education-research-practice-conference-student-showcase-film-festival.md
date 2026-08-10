@@ -5,268 +5,353 @@ categories:
   - "events"
 ---
 
-### **_4th PIE_** **Conference (July 29-31) Information**
-
-The Performance in Education Special Interest Group (PIE SIG) and the Okinawa chapter of the Japan Association for Language Teaching (JALT) invite presenters and attendees to join us at the 4th Performance in Education: Research & Practice Conference/Student Showcase/Film Festival (_4th PIE)_. 
-
-#### **Conference Location and Mode**
-
-_4th PIE_ will be held in Nagoya, Japan at Nanzan University ([https://www.nanzan-u.ac.jp/English/access/](https://www.nanzan-u.ac.jp/English/access/)) July 29-31, 2022 and is co-sponsored by Okinawa JALT. _4th PIE_ will be a hybrid event\*\*, with all Saturday, July 30, talks and events being streamed online and all concurrent sessions and talks by expert speakers on Sunday, July 31, also being streamed online (synchronously or asynchronously). 
-
-#### **Eight Amazing Experts**
-
-The event this year will feature 8 amazing experts in the field of performance and education whose presentation styles we have been extremely impressed by. All attendees to the event are guaranteed an interesting and useful experience. 
-
-#### **Call for Papers and Registration**
-
-If you would like to present or perform at _4th PIE_, please complete [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLScn9zv1GDu7DJ-9DJSlsQ-_6iYGfeREvPdg8fWvq4hKJEliNw/viewform). The call deadline is July 1, 2022 (GMT +9). 
-
-If you would like to register to attend the event without presenting or performing, please complete the registration form found [here](https://docs.google.com/forms/d/e/1FAIpQLScIP6GQIQt6-vl5bGsrnDbAys-TkLF8RyzwTgmR_NBMgNeSEQ/viewform).
-
-#### Conference Fees and Payment
-
-Please Pay for conference fees and Networking Event (if attending) by Sunday, July 24 JST. (3,500yen)
-
-The conference fees for presenters and attendees are:
-
-- International: 5,000 Japanese yen
-- Domestic non-JALT: 3,000 yen
-- JALT presenter: 2,000 yen
-- JALT participant: 1,000 yen
-- PIE SIG member participant not presenting: Free
-- Full-time Junior High/Senior High/Undergraduate university student: Free
-
-PAYMENT THROUGH PAYPAL
-
-1) Please send your payment via PayPal to \[okijalt.treasurer@gmail.com\].
-
-2) When making the payment, please write "2022 PIE" (and Networking Event if desired) under payment description and/or send an email to \[okijalt.treasurer@gmail.com\] with "2022 PIE" in the subject line.
-
-\*\*Please note that the event may shift to a fully online mode depending on the pandemic situation.
-
-* * *
-
-## **Additional conference details:**
-
-### Expert PIE Speakers
-
-#### **James Carpenter  
-Rikkyo University**
-
-James Carpenter is interested in how people learn in unique situations. He is currently conducting research with learners and teachers from a school for the visually impaired in Tokyo.
-
-_**Researching Communicative Practices in Performance-Based Education**_  
-July 30 Online (Zoom)
-
-In this presentation, I will introduce an approach to mix-methods research that combines ethnomethodology with quantitative analysis. Drawing on my own research at a school for the visually impaired, I will attempt to persuade you that this perspective is useful for researching performance-based education in new ways. My research is based on Firth and Wagner’s (1997) inauguration of the “social turn,” and is one way SLA/T researchers have continued to investigate how foreign languages are used as they are being acquired. In this presentation I will focus on variations of the conversation analytic/ethnomethodological perspective. This should help both beginning researchers and experienced ones.
-
-<figure>
-
-<figcaption>
-
-James Carpenter
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### **Darren Kinsman  
-Miyagi Gakuin Women's University**
-
-![](images/Kinsman-BW-2022-06-03-242x300.png)
-
-Darren was first introduced to educational drama by actor and educator, Ilkay Silk while pursuing his education degree. As a teacher at a private high school in Japan for six years, Darren taught dedicated chorus and drama classes. He also prepared international course students for annual stage performances. He is interested in how various creative approaches to language teaching intersect and complement each another.
-
-_**Unfolding Drama**_  
-July 30 Online (Zoom)
-
-It is common for language teachers to use dramatic techniques in their classrooms, be it short role plays or having students read dialogs with emotion. Some even prepare their students for live stage plays in front of large audiences. However, there is a vast terrain lying between these two poles that is often left unexplored and unexploited. This presentation surveys this verdant landscape by giving a brief historical overview of drama as well as how its reinterpretation and compartmentalization has been a boon for language learning. Dramatic techniques will be both overtly covered and embedded within the presentation itself.
-
-<figure>
-
-<figcaption>
-
-Darren Kinsman
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### **Greg Lewis  
-Hyupsung University**, South Korea
-
-![](images/image-290x300.png)
-
-Greg first arrived in Korea 20 years ago but didn't get serious about teaching until 13 years ago when he returned to Korea from his native Canada and began teaching university freshman English. Greg has a varied performance background that includes politics, real estate sales and business training, and of course theater, both summer stock and community theater. Performance has always been a large part of Greg's activities, so it is not surprising that audio performance has been added to his current teaching tool kit.
-
-_**Introducing Podcasting to the Language Learning Classroom Students**_  
-July 30 Online (Zoom)
-
-A lot of research has addressed the effectiveness of teacher-produced audio podcasts, however, this presentation will focus on student-generated audio podcasts and highlight the range of positive outcomes available for language learners and language teachers. We will go through some practical suggestions for the effective use of student-generated podcasts but first you will need to introduce podcasts to your students, and that is where we generally will hit our first wall. I will walk you through my process of introducing the concept of podcasts to my students, the various production styles, and then through the basic steps required to produce a podcast. I hope to approach this presentation as a collaborative experience where we can share tips and tricks in a closing discussion.
-
-<figure>
-
-<figcaption>
-
-Greg Lewis
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### Lisa M. Hunsberger  
-Kyushu Sangyo University
-
-![](images/Lisa-M.-Hunsberger-249x300.jpeg)
-
-Lisa M. Hunsberger has been an educator for over 15 years. She has taught at two universities in Jamaica, at a high school in France, and at every level in Japan from kindergarten to university, professionals, and retirees. She is a seasoned public speaker and an all-round creative with skills in presentation design and video editing. Lisa uses presentation software creatively in the classroom and has been sharing her design ideas with audiences for years. She has presented on effective presentation design at JALT and KOTESOL conferences, and most recently, as a plenary speaker at KOTESOL’s 2021 National Conference.
-
-_**Spice Up Your Presentations**_  
-July 31 Face-to-Face
-
-For some English language educators, presentations are a regular part of their lessons and classroom instruction. They use the software to supplement lessons, reinforce explanations, or to deliver the entire lesson itself. Books have been written and talks given on how to create great presentations, but for some, the implementation remains elusive. Let’s change that by looking at how we can add a little spice to our presentations. By mixing a dash of features with a tablespoon of forethought, and by incorporating our knowledge of our students to the mix, we can create fun and whimsical presentations. Just add time to taste. We will focus on a few features shared by Microsoft PowerPoint and Apple Keynote –text; images; videos; shapes; animations; transitions– and we will look at how we can improve on some of the mistakes we commonly make with a dash of creativity.
-
-<figure>
-
-<figcaption>
-
-Lisa M. Hunsberger
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### Rab Paterson  
-Rikkyo University
-
-![](images/JTB1RabPaterson-edited-300x300.jpeg)
-
-Rab Paterson (BA, MA, CoETail, MS, MEd, FRAS, FRSA) is a Lecturer at Rikkyo University’s Center for Foreign Language Education and Research. He's a Best Of JALT, Apple Distinguished Educator, and a Google Innovator award winner. Rab has presented at conferences worldwide including Keynote, Plenary, Featured Speaker, and Invited Speaker sessions, two TEDx presentations, an Apple Showcase presentation and he made a series of videos on how to give academic presentations for Academia.edu. Most importantly students from his presentations classes have also gone on to win awards (Hong Kong Cup, Obirin University, & Toyo University presentations competition), for their presentations.
-
-_**Present Like A Pro!: Strategies, Tips, and Tricks to Efficiently Teach Presentations to Students**_  
-July 31 Online (Zoom)
-
-Many teaching professionals have to give presentation assignments to students for coursework. Yet a large proportion of these teachers have little or no formal training in presentations theory and practice, never mind having the skillsets to actually teach the various aspects of presentations beyond the basics and usually give simple - ‘have an intro, tell a joke, include relevant data, end with a conclusion’ type comments. This session aims to show teaching techniques that can and have been successfully used by the presenter in class to help their students improve their presentations. Many of these students have then gone on to win presentations competitions. Some of these winning students will also join this session to give their viewpoint on these teaching techniques and how they benefitted from them. So attendees show take awesome new tips and tricks for their presentations teaching toolbox.
-
-* * *
-
-#### **Stephen Pottinger**  
-**Chubu University**
-
-![](images/Stephen-Pottinger-200x300.jpg)
-
-Stephen Pottinger is an English teacher at Chubu University. He was born in Aichi and grew up in England. He received his BA (in Education) from University of York. Stephen has almost 20 years of experience in English language teaching, and throughout his career, he has been very interested in methods that encourage students to be able to perform and present in a more confident manner.
-
-_**Theatre-based Performance Skills in the ESL Classroom: A Personal Narrative**_  
-July 31 Face-to-Face
-
-The world of theatre is a magical, free and fantastical place, but behind the scenes are a plethora of tried and proven techniques, rules and mantra. These theatre techniques have proven to inject energy and creativity into the ESL classroom. If only a small part of these teachings are brought with enthusiasm into the ESL classroom, students can benefit tremendously in speaking confidence and language acquisition.
-
-During this presentation I will touch on theatre based acting techniques and skills which allow students to expand their knowledge in three areas: Vocal Production, Basic Storytelling, and The Art of Acting. This presentation will also touch briefly on potential challenges that teachers face when trying to bring theatre into the ESL classroom.
-
-<figure>
-
-<figcaption>
-
-Stephen Pottinger
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### Kim Rockell  
-Komazawa University
-
-![](images/C17C77DD-987A-485D-AD1A-E6A15A3448C5_1_201_a-271x300.jpeg)
-
-Associate Professor Kim Rockell is an ethnomusicologist and classical guitarist who currently teaches in the Faculty of Arts and Sciences at Komazawa University in Tokyo. His research interests encompass plucked-string traditions, Philippine rondalla and Hispanic musical influences in the Asia Pacific, migrant music and music in diaspora, and the music/language nexus. Recently, while learning to perform traditional Noh in Japan, he has begun to explore the educational potential of English language Noh.
-
-**_Music and Performance in Education: A Personal Retrospective (2012-2022)_**  
-July 31 Face-to-Face
-
-This talk traces the trajectory of my decade-long Japan-based research on music and performance in education. It introduces past projects that have explored the strategies and strengths teachers with musical backgrounds bring to language teaching, and how these musical strategies can be applied to computer-assisted language learning (CALL). The teaching of musical performance and ethnomusicology in English medium in both Tohoku and Tokyo as well as the development of musical theater in English based on traditional Japanese Noh are also described. Finally, the talk touches on more recent work on intercultural performance and semiotic clusters, which continued throughout the COVID-19 pandemic up to the present time.
-
-* * *
-
-### Lunch Meals: NONE
-
-![](images/image.png)
-
-At this time lunches will NOT be available at the conference. Instead, please plan to bring your own lunch or purchase it from a nearby convenience store. Note that this may change depending on the COVID-19 situation.
-
-* * *
-
-### Networking Event
-
-The Gran Piatto is a popular Italian restaurant just a short walk from the conference venue. Participation in the Networking Event can be indicated when you register online. Family and friends are more than welcome, and children can order off the menu but must be registered to reserve a seat.
-
-- **When**: Saturday, July 30, 7:30-9:30
-- **Where**: Gran Piatto Italian Restaurant ([https://granpiatto.gorp.jp/](https://granpiatto.gorp.jp/))
-- **Cost**: 3,500 yen per adult (US$27.09) for the Komi Komi Plan menu
-    - 7 dishes with 120 minutes all-you-can-drink (soft drinks, beer, wine, some mixed drinks)
-    - Food served family-style: Each group of 6 people will share 1 meter/yard- long sausage, 2 pizzas baked in a wood-burning oven, one pasta dish (vegetarian pasta and pizza available), one main dish, and two side dishes. No substitutions.
-    - Children ONLY can order off the menu, but must still be registered via the event signup to reserve a seat.
-- Banquet must be ordered beforehand via the registration form (**deadline to register is July 15**)
-- The maximum number of people is 90.
-
-Gran Piatto Italian Restaurant
-
-<figure>
-
-![](images/Screen-Shot-2022-05-14-at-13.14.19-1024x689.png)
-
-<figcaption>
-
-Gran Piatto Entrance
-
-</figcaption>
-
-</figure>
-
-<figure>
-
-![](images/Screen-Shot-2022-05-14-at-13.15.07-842x1024.png)
-
-<figcaption>
-
-Gran Pitatto Interior
-
-</figcaption>
-
-</figure>
-
-As you can see from the photo below from a previous conference, families are very welcome to the Networking Event.
-
-<figure>
-
-![](images/image-1024x678.jpeg)
-
-<figcaption>
-
-Previous Banquet from Okinawa Conference
-
-</figcaption>
-
-</figure>
-
-* * *
-
-### Cultural Event
-
-**[Tokugawa Garden](https://www.tokugawaen.aichi.jp/english/) & [Art Museum](https://www.tokugawa-art-museum.jp/en/)**
-
-During the [Edo Period](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2128.html&sa=D&sntz=1&usg=AFQjCNEERZ8sm2-bhiuH2q4-3iJGTf6-5A) (1600-1868), [Nagoya](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2155.html&sa=D&sntz=1&usg=AFQjCNGLgDyIlzE7mpxINXVIw5K08aoAIw) served as the seat of the Owari, one of the three major branches of the ruling [Tokugawa](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2128.html&sa=D&sntz=1&usg=AFQjCNEERZ8sm2-bhiuH2q4-3iJGTf6-5A) family. The family amassed great wealth that was only surpassed by four of the 200 feudal domains of the [Edo Period](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2128.html&sa=D&sntz=1&usg=AFQjCNEERZ8sm2-bhiuH2q4-3iJGTf6-5A). The Tokugawa Art Museum (徳川美術館, Tokugawa Bijutsukan) was built on the grounds of the Owari's former feudal residence and preserves and exhibits several of their treasures including [samurai](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2127.html&sa=D&sntz=1&usg=AFQjCNE2Rk60U5KBHqbdW_X5bXOAN-jM5g) armor and swords, [tea utensils](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2096.html&sa=D&sntz=1&usg=AFQjCNF-E2DlKo81kUYGqM51Ov4l1T8M9g), [noh masks](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2091.html&sa=D&sntz=1&usg=AFQjCNEpXAAu9YXpr5H0QJACB45cLmuVDg) and costumes, poems, scrolls and maps. Next to the museum is Tokugawa-en, a beautiful Japanese [landscape garden](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2099.html&sa=D&sntz=1&usg=AFQjCNGApGJxV0zboGfmPnPx2IWsc1ZyAg) with a large pond at its center. The garden used to be part of a retirement residence of the local lords, but was destroyed during the war. A large network of walking trails lead around the grounds to a tea house, rest houses, and across several bridges. The garden is best in spring, when its Peony (mid to late April) and Iris gardens (late May to early June) bloom, and during the [autumn](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2014.html&sa=D&sntz=1&usg=AFQjCNGt-wGCjDe8r3jWhjW95WG-tQ_SxQ) season (November).
-
-**[Nagoya Castle/Honmaru Palace](https://www.nagoyajo.city.nagoya.jp/en/)**
-
-The castle's **palace** (Honmaru Goten) was recently rebuilt and fully opened to the public in June 2018. Half a century after its destruction in the war, the palace was rebuilt using traditional construction materials and techniques. It contains entrance and reception halls as well as rooms reserved for the visiting shogun with beautiful, replicated paintings on the sliding doors (fusuma). The palace has been considered one of the finest examples of [Shoin architecture](https://www.google.com/url?q=https%3A%2F%2Fwww.japan-guide.com%2Fe%2Fe2007.html&sa=D&sntz=1&usg=AFQjCNEa2z4149BrmRyp5fBn2fjt4-ujTQ) in all of Japan.
+<div align="center" style="margin: 40px 0 30px 0;">
+  <span style="background-color: #fef3c7; color: #b45309; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;">Hybrid Conference & Festival</span>
+  <h1 style="margin-top: 15px; margin-bottom: 10px; font-size: 2.2em; border: none;">4th Performance in Education (4th PIE) Conference</h1>
+  <p style="font-size: 1.1em; color: #555; margin-bottom: 25px;">Research & Practice Conference • Student Showcase • Film Festival</p>
+  
+  <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScIP6GQIQt6-vl5bGsrnDbAys-TkLF8RyzwTgmR_NBMgNeSEQ/viewform" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">🎟️ Attendee Registration</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScn9zv1GDu7DJ-9DJSlsQ-_6iYGfeREvPdg8fWvq4hKJEliNw/viewform" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📝 Call for Papers</a>
+  </div>
+</div>
+
+<br>
+
+<!-- EVENT OVERVIEW & AT-A-GLANCE CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; margin-bottom: 20px; color: #1a202c; border-bottom: 2px solid #edf2f7; padding-bottom: 10px;">📌 Event Overview</h3>
+
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155; margin-bottom: 20px;">
+The <strong>Performance in Education Special Interest Group (PIE SIG)</strong> and <strong>Okinawa JALT</strong> co-sponsor the <strong>4th Performance in Education Conference (4th PIE)</strong>. This hybrid event features expert presentations, student showcases, and a film festival celebrating performance-based methods in language teaching.
+</p>
+
+<!-- DETAILS GRID -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Dates</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">July 29–31, 2022</p>
+    <span style="font-size: 0.85em; color: #64748b;">Friday through Sunday</span>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Venue</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;"><a href="https://www.nanzan-u.ac.jp/English/access/" target="_blank" style="color: #0066cc;">Nanzan University</a></p>
+    <span style="font-size: 0.85em; color: #64748b;">Nagoya, Japan (Hybrid Mode)</span>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Online Streaming</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">Zoom Live & Async</p>
+    <span style="font-size: 0.85em; color: #64748b;">All Saturday/Sunday sessions online</span>
+  </div>
+
+</div>
+
+<!-- KEY DEADLINES CALLOUT -->
+<div style="background-color: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px; padding: 16px; margin-top: 25px;">
+  <strong style="color: #c2410c;">⏰ Important Dates & Deadlines:</strong>
+  <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #9a3412; font-size: 0.95em;">
+    <li><strong>Call for Papers Deadline:</strong> July 1, 2022 (GMT+9)</li>
+    <li><strong>Banquet Registration Deadline:</strong> July 15, 2022</li>
+    <li><strong>Conference Fee Payment Deadline:</strong> Sunday, July 24, 2022 (JST)</li>
+  </ul>
+</div>
+
+</div>
+
+<br>
+
+<!-- FEES & PAYMENT CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">💳 Registration Fees & Payment</h3>
+
+<!-- FEES TABLE -->
+<div style="overflow-x: auto; margin-top: 20px;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr style="background-color: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+        <th style="padding: 12px; color: #0f172a;">Category</th>
+        <th style="padding: 12px; color: #0f172a;">Fee (JPY)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid #edf2f7;">
+        <td style="padding: 12px; color: #334155;">International Attendees / Presenters</td>
+        <td style="padding: 12px; font-weight: bold; color: #0f172a;">¥5,000</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #edf2f7;">
+        <td style="padding: 12px; color: #334155;">Domestic Non-JALT Members</td>
+        <td style="padding: 12px; font-weight: bold; color: #0f172a;">¥3,000</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #edf2f7;">
+        <td style="padding: 12px; color: #334155;">JALT Presenters</td>
+        <td style="padding: 12px; font-weight: bold; color: #0f172a;">¥2,000</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #edf2f7;">
+        <td style="padding: 12px; color: #334155;">JALT Participants (Non-presenting)</td>
+        <td style="padding: 12px; font-weight: bold; color: #0f172a;">¥1,000</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #edf2f7;">
+        <td style="padding: 12px; color: #334155;">PIE SIG Members (Non-presenting)</td>
+        <td style="padding: 12px; font-weight: bold; color: #166534;">FREE</td>
+      </tr>
+      <tr>
+        <td style="padding: 12px; color: #334155;">Full-Time JHS / SHS / Undergraduate Students</td>
+        <td style="padding: 12px; font-weight: bold; color: #166534;">FREE</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; margin-top: 25px;">
+  <h4 style="margin: 0 0 10px 0; color: #0f172a;">PayPal Payment Instructions</h4>
+  <ol style="margin: 0; padding-left: 20px; color: #475569; line-height: 1.6;">
+    <li>Send payment via PayPal to <code>okijalt.treasurer@gmail.com</code>.</li>
+    <li>Include <strong>"2022 PIE"</strong> (and "Networking Event" if applicable) in the payment description.</li>
+    <li>Alternatively, send an email to <code>okijalt.treasurer@gmail.com</code> with <strong>"2022 PIE"</strong> in the subject line.</li>
+  </ol>
+</div>
+
+</div>
+
+<br>
+
+<!-- FEATURED SPEAKERS CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🎙️ Featured Expert Speakers</h3>
+
+<!-- SPEAKER 1: JAMES CARPENTER -->
+<div style="margin-top: 25px; margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">James Carpenter</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Rikkyo University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        James explores how individuals learn in unique educational settings, currently conducting research alongside students and teachers at a Tokyo school for the visually impaired.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+      <strong style="color: #0f172a;">Researching Communicative Practices in Performance-Based Education</strong>
+      <span style="background-color: #e0f2fe; color: #0369a1; font-size: 0.8em; font-weight: bold; padding: 2px 8px; border-radius: 4px;">July 30 • Online (Zoom)</span>
+    </div>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      This session introduces a mixed-methods approach combining ethnomethodology with quantitative analysis. Drawing on research at a school for the visually impaired, James details how conversation analytic perspectives illuminate foreign language acquisition in performance-based contexts.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 2: DARREN KINSMAN -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/Kinsman-BW-2022-06-03-242x300.png" alt="Darren Kinsman" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Darren Kinsman</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Miyagi Gakuin Women's University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        Introduced to educational drama by Ilkay Silk, Darren spent six years teaching dedicated chorus and drama classes at a private Japanese high school, preparing students for annual stage performances.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+      <strong style="color: #0f172a;">Unfolding Drama</strong>
+      <span style="background-color: #e0f2fe; color: #0369a1; font-size: 0.8em; font-weight: bold; padding: 2px 8px; border-radius: 4px;">July 30 • Online (Zoom)</span>
+    </div>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      Moving beyond simple roleplays and full-scale theatrical productions, this presentation surveys the rich pedagogical terrain of educational drama. Practical drama techniques will be overtly demonstrated and embedded throughout the talk.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 3: GREG LEWIS -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/image-290x300.png" alt="Greg Lewis" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Greg Lewis</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Hyupsung University, South Korea</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        With over 13 years of university ELT experience in Korea, Greg integrates his background in summer stock and community theater into digital audio performance and podcasting activities.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+      <strong style="color: #0f172a;">Introducing Podcasting to Language Learning Classroom Students</strong>
+      <span style="background-color: #e0f2fe; color: #0369a1; font-size: 0.8em; font-weight: bold; padding: 2px 8px; border-radius: 4px;">July 30 • Online (Zoom)</span>
+    </div>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      Focusing on student-generated podcasts, Greg outlines practical steps to guide language learners through concept creation, production styles, and audio editing techniques.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 4: LISA M. HUNSBERGER -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/Lisa-M.-Hunsberger-249x300.jpeg" alt="Lisa M. Hunsberger" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Lisa M. Hunsberger</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Kyushu Sangyo University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        A seasoned educator with 15+ years of teaching experience across Jamaica, France, and Japan, Lisa is a presentation design specialist and former KOTESOL plenary speaker.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+      <strong style="color: #0f172a;">Spice Up Your Presentations</strong>
+      <span style="background-color: #dcfce7; color: #15803d; font-size: 0.8em; font-weight: bold; padding: 2px 8px; border-radius: 4px;">July 31 • In-Person (Nanzan)</span>
+    </div>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      Learn how to transform routine classroom slides into engaging visual experiences using Microsoft PowerPoint and Apple Keynote features (typography, imagery, media, transitions, and layout design).
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 5: RAB PATERSON -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/JTB1RabPaterson-edited-300x300.jpeg" alt="Rab Paterson" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Rab Paterson</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Rikkyo University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        Apple Distinguished Educator, Google Innovator, and Best of JALT recipient. Rab’s presentation students have won major speech and presentation contests across Japan and Hong Kong.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+      <strong style="color: #0f172a;">Present Like A Pro!: Strategies, Tips, and Tricks to Efficiently Teach Presentations</strong>
+      <span style="background-color: #e0f2fe; color: #0369a1; font-size: 0.8em; font-weight: bold; padding: 2px 8px; border-radius: 4px;">July 31 • Online (Zoom)</span>
+    </div>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      Discover actionable teaching techniques to help students master presentation structure and delivery. Contest-winning students join the session to share firsthand insights on these effective methodologies.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 6 & 7: STEPHEN POTTINGER & KIM ROCKELL -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <img src="images/Stephen-Pottinger-200x300.jpg" alt="Stephen Pottinger" style="width: 80px; height: auto; border-radius: 6px; float: left; margin-right: 12px;">
+    <h4 style="margin: 0; color: #0f172a;">Stephen Pottinger</h4>
+    <p style="margin: 2px 0 8px 0; color: #0066cc; font-size: 0.85em;">Chubu University</p>
+    <span style="background-color: #dcfce7; color: #15803d; font-size: 0.75em; font-weight: bold; padding: 2px 6px; border-radius: 4px;">July 31 • In-Person</span>
+    <p style="margin: 8px 0 0 0; font-size: 0.85em; color: #334155; clear: both;">
+      <strong>Theatre-based Performance Skills in the ESL Classroom:</strong> Exploring vocal production, storytelling, and acting techniques to boost speaking confidence.
+    </p>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <img src="images/C17C77DD-987A-485D-AD1A-E6A15A3448C5_1_201_a-271x300.jpeg" alt="Kim Rockell" style="width: 80px; height: auto; border-radius: 6px; float: left; margin-right: 12px;">
+    <h4 style="margin: 0; color: #0f172a;">Kim Rockell</h4>
+    <p style="margin: 2px 0 8px 0; color: #0066cc; font-size: 0.85em;">Komazawa University</p>
+    <span style="background-color: #dcfce7; color: #15803d; font-size: 0.75em; font-weight: bold; padding: 2px 6px; border-radius: 4px;">July 31 • In-Person</span>
+    <p style="margin: 8px 0 0 0; font-size: 0.85em; color: #334155; clear: both;">
+      <strong>Music & Performance in Education (2012–2022):</strong> A decade retrospective on ethnomusicology, CALL applications, and English Noh theater.
+    </p>
+  </div>
+
+</div>
+
+</div>
+
+<br>
+
+<!-- LOGISTICS, NETWORKING & CULTURAL EVENTS CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🍽️ Logistics & Social Events</h3>
+
+<!-- LUNCH NOTICE -->
+<div style="background-color: #f8fafc; border-left: 4px solid #64748b; padding: 14px; margin-bottom: 25px; border-radius: 4px;">
+  <strong style="color: #0f172a;">🍱 Lunch Information:</strong>
+  <span style="color: #475569;">
+    On-site lunch service will not be available. Attendees are advised to bring their own lunch or purchase meals from nearby convenience stores.
+  </span>
+</div>
+
+<!-- NETWORKING BANQUET -->
+<h4 style="color: #0f172a; margin-bottom: 12px;">🎉 Saturday Night Networking Banquet</h4>
+<p style="line-height: 1.6; color: #334155; margin-bottom: 15px;">
+Join us for a family-friendly banquet at <a href="https://granpiatto.gorp.jp/" target="_blank" style="color: #0066cc; font-weight: bold;">Gran Piatto Italian Restaurant</a>, located a short walk from Nanzan University!
+</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 20px;">
+  <div style="background-color: #f8fafc; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <strong style="color: #0f172a;">When:</strong> Saturday, July 30 (19:30–21:30)
+  </div>
+  <div style="background-color: #f8fafc; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <strong style="color: #0f172a;">Cost:</strong> ¥3,500 per adult (~$27 USD)
+  </div>
+  <div style="background-color: #f8fafc; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <strong style="color: #0f172a;">Menu:</strong> 7-course Komi Komi Plan + 2-hr All-You-Can-Drink
+  </div>
+</div>
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-bottom: 30px;">
+  <img src="images/Screen-Shot-2022-05-14-at-13.14.19-1024x689.png" alt="Gran Piatto Entrance" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+  <img src="images/Screen-Shot-2022-05-14-at-13.15.07-842x1024.png" alt="Gran Piatto Interior" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+  <img src="images/image-1024x678.jpeg" alt="Past Banquet Attendees" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- CULTURAL ATTRACTIONS -->
+<h4 style="color: #0f172a; margin-bottom: 12px;">🏯 Local Cultural Attractions in Nagoya</h4>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <strong style="color: #0f172a; font-size: 1.05em;"><a href="https://www.tokugawaen.aichi.jp/english/" target="_blank" style="color: #0066cc;">Tokugawa Garden</a> & <a href="https://www.tokugawa-art-museum.jp/en/" target="_blank" style="color: #0066cc;">Art Museum</a></strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #475569;">
+      Preserves Owari Tokugawa family treasures, including samurai armor, Noh masks, and tea utensils, alongside a traditional Japanese stroll garden with a central pond.
+    </p>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <strong style="color: #0f172a; font-size: 1.05em;"><a href="https://www.nagoyajo.city.nagoya.jp/en/" target="_blank" style="color: #0066cc;">Nagoya Castle & Honmaru Palace</a></strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #475569;">
+      Rebuilt using traditional materials and methods, the Honmaru Goten palace showcases magnificent authentic Shoin architecture and painted sliding doors (fusuma).
+    </p>
+  </div>
+</div>
+
+</div>
+
+<br>
+
+<!-- ACTION BUTTONS CARD -->
+<div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 30px; margin-bottom: 45px;" align="center">
+
+<h3 style="margin-top: 0; color: #166534; border-bottom: 2px solid #dcfce7; padding-bottom: 10px;">✨ Join Us at 4th PIE</h3>
+
+<p style="font-size: 1.05em; color: #14532d; max-width: 600px; margin-bottom: 20px;">
+Submit a proposal, register as an attendee, or reserve your spot at the Saturday night networking banquet:
+</p>
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScIP6GQIQt6-vl5bGsrnDbAys-TkLF8RyzwTgmR_NBMgNeSEQ/viewform" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">🎟️ Attendee Registration Form</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScn9zv1GDu7DJ-9DJSlsQ-_6iYGfeREvPdg8fWvq4hKJEliNw/viewform" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">📝 Call for Papers Form</a>
+</div>
+
+</div>

@@ -5,157 +5,263 @@ categories:
   - "events"
 ---
 
-[**\*\*\*Registration for non-presenting attendees can be found by clickin**](https://forms.gle/81YJvxEXMkCwqwV26)**[g HERE](https://forms.gle/81YJvxEXMkCwqwV26)**.
-
-[The conference program and schedule will be available at this link.](https://docs.google.com/spreadsheets/d/1z2Rbbpfsvpkf4g5JWO7KPPl7I4eEy5_lX6dDsw8Q8VU/edit?usp=sharing)
-
-The Third Annual PIE SIG in Sapporo Conference will be held in Sapporo, Japan from February 4th\-5th, 2023.
-
-This face-to-face conference will be held during the [Sapporo Snow Festival](https://www.sapporo.travel/en/event/event-list/sapporo_snow_festival/) (unless the festival is canceled due to the pandemic). The first two PIE SIG in Sapporo conferences were held in 2019 and 2020, but unfortunately had to be canceled in 2021 and 2022 due to COVID-19. The first two conferences were wildly successful, and we have high hopes for this third one.
-
-#### **THEME**:  
-New Directions and New Techniques: Teaching in Performance in Education in the New Normal
-
-There are three main sponsors for this conference: JALT Hokkaido Chapter, JALT Okinawa Chapter, and the JALT Performance in Education Special Interest Group (PIE SIG). PIE SIG is completely responsible for the program and management of the Saturday, February 4th conference (held at [Sapporo Cultural Arts Community Center](https://www.sapporo-community-plaza.jp/index_e.html)) and is responsible for programming and management for one room on Sunday, February 5th at [Hokkai-Gakuen University](https://www.hgu.jp/en/about/traffic-access.html). 
-
-#### **All PIE SIG-related proposals for Saturday and Sunday need to be sent [HERE](https://docs.google.com/forms/d/e/1FAIpQLSeOpHbdT0Xg3qxqXUHLlJzQSWs-eX4cuObB61QgpjdY6nLT8Q/viewform) by Monday, October 31, 2022 (JST).**
-
-The theme for the Sunday part of the conference is wider and more general: “New Directions and New Techniques: Teaching in the New Normal”.
-
-People who wish to submit a non-PIE SIG-related proposal may refer to the [JALT Hokkaido website](https://jalthokkaido.net/) for submission information. Please note that the call for papers for non-PIE SIG-related proposals is a completely different form that can be found [here](https://forms.gle/NKvKtZPxku2Ltbq9A).
-
-**SITES**: The two-day conference (February 4th and 5th) will be held Saturday February 4th at the [Sapporo Cultural Arts Community Center](https://www.sapporo-community-plaza.jp/index_e.html) (managed by PIE SIG) and on Sunday at [Hokkai Gakuen University](https://www.hgu.jp/en/about/traffic-access.html) Toyohira Campus (managed by Hokkaido JALT Chapter).
-
-**PLEASE NOTE:** Both Saturday and Sunday will be face-to-face and on-site only. We will **NOT** be accepting abstracts for online or hybrid style formats. All precautions will be taken according to government and venue regulations to ensure a safe environment. You will be informed of those regulations as the conference date approaches. If you are selected as a presenter, you will be expected to conform to those regulations.
-
-There will be a full lineup of presentations, a student showcase, a symposium with education leaders, and publisher displays on Sunday, February 5th. A networking social get-together will be held on the preceding Saturday night (February 4th).
-
-#### Saturday Banquet
-
-Sapporo Beer Garden  
-[https://www.sapporo-bier-garten.jp](https://www.sapporo-bier-garten.jp)
-
-Reserve on the Hokkaido JALT page & pay at the restaurant
-
-![](images/Screenshot-2022-12-09-at-18.55.04-696x1024.png)
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.578385693425!2d141.3668895158753!3d43.07133417914564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b296c094fffff%3A0x8da6209b02f71a4!2sSapporo%20Beer%20Garden!5e0!3m2!1sen!2shk!4v1670583392262!5m2!1sen!2shk" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<figure>
-
-![](images/3rd-PIE-SIG-in-Sapporo-Logo-1-1024x576.jpg)
-
-<figcaption>
-
-See you in Sapporo!
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### **Darren Kinsman  
-Miyagi Gakuin Women’s University**
-
-![](images/Kinsman-BW-2022-06-03-242x300.png)
-
-Darren was first introduced to educational drama by actor and educator, Ilkay Silk while pursuing his education degree. As a teacher at a private high school in Japan for six years, Darren taught dedicated chorus and drama classes. He also prepared international course students for annual stage performances. He is interested in how various creative approaches to language teaching intersect and complement each another.
-
-_**Unfolding Drama**_
-
-It is common for language teachers to use dramatic techniques in their classrooms, be it short role plays or having students read dialogs with emotion. Some even prepare their students for live stage plays in front of large audiences. However, there is a vast terrain lying between these two poles that is often left unexplored and unexploited. This presentation surveys this verdant landscape by giving a brief historical overview of drama as well as how its reinterpretation and compartmentalization has been a boon for language learning. Dramatic techniques will be both overtly covered and embedded within the presentation itself.
-
-<figure>
-
-<figcaption>
-
-Darren Kinsman
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### Lisa M. Hunsberger  
-Kyushu Sangyo University
-
-![](images/Lisa-M.-Hunsberger-249x300.jpeg)
-
-Lisa M. Hunsberger has been an educator for over 15 years. She has taught at two universities in Jamaica, at a high school in France, and at every level in Japan from kindergarten to university, professionals, and retirees. She is a seasoned public speaker and an all-round creative with skills in presentation design and video editing. Lisa uses presentation software creatively in the classroom and has been sharing her design ideas with audiences for years. She has presented on effective presentation design at JALT and KOTESOL conferences, and most recently, as a plenary speaker at KOTESOL’s 2021 National Conference.
-
-_**Spice Up Your Presentations**_
-
-For some English language educators, presentations are a regular part of their lessons and classroom instruction. They use the software to supplement lessons, reinforce explanations, or to deliver the entire lesson itself. Books have been written and talks given on how to create great presentations, but for some, the implementation remains elusive. Let’s change that by looking at how we can add a little spice to our presentations. By mixing a dash of features with a tablespoon of forethought, and by incorporating our knowledge of our students to the mix, we can create fun and whimsical presentations. Just add time to taste. We will focus on a few features shared by Microsoft PowerPoint and Apple Keynote – text; images; videos; shapes; animations; transitions and we will look at how we can improve on some of the mistakes we commonly make with a dash of creativity.
-
-<figure>
-
-<figcaption>
-
-Lisa M. Hunsberger
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### Rab Paterson  
-Rikkyo University
-
-![](images/JTB1RabPaterson-edited-300x300.jpeg)
-
-Rab Paterson (BA, MA, CoETail, MS, MEd, FRAS, FRSA) is a Lecturer at Rikkyo University’s Center for Foreign Language Education and Research. He’s a Best Of JALT, Apple Distinguished Educator, and a Google Innovator award winner. Rab has presented at conferences worldwide including Keynote, Plenary, Featured Speaker, and Invited Speaker sessions, two TEDx presentations, an Apple Showcase presentation and he made a series of videos on how to give academic presentations for Academia.edu. Most importantly students from his presentations classes have also gone on to win awards (Hong Kong Cup, Obirin University, & Toyo University presentations competition), for their presentations.
-
-_**Present Like A Pro!: Strategies, Tips, and Tricks to Efficiently Teach Presentations to Students**_
-
-Many teaching professionals have to give presentation assignments to students for coursework. Yet a large proportion of these teachers have little or no formal training in presentations theory and practice, never mind having the skillsets to actually teach the various aspects of presentations beyond the basics and usually give simple – ‘have an intro, tell a joke, include relevant data, end with a conclusion’ type comments. This session aims to show teaching techniques that can and have been successfully used by the presenter in class to help their students improve their presentations. Many of these students have then gone on to win presentations competitions. Some of these winning students will also join this session to give their viewpoint on these teaching techniques and how they benefitted from them. So attendees show take awesome new tips and tricks for their presentations teaching toolbox.
-
-* * *
-
-#### Marc Helgesen  
-Miyagi Gakuin Women’s University
-
-![](images/Marc-headshot-150x150.png)
-
-Marc Helgesen is professor emeritus at Miyagi Gakuin Women’s University, Sendai. He is an author of over 200 professional articles, books and textbooks including the English Firsthand series (Pearson) and English Teaching and the Science of Happiness (ABAX). His websites are www.ELTandHappiness and www.HelgesenHandouts.weebly.com
-
-_**Presentation Design 101**_
-
-We’ve all seen many – probably hundreds – of presentations, many designed by other teachers. We assume the presenters know their content well. A good presentation slide show is visual. How many of those presenters have ever learned about slide design? Most seem to model their slides on session they’ve seen. Real design input? What’s that? This session introduce will eight simple slide design ideas, takeaways from the bestselling Presentation Zen. Whether you are using PowerPoint or Keynote, these ideas apply and are easy to incorporate. They include the picture superiority effect (great, but whether or not you have a budget makes a difference.) A lot of slide shows are great – for people in the first couple rows. What about everyone else? How about the pros -and especially the cons of slide animation? Your slideware has dozens of backgrounds. Why should you be careful with most of them? Bullet points are automatic. Do you really want to use them? One idea = one slide: How post-its (sticky notes) can make that idea more automatic. Design issues like the rule of thirds and contrast are very helpful. The three-meter rule can work for you (and your students). We are all teachers – that means we are ALL presenters.  
-(204 words)
-
-* * *
-
-#### David Kluge  
-Nanzan University
-
-Performance in education research
-
-* * *
-
-#### George MacLean  
-University of the Ryukyus
-
-Topic: On feedback
-
-* * *
-
-![](images/Screen-Shot-2023-02-07-at-2.54.53-PM-1-1024x537.png)
-
-![](images/Screen-Shot-2023-02-07-at-2.56.47-PM-1-1024x457.png)
-
-![](images/Screen-Shot-2023-02-07-at-2.57.27-PM-1-1024x569.png)
-
-![](images/Screen-Shot-2023-02-07-at-2.58.19-PM-1-1024x495.png)
-
-![](images/Screen-Shot-2023-02-07-at-3.27.08-PM-1-1024x462.png)
-
-![](images/Unknown-2-1-724x1024.jpeg)
-
-![](images/Unknown-3-1-1024x741.jpeg)
-
-![](images/Unknown-4-1-749x1024.jpeg)
-
-![](images/Unknown-5-1-1024x829.jpeg)
+<div align="center" style="margin: 40px 0 30px 0;">
+  <span style="background-color: #fef3c7; color: #b45309; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;">Annual Conference</span>
+  <h1 style="margin-top: 15px; margin-bottom: 10px; font-size: 2.2em; border: none;">3rd Annual PIE SIG in Sapporo Conference</h1>
+  <p style="font-size: 1.1em; color: #555; margin-bottom: 25px;">Held in conjunction with the famous Sapporo Snow Festival</p>
+  
+  <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
+    <a href="https://forms.gle/81YJvxEXMkCwqwV26" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">🎟️ Attendee Registration</a>
+    <a href="https://docs.google.com/spreadsheets/d/1z2Rbbpfsvpkf4g5JWO7KPPl7I4eEy5_lX6dDsw8Q8VU/edit?usp=sharing" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📅 Program & Schedule</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOpHbdT0Xg3qxqXUHLlJzQSWs-eX4cuObB61QgpjdY6nLT8Q/viewform" target="_blank" style="background-color: #475569; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📝 PIE Call for Papers</a>
+  </div>
+</div>
+
+<br>
+
+<!-- EVENT OVERVIEW & VENUE CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; margin-bottom: 20px; color: #1a202c; border-bottom: 2px solid #edf2f7; padding-bottom: 10px;">📌 Event Overview</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 25px;">
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Dates</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">February 4–5, 2023</p>
+    <span style="font-size: 0.85em; color: #64748b;">Saturday & Sunday</span>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Format</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">In-Person Only</p>
+    <span style="font-size: 0.85em; color: #64748b;">No online/hybrid options</span>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Co-Sponsors</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">JALT Hokkaido & Okinawa</p>
+    <span style="font-size: 0.85em; color: #64748b;">with JALT PIE SIG</span>
+  </div>
+
+</div>
+
+<!-- THEME CALLOUT -->
+<div style="background-color: #f0f9ff; border-left: 4px solid #0284c7; border-radius: 4px; padding: 16px; margin-bottom: 25px;">
+  <strong style="color: #0369a1; font-size: 1.05em;">💡 Conference Theme:</strong>
+  <p style="margin: 6px 0 0 0; color: #0c4a6e; font-size: 1em; font-weight: 600;">
+    "New Directions and New Techniques: Teaching in Performance in Education in the New Normal"
+  </p>
+</div>
+
+<h4 style="color: #1e293b; margin-top: 0; margin-bottom: 12px;">📍 Venue & Schedule Breakdown</h4>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+  
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <strong style="color: #0066cc; font-size: 1.05em;">Day 1: Saturday, Feb 4</strong>
+    <p style="margin: 6px 0 4px 0; font-weight: 600; color: #0f172a;">Sapporo Cultural Arts Community Center</p>
+    <span style="font-size: 0.85em; color: #475569;">Managed fully by JALT PIE SIG.</span>
+    <p style="margin-top: 8px; font-size: 0.85em;"><a href="https://www.sapporo-community-plaza.jp/index_e.html" target="_blank" style="color: #0066cc;">🌐 Venue Website</a></p>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <strong style="color: #0066cc; font-size: 1.05em;">Day 2: Sunday, Feb 5</strong>
+    <p style="margin: 6px 0 4px 0; font-weight: 600; color: #0f172a;">Hokkai-Gakuen University (Toyohira Campus)</p>
+    <span style="font-size: 0.85em; color: #475569;">Managed by JALT Hokkaido Chapter (PIE SIG room included). Features a student showcase, symposium, and publisher displays.</span>
+    <p style="margin-top: 8px; font-size: 0.85em;"><a href="https://www.hgu.jp/en/about/traffic-access.html" target="_blank" style="color: #0066cc;">🌐 Access Guide</a></p>
+  </div>
+
+</div>
+
+<!-- CALL FOR PAPERS DEADLINE CALLOUT -->
+<div style="background-color: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px; padding: 16px; margin-top: 25px;">
+  <strong style="color: #c2410c;">⏰ Proposal Deadlines:</strong>
+  <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #9a3412; font-size: 0.95em; line-height: 1.6;">
+    <li><strong>PIE SIG Presentations:</strong> Closed on <strong>Monday, October 31, 2022 (JST)</strong> via the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOpHbdT0Xg3qxqXUHLlJzQSWs-eX4cuObB61QgpjdY6nLT8Q/viewform" target="_blank" style="color: #c2410c; font-weight: bold;">PIE Submission Form</a>.</li>
+    <li><strong>General JALT Hokkaido Submissions:</strong> Managed separately through the <a href="https://forms.gle/NKvKtZPxku2Ltbq9A" target="_blank" style="color: #c2410c; font-weight: bold;">JALT Hokkaido Form</a>. See <a href="https://jalthokkaido.net/" target="_blank" style="color: #c2410c;">jalthokkaido.net</a> for details.</li>
+  </ul>
+</div>
+
+</div>
+
+<br>
+
+<!-- SOCIAL BANQUET CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🍻 Saturday Night Networking Social</h3>
+
+<p style="line-height: 1.7; color: #334155;">
+Join us on the evening of <strong>Saturday, February 4th</strong> for a networking social get-together at the iconic <strong>Sapporo Beer Garden</strong>. Please reserve your spot in advance via the Hokkaido JALT page (payment collected directly at the restaurant).
+</p>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: center; justify-content: center; margin-top: 20px;">
+  <img src="images/Screenshot-2022-12-09-at-18.55.04-696x1024.png" alt="Sapporo Beer Garden Poster" style="max-width: 100%; width: 280px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  
+  <div style="flex: 1; min-width: 300px; max-width: 600px;">
+    <div style="border-radius: 8px; overflow: hidden; border: 1px solid #e2e8f0;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.578385693425!2d141.3668895158753!3d43.07133417914564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b296c094fffff%3A0x8da6209b02f71a4!2sSapporo%20Beer%20Garden!5e0!3m2!1sen!2shk!4v1670583392262!5m2!1sen!2shk" width="100%" height="320" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div align="center" style="margin-top: 12px;">
+      <a href="https://www.sapporo-bier-garten.jp" target="_blank" style="color: #0066cc; font-weight: bold; font-size: 0.95em;">🌐 Visit Sapporo Beer Garden Official Site</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<br>
+
+<!-- FEATURED SPEAKERS CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🎙️ Featured Speakers</h3>
+
+<!-- SPEAKER 1: DARREN KINSMAN -->
+<div style="margin-top: 25px; margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/Kinsman-BW-2022-06-03-242x300.png" alt="Darren Kinsman" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Darren Kinsman</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Miyagi Gakuin Women’s University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        First introduced to educational drama by actor and educator Ilkay Silk, Darren taught dedicated chorus and drama classes for six years at a private high school in Japan, preparing international course students for annual stage performances. He explores how creative language teaching approaches intersect and complement one another.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <strong style="color: #0f172a;">Unfolding Drama</strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      While language teachers frequently use simple dramatic techniques like short role plays or emotional dialog readings, the vast terrain lying between simple activities and full live stage plays is often left unexplored. This presentation surveys this landscape through a brief historical overview of educational drama, demonstrating how its compartmentalization serves language learning.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 2: LISA M. HUNSBERGER -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/Lisa-M.-Hunsberger-249x300.jpeg" alt="Lisa M. Hunsberger" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Lisa M. Hunsberger</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Kyushu Sangyo University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        Lisa has been an educator for over 15 years across Jamaica, France, and Japan. A seasoned public speaker and creative, she specializes in creative presentation design and video editing, having presented extensively at JALT, KOTESOL, and as a plenary speaker at KOTESOL’s 2021 National Conference.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <strong style="color: #0f172a;">Spice Up Your Presentations</strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      This session looks at how educators can elevate classroom slide decks using Microsoft PowerPoint and Apple Keynote. By exploring key features—text, images, videos, shapes, animations, and transitions—attendees will learn actionable design strategies to turn ordinary presentation slides into engaging learning tools.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 3: RAB PATERSON -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/JTB1RabPaterson-edited-300x300.jpeg" alt="Rab Paterson" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Rab Paterson</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Rikkyo University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        Rab Paterson (BA, MA, CoETail, MS, MEd, FRAS, FRSA) is a Lecturer at Rikkyo University’s Center for Foreign Language Education and Research. A Best of JALT awardee, Apple Distinguished Educator, and Google Innovator, his students have repeatedly won major national presentation competitions.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <strong style="color: #0f172a;">Present Like A Pro!: Strategies, Tips, and Tricks to Efficiently Teach Presentations</strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      Many instructors assign student presentations without formal training in presentation instruction. This session provides practical teaching techniques to help educators guide students toward high-impact presentations. Award-winning student presenters will also join to share their firsthand perspectives.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- SPEAKER 4: MARC HELGESEN -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/Marc-headshot-150x150.png" alt="Marc Helgesen" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Marc Helgesen</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Miyagi Gakuin Women’s University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        Marc Helgesen is Professor Emeritus at Miyagi Gakuin Women’s University and author of over 200 professional publications, including the <em>English Firsthand</em> series (Pearson) and <em>English Teaching and the Science of Happiness</em> (ABAX).
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <strong style="color: #0f172a;">Presentation Design 101</strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      Drawing principles from the bestselling <em>Presentation Zen</em>, this talk introduces eight essential slide design ideas. Topics include the picture superiority effect, avoiding bullet point overload, leveraging the rule of thirds, and applying the "three-meter rule" for maximum classroom clarity.
+    </p>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+<!-- ADDITIONAL SPEAKERS GRID -->
+<h4 style="color: #1e293b; margin-top: 0; margin-bottom: 15px;">Additional Featured Presenters</h4>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+    <strong style="color: #0f172a; font-size: 1.05em;">David Kluge</strong>
+    <p style="margin: 2px 0 6px 0; color: #0066cc; font-size: 0.85em;">Nanzan University</p>
+    <span style="font-size: 0.85em; color: #64748b;">Topic: <em>Performance in Education Research</em></span>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+    <strong style="color: #0f172a; font-size: 1.05em;">George MacLean</strong>
+    <p style="margin: 2px 0 6px 0; color: #0066cc; font-size: 0.85em;">University of the Ryukyus</p>
+    <span style="font-size: 0.85em; color: #64748b;">Topic: <em>On Feedback</em></span>
+  </div>
+
+</div>
+
+</div>
+
+<br>
+
+<!-- EVENT GALLERY CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">📸 Conference & Event Gallery</h3>
+
+<div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;" align="center">
+  <img src="images/3rd-PIE-SIG-in-Sapporo-Logo-1-1024x576.jpg" alt="3rd PIE SIG in Sapporo Logo" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; width: 100%; max-width: 800px;">
+    <img src="images/Screen-Shot-2023-02-07-at-2.54.53-PM-1-1024x537.png" alt="Conference Highlight 1" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="images/Screen-Shot-2023-02-07-at-2.56.47-PM-1-1024x457.png" alt="Conference Highlight 2" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="images/Screen-Shot-2023-02-07-at-2.57.27-PM-1-1024x569.png" alt="Conference Highlight 3" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="images/Screen-Shot-2023-02-07-at-2.58.19-PM-1-1024x495.png" alt="Conference Highlight 4" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="images/Screen-Shot-2023-02-07-at-3.27.08-PM-1-1024x462.png" alt="Conference Highlight 5" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="images/Unknown-3-1-1024x741.jpeg" alt="Conference Highlight 6" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+  </div>
+</div>
+
+</div>
+
+<br>
+
+<!-- CALL TO ACTION CARD -->
+<div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 30px; margin-bottom: 45px;" align="center">
+
+<h3 style="margin-top: 0; color: #166534; border-bottom: 2px solid #dcfce7; padding-bottom: 10px;">✨ Register & View Schedule</h3>
+
+<p style="font-size: 1.05em; color: #14532d; max-width: 600px; margin-bottom: 20px;">
+Non-presenting attendees can register online, or access the live spreadsheet to view the full presentation schedule!
+</p>
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+  <a href="https://forms.gle/81YJvxEXMkCwqwV26" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">🎟️ Attendee Registration Form</a>
+  <a href="https://docs.google.com/spreadsheets/d/1z2Rbbpfsvpkf4g5JWO7KPPl7I4eEy5_lX6dDsw8Q8VU/edit?usp=sharing" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">📅 View Full Schedule & Program</a>
+</div>
+
+</div>

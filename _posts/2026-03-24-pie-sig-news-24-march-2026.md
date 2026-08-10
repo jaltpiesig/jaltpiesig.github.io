@@ -1,102 +1,198 @@
 ---
-title: "PIE SIG News 24 March 2026"
+title: "PIE SIG News: 24 March 2026"
 date: 2026-03-24
 categories: 
   - "newsletter"
 ---
 
-List of PIE News Below:
+<div align="center" style="margin: 40px 0 30px 0;">
+  <span style="background-color: #f3e8ff; color: #7e22ce; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;">Monthly Digest</span>
+  <h1 style="margin-top: 15px; margin-bottom: 10px; font-size: 2.2em; border: none;">PIE SIG News Updates</h1>
+  <p style="font-size: 1.1em; color: #555; margin-bottom: 25px;">Announcements, Podcast Releases, Call for Papers & Reports</p>
+</div>
 
-1. **[PIE SIG/Brain SIG](#A)**
+<br>
 
-3. **[PIE SIG Podcast Episode 8 Episode 8: Just Beyond the Comfort Zone with Educator Heather Kretschmer!](#B)**
+<!-- NAVIGATION MENU CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-5. **[Introducing a NEW PIE SIG Podcast Series: PIE SIG Podcast+ Tom Robb](#C)**
+<h3 style="margin-top: 0; color: #0f172a; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">📋 In This Issue</h3>
 
-7. **[Composition Research Project Call for Participation](#D)**
+<ul style="list-style: none; padding-left: 0; margin-bottom: 0; line-height: 1.8;">
+  <li style="margin-bottom: 10px;">
+    <strong>A.</strong> <a href="#section-a" style="color: #0066cc; text-decoration: none; font-weight: 600;">PIE SIG / Mind, Brain, and Education SIG Joint Publication Call for Papers</a>
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>B.</strong> <a href="#section-b" style="color: #0066cc; text-decoration: none; font-weight: 600;">PIE SIG Podcast Episode 8: Just Beyond the Comfort Zone with Heather Kretschmer</a>
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>C.</strong> <a href="#section-c" style="color: #0066cc; text-decoration: none; font-weight: 600;">NEW Podcast Series: PIE SIG Podcast+ featuring Dr. Thomas Robb</a>
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>D.</strong> <a href="#section-d" style="color: #0066cc; text-decoration: none; font-weight: 600;">Composition Research Project — Call for Participation</a>
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>E.</strong> <a href="#section-e" style="color: #0066cc; text-decoration: none; font-weight: 600;">PIE in Nagoya 2025 Conference Highlights & Photos</a>
+  </li>
+  <li style="margin-bottom: 0;">
+    <strong>F.</strong> <a href="#section-f" style="color: #0066cc; text-decoration: none; font-weight: 600;">PIE SIG Connected at JALT2025!</a>
+  </li>
+</ul>
 
-9. **[Information on the PIE in Nagoya 2025 Conference Conference (Joint Publication)](#E) [Call for Papers](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdbqTNjcKcuwhzZfEgl60sD7ZblUA4LHqAwxUd34GBC2VkX5w%2Fviewform&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526487218%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=k1Dj5%2BQ%2FxRpVg1LR2TohZQCauFNpR1bsYGBx8o9fQBE%3D&reserved=0)**
+</div>
 
-11. **[Selected Photos and Information on PIE SIG Connected at JALT2025!](#F)**
+<br>
 
-**A. PIE SIG/Mind, Brain, and Education SIG Joint Publication [Call for Papers](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdbqTNjcKcuwhzZfEgl60sD7ZblUA4LHqAwxUd34GBC2VkX5w%2Fviewform&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526513306%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=vnSq6gfDdrwiC26bQMjBj5lTndiBgsh9%2FPrGF6NAOGA%3D&reserved=0)**
+<!-- SECTION A -->
+<div id="section-a" style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-The PIE SIG has contacted the JALT Mind, Brain, and Education to collaborate on another issue like we did in 2024, and 2025. (see [https://www.mindbrained.org/december-2021-drama/](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.mindbrained.org%2Fdecember-2021-drama%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526533001%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=vdDqAhIaHOnjvQD5E3Vo0w7%2BZKqu98fbo7ZwOTJn%2F5Q%3D&reserved=0)) and they agreed to do so on one or more issues this academic year:
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🧠 A. Joint Publication Call for Papers: PIE SIG & MBE SIG</h3>
 
-- Filmmaking and Podcasting  (September 15 for the October issue) -- One member, Sean Toland, has already volunteered to submit an article.
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155;">
+The PIE SIG has partnered with the JALT <strong>Mind, Brain, and Education (MBE) SIG</strong> once again following our successful joint issues in 2024 and 2025 (see <a href="https://www.mindbrained.org/december-2021-drama/" target="_blank" style="color: #0066cc;">previous issue</a>). We have agreed to collaborate on upcoming issues this academic year:
+</p>
 
-- Up to 5 PIE authors -- Earlier submission has a better chance of being selected.
+<ul style="line-height: 1.7; color: #334155;">
+  <li><strong>Focus Topic:</strong> Filmmaking and Podcasting (Deadline: September 15 for the October issue).</li>
+  <li><strong>Contributor Slots:</strong> Up to 5 PIE authors. Earlier submissions have a higher chance of selection.</li>
+  <li><strong>Volunteer Update:</strong> SIG member Sean Toland has already committed to submitting an article!</li>
+</ul>
 
-**B.** **PIE SIG Podcast Episode 8 Episode 8: Just Beyond the Comfort Zone with Educator Heather Kretschmer!**
+<div style="margin-top: 20px;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbqTNjcKcuwhzZfEgl60sD7ZblUA4LHqAwxUd34GBC2VkX5w/viewform" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block;">📝 Submit Your Paper</a>
+</div>
 
-**How to stretch your comfort zone as a teacher and as a student?**  
-That is the question explored in Episode 8: Just Beyond the Comfort Zone with Educator Heather Kretschmer [https://jaltpiesig.org](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjaltpiesig.org%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526554221%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=PzsrXDJp3E6xw6bcWGg8giAMXwl3Dc6ozxffoRHm3Yg%3D&reserved=0)[](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjaltpiesig.org%2Fpie-sig-podcast-first-episode-now-available%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526570616%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=zdUbRbNNJH%2FIQAswziune914Tvm1Wq6LjyKl60RHDzU%3D&reserved=0)
+</div>
 
-We encourage you to:
+<br>
 
-– Listen and follow the podcast on your preferred platform  
-– Leave a rating or comment to help others discover it  
-– Share the episode with colleagues interested in performance in education
+<!-- SECTION B -->
+<div id="section-b" style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-New episodes will be released monthly, featuring educators who use performance to make teaching more engaging and effective.
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🎙️ B. PIE SIG Podcast Ep. 8: Just Beyond the Comfort Zone</h3>
 
-Thank you for your continued support of the PIE SIG -- Darren Kinsman, Host and Producer, The PIE SIG Podcast.
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155;">
+<strong>How do you stretch your comfort zone as a teacher and as a student?</strong><br>
+That is the core question explored in Episode 8, featuring educator <strong>Heather Kretschmer</strong>!
+</p>
 
-**C. Introducing a NEW PIE SIG Podcast Series: PIE SIG Podcast+**
+<div style="background-color: #f8fafc; border-left: 4px solid #0066cc; border-radius: 4px; padding: 16px; margin: 20px 0;">
+  <strong>How to support the podcast:</strong>
+  <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #475569;">
+    <li>Listen and follow on your favorite podcast platform</li>
+    <li>Leave a rating or comment to help others discover it</li>
+    <li>Share the episode with colleagues interested in performance in education</li>
+  </ul>
+</div>
 
-In the first episode of this new podcast, focusing on interviews connected with PIE SIG events. In this first episode, listen to an interview with Dr. Thomas Robb, Plenary Speaker for the PIE SIG February STEAM conference in Okinawa. Dr. Robb, the first JALT VP, is the current Editor of TESL-EJ,  and Chair of The Extensive Reading Foundation.
+<p style="color: #475569; margin-bottom: 0;">
+New episodes are released monthly! Thank you for your continued support.<br>
+— <strong>Darren Kinsman</strong>, <em>Host and Producer</em>
+</p>
 
-[PSP+ Episode 1: 2026 STEAM Conference Preview with Dr. Thomas Robb23:51](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.buzzsprout.com%2F2520024%3Fclient_source%3Dlarge_player%26iframe%3Dtrue%26referrer%3Dhttps%3A%2F%2Fwww.buzzsprout.com%2F2520024.js%3Fcontainer_id%3Dbuzzsprout-large-player%26player%3Dlarge%23&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526583401%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=UrtoSdeO1UiFk8va%2FjYnqC33OHy%2BqUz%2FmDwIjhqb9f0%3D&reserved=0)
+</div>
 
-**D. Composition Research Project -- Call for Participation: A research project proposed by the PIE in Okinawa Feb. 21-22 conference**
+<br>
 
-**Plenary Speaker:** Tom Robb, (Professor Emeritus Kyoto Sangyo University, Editor-in-Chief, TESL-EJ.org  Chair, The Extensive Reading Foundation  [https://erfoundation.org](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ferfoundation.org%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526594063%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=Nz%2BoiqQ63Brc3lsXzG6KkrgWC7Y6y2hkyGbZeCK%2B0Ns%3D&reserved=0))
+<!-- SECTION C -->
+<div id="section-c" style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-The research proposal was sent to me to ask for teachers willing to participate their composition class students for an AI use in measuring how well students implement AI feedback. (See below for more details.) If you are interested in volunteering your composition classrooms, reply to this email with your Name, school name, and number of students in your class.
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">✨ C. New Podcast Series: PIE SIG Podcast+</h3>
 
-**RESEARCH PROJECT DETAILS:** Many people agree that Grammarly is quite helpful in improving one's writing, but when it comes to students, the corrections that Grammarly makes are often not noticed. They just click, click, click until the errors have all been corrected.  What I'm considering is building a mechanism for students to be able to review their errors and then study them, with a brief quiz (recorded by the system) to see how well they have learned from their mistakes.
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155;">
+We are thrilled to launch <strong>PIE SIG Podcast+</strong>, a new series focused on exclusive interviews connected directly with PIE SIG events and conferences!
+</p>
 
-What I've done so far is this:1) I took a piece of student writing and subjected it to Grammarly.  I took a student text from [https://www.learnalberta.ca/content/eslapb/writing\_samples.html](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.learnalberta.ca%2Fcontent%2Feslapb%2Fwriting_samples.html&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526606116%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=bm9D%2B4%2BvUMimamE5DxieH1bAdd%2BaHP1vV4N6kGm2utU%3D&reserved=0) (Grade 9 level 3)2)  I took the original writing AND the Grammarly checked version and had ChatGPT make a "before-and-after" listing of all changes. This is used by each student to study the errors.3) ChatGPT then creates an M/C quiz based on the errors which is placed into Google Forms where they take the quiz 
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155;">
+In Episode 1, we speak with <strong>Dr. Thomas Robb</strong>—Plenary Speaker for the PIE SIG STEAM Conference in Okinawa, the first JALT Vice President, Chair of The Extensive Reading Foundation, and Editor of <em>TESL-EJ</em>.
+</p>
 
-Here was the result. Obviously, if the object is to get 5 good questions, we would have to ask ChatGPT to generate more and then select the seemingly good ones.
+<a href="https://www.buzzsprout.com/2520024" target="_blank" style="background-color: #f59e0b; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; margin-top: 10px;">🎧 Listen to PSP+ Ep. 1 with Dr. Thomas Robb (23:51)</a>
 
-This entire process would be somewhat time-intensive if done manually, but software could easily be made once we see that it improves the students' writing.  A control group could also be used that works with the same texts but does have the error analysis or quiz component. 
+</div>
 
-**E. Information on the PIE in Nagoya 2025 Conference**
+<br>
 
-PIE SIG 3rd Annual Nagoya Conference was an intimate conference that was filled to the brim with high- quality presentations, many from new PIE presenters! You can see photos of the event [HERE](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1c-Wt_Qig7UEXbMl3jOpzmsHPewlYSS7Q%3Fusp%3Ddrive_link&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526618639%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=K1cP0yTQeMOs%2BhDCP251WHJEsDDPbwiF9y3Zao0%2FVJ4%3D&reserved=0). The Report is [HERE](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NX-G6I2DXtxaqHt2g85GZdk1c5lBbyhnQO0_iUQIcmI%2Fedit%3Fusp%3Dsharing&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526633279%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=VHafynYntLFQdRmby2xzKWCj1O3%2BV4S%2F2MUyWLXZoRM%3D&reserved=0). More photos coming on Flickr
+<!-- SECTION D -->
+<div id="section-d" style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 30px; margin-bottom: 45px;">
 
-**F. PIE SIG Connected at JALT2025!**
+<h3 style="margin-top: 0; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;">📊 D. Composition Research Project: Call for Participation</h3>
 
-At JALT2025 in Tokyo, the **Performance in Education (PIE) SIG** had a solid presence, engaging educators interested in drama, voice, and movement in language teaching. The PIE Forum was MCed by PIE SIG founder and Conferences Chair, DavidKluge. He commented that “the room was small and many of the forum presentations were workshops that required movement, so the room was always filled with excitement and laughter. It was magical.”
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155;">
+Proposed following the PIE Conference in Okinawa, this research project investigates student implementation of AI feedback in composition classes.
+</p>
 
-Over three “Meet the SIGs” sessions, our table drew steady interest. Attendees asked questions, copied our podcast QR code, and **4–5 people committed to joining the SIG**! Several also expressed plans to present or attend our upcoming conferences in…
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <h4 style="margin-top: 0; color: #1e293b;">Project Overview & Methodology</h4>
+  <p style="font-size: 0.95em; color: #475569; line-height: 1.6;">
+    Grammarly and AI tools help edit writing, but students often accept suggestions without processing the error. This study tests a mechanism where students review ChatGPT-generated "before-and-after" error analyses from Grammarly-checked texts, followed by brief automated multiple-choice quizzes to measure retention.
+  </p>
+</div>
 
-**Nagoya** [https://jaltpiesig.org/3rd-annual-pie-in-nagoya-conference/](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjaltpiesig.org%2F3rd-annual-pie-in-nagoya-conference%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526646694%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=Ke%2FQ5j5uALG52%2F%2F0RzHYiM3%2B3QIjcxzronZRhKP%2Fn%2F4%3D&reserved=0)
+<div style="background-color: #f0fdf4; border-left: 4px solid #28a745; border-radius: 4px; padding: 16px;">
+  <strong style="color: #166534;">🤝 Want to participate with your class?</strong><br>
+  <span style="color: #14532d;">If you are interested in volunteering your composition classes, please reply to this update email with your <strong>Name</strong>, <strong>School Name</strong>, and <strong>Number of Students</strong>.</span>
+</div>
 
-**and Okinawa** [https://jaltpiesig.org/pie-sigs-okinawa-steam-conference/](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjaltpiesig.org%2Fpie-sigs-okinawa-steam-conference%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526660369%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=Jqi7tAtS6%2BzRzyWlpyBIC9T4hJOZMZa8lGRMtCOZTqI%3D&reserved=0)
+</div>
 
-The **Sunday forum** brought together **7 panelists and about 6 participants** in a small, interactive space. Workshops kept everyone active:
+<br>
 
-- **Ashley Ford-Mihashi**: Voice for mood + group reading of a scary story
+<!-- SECTION E -->
+<div id="section-e" style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-- **Brian Gallagher**: The physical side of pronunciation
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">📸 E. PIE in Nagoya 2025 Highlights</h3>
 
-- **Gordon Rees**: Voice projection with practical tips
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155;">
+The 3rd Annual PIE in Nagoya Conference was an intimate gathering filled with engaging, high-quality presentations—including many from first-time PIE presenters!
+</p>
 
-- **Dawn Kobayashi**: Using tableaux to stimulate writing dialogue
+<div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
+  <a href="https://drive.google.com/drive/folders/1c-Wt_Qig7UEXbMl3jOpzmsHPewlYSS7Q?usp=drive_link" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: bold;">🖼️ View Event Photos</a>
+  <a href="https://docs.google.com/document/d/1NX-G6I2DXtxaqHt2g85GZdk1c5lBbyhnQO0_iUQIcmI/edit?usp=sharing" target="_blank" style="background-color: #475569; color: #ffffff; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: bold;">📄 Read Full Conference Report</a>
+</div>
 
-- **Kevin Bergman**: Total Physical Response workshop
+</div>
 
-- **Kim Rockell**: Percussion and expressive movement
+<br>
 
-**Interested?** Listen to the PIE Podcast: [https://www.buzzsprout.com/admin/2520024/website/background/edit](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.buzzsprout.com%2Fadmin%2F2520024%2Fwebsite%2Fbackground%2Fedit&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526674167%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=1di4Z3PETiRiq07aey1WNoG0VryppWcsV4PphB4DjT4%3D&reserved=0)
+<!-- SECTION F -->
+<div id="section-f" style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-Join the SIG or get involved in **Nagoya, Nagano,** or **Okinawa Conferences**.
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🎉 F. PIE SIG Connected at JALT2025!</h3>
 
-**Nagoya** [https://jaltpiesig.org/3rd-annual-pie-in-nagoya-conference/](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjaltpiesig.org%2F3rd-annual-pie-in-nagoya-conference%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526689563%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=g%2FKtCCYNjgZ6NKJg1ej1EACy4nojJzQVrsGaOcHWptk%3D&reserved=0)
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155;">
+At JALT2025 in Tokyo, the Performance in Education SIG made a strong impact! Conference Chair <strong>David Kluge</strong> shared: <em>“The room was small and many forum presentations were movement-based workshops, making the room fill with excitement and laughter. It was magical.”</em>
+</p>
 
-**and Okinawa** [https://jaltpiesig.org/pie-sigs-okinawa-steam-conference/](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjaltpiesig.org%2Fpie-sigs-okinawa-steam-conference%2F&data=05%7C02%7Cmax.diaz%40polyu.edu.hk%7C29cde6b4dbd340ddf04d08de865280cd%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639095889526703188%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&sdata=rJ7WYRqi2zjr1opjZmuqvtCiMqZcYuJyoGy2pITWfuc%3D&reserved=0)
+<h4 style="color: #1e293b; margin-top: 25px;">Sunday Forum Workshop Presenters:</h4>
 
-Cheerz,  
-David
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 15px 0 25px 0;">
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px;">
+    <strong>Ashley Ford-Mihashi</strong><br><small style="color: #64748b;">Voice for mood & group story reading</small>
+  </div>
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px;">
+    <strong>Brian Gallagher</strong><br><small style="color: #64748b;">Physicality of pronunciation</small>
+  </div>
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px;">
+    <strong>Gordon Rees</strong><br><small style="color: #64748b;">Practical voice projection tips</small>
+  </div>
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px;">
+    <strong>Dawn Kobayashi</strong><br><small style="color: #64748b;">Tableaux for dialogue writing</small>
+  </div>
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px;">
+    <strong>Kevin Bergman</strong><br><small style="color: #64748b;">Total Physical Response workshop</small>
+  </div>
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px;">
+    <strong>Kim Rockell</strong><br><small style="color: #64748b;">Percussion & expressive movement</small>
+  </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #f1f5f9; margin: 25px 0;">
+
+<p style="margin-bottom: 0; color: #475569;">
+Cheers,<br>
+<strong>David Kluge</strong>
+</p>
+
+</div>

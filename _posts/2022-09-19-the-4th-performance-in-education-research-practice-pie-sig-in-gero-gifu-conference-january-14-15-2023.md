@@ -5,128 +5,196 @@ categories:
   - "events"
 ---
 
-The 4th Performance in Education: Research & Practice Conference, originally scheduled for July 30-31, 2022 but postponed due to the COVID-19 situation, has been rescheduled to January 14-15, 2023. The Conference will be held in the famous mountain hot spring town of Gero in Gifu prefecture.
+<div align="center" style="margin: 40px 0 30px 0;">
+  <span style="background-color: #fef3c7; color: #b45309; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;">Rescheduled Event</span>
+  <h1 style="margin-top: 15px; margin-bottom: 10px; font-size: 2.2em; border: none;">4th Performance in Education Conference in Gero</h1>
+  <p style="font-size: 1.1em; color: #555; margin-bottom: 25px;">Gero Synergy Center ACTIVE • Gifu Prefecture, Japan</p>
+  
+  <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
+    <a href="http://www.gero-k.jp/sisetu_guide.php" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">🌐 Venue Information</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6YDFxrKMwccBkhO6aLI6IdNz06AziY0hUxb_xQGcXFf65A/viewform" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📝 Call for Papers Form</a>
+  </div>
+</div>
 
-The site of the conference is the wonderfully designed [Gero Synergy Center ACTIVE](http://www.gero-k.jp/sisetu_guide.php).
+<br>
 
-![](images/Picture-1.jpg)
+<!-- EVENT OVERVIEW CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-![](images/Picture-2.jpg)
+<h3 style="margin-top: 0; margin-bottom: 20px; color: #1a202c; border-bottom: 2px solid #edf2f7; padding-bottom: 10px;">📌 Conference Overview</h3>
 
-Presentations and performances on speech, drama, debate, and other performance activities will be scheduled in three different spaces: Peapod 1, Peapod 4, and Peapod 6.
+<p style="font-size: 1.05em; line-height: 1.7; color: #334155; margin-bottom: 20px;">
+Originally scheduled for July 2022, the <strong>4th Performance in Education: Research & Practice Conference</strong> has been rescheduled to <strong>January 14–15, 2023</strong>. Join us in the famous mountain hot spring town of Gero in Gifu Prefecture for two days of research, practical presentations, and performances spanning speech, drama, debate, and music.
+</p>
 
-<figure>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
 
-<figure>
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Rescheduled Dates</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">January 14–15, 2023</p>
+    <span style="font-size: 0.85em; color: #64748b;">Saturday & Sunday</span>
+  </div>
 
-![](images/Picture-1.png)
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Location</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">Gero Onsen, Gifu</p>
+    <span style="font-size: 0.85em; color: #64748b;">Synergy Center ACTIVE</span>
+  </div>
 
-<figcaption>
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+    <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Format</span>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">In-Person Event</p>
+    <span style="font-size: 0.85em; color: #64748b;">Presentations & Workshops</span>
+  </div>
 
-Peapod 1 (capacity 50)
+</div>
 
-</figcaption>
+<!-- CALL FOR PAPERS DEADLINE CALLOUT -->
+<div style="background-color: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px; padding: 16px; margin-top: 25px;">
+  <strong style="color: #c2410c;">⏰ Proposal Submissions:</strong>
+  <span style="color: #9a3412;">
+    Proposals were due by <strong>Friday, December 16, 2022 (JST)</strong>. Notifications of acceptance were issued by <strong>Sunday, December 18, 2022</strong>.
+  </span>
+</div>
 
-</figure>
+</div>
 
-<figure>
+<br>
 
-![](images/Picture-2.png)
+<!-- VENUE & ROOM LAYOUT CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-<figcaption>
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">📍 Venue & Presentation Spaces</h3>
 
-Peapod 4 (capacity 15)
+<p style="line-height: 1.7; color: #334155; margin-bottom: 20px;">
+The conference is held at the <a href="http://www.gero-k.jp/sisetu_guide.php" target="_blank" style="color: #0066cc; font-weight: bold;">Gero Synergy Center ACTIVE</a>. Presentations and performances will run across three designated spaces:
+</p>
 
-</figcaption>
+<!-- VENUE OVERVIEW IMAGES -->
+<div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 25px;">
+  <img src="images/Picture-1.jpg" alt="Gero Synergy Center ACTIVE Exterior" style="max-width: 100%; width: 380px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  <img src="images/Picture-2.jpg" alt="Gero Synergy Center ACTIVE Interior" style="max-width: 100%; width: 380px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+</div>
 
-</figure>
+<!-- PEAPOD ROOMS GRID -->
+<h4 style="color: #1e293b; margin-top: 15px; margin-bottom: 15px;">Presentation Rooms (Peapods)</h4>
 
-<figure>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
 
-![](images/Picture-3.png)
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center;">
+    <img src="images/Picture-1.png" alt="Peapod 1" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
+    <strong style="color: #0f172a; font-size: 1.05em;">Peapod 1</strong>
+    <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.9em;">Capacity: 50 attendees</p>
+  </div>
 
-<figcaption>
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center;">
+    <img src="images/Picture-2.png" alt="Peapod 4" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
+    <strong style="color: #0f172a; font-size: 1.05em;">Peapod 4</strong>
+    <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.9em;">Capacity: 15 attendees</p>
+  </div>
 
-Peapod 6 (capacity 10)
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center;">
+    <img src="images/Picture-3.png" alt="Peapod 6" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
+    <strong style="color: #0f172a; font-size: 1.05em;">Peapod 6</strong>
+    <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.9em;">Capacity: 10 attendees</p>
+  </div>
 
-</figcaption>
+</div>
 
-</figure>
+</div>
 
-</figure>
+<br>
 
-The call for papers for research and practical presentations and performances can be submitted [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfh6YDFxrKMwccBkhO6aLI6IdNz06AziY0hUxb_xQGcXFf65A/viewform).
+<!-- FEATURED SPEAKERS CARD -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
 
-DEADLINE: Friday, December 16, 2022, JST.  
-(Notification of acceptance will be sent by Sunday, December 18, 2022.)
+<h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🎙️ Featured Speakers</h3>
 
-* * *
+<!-- SPEAKER 1: GREG LEWIS -->
+<div style="margin-top: 25px; margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/image-290x300.png" alt="Greg Lewis" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Greg Lewis</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Hyupsung University, South Korea</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        Greg has taught university English in Korea for over 13 years and brings a background in politics, business training, and theater (summer stock and community theater). Combining his performance background with modern technology, he incorporates audio performance and podcasting directly into his language learning curriculum.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <strong style="color: #0f172a;">Introducing Podcasting to the Language Learning Classroom Students</strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      This presentation focuses on student-generated audio podcasts and their positive outcomes for language learners. Attendees will explore practical steps for introducing podcasting concepts, production styles, and recording steps to students, concluding with a collaborative tips-and-tricks discussion.
+    </p>
+  </div>
+</div>
 
-### Expert PIE Speakers
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
 
-#### **Greg Lewis  
-Hyupsung University**, South Korea
+<!-- SPEAKER 2: STEPHEN POTTINGER -->
+<div style="margin-bottom: 30px;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <img src="images/Stephen-Pottinger-200x300.jpg" alt="Stephen Pottinger" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <div style="flex: 1; min-width: 260px;">
+      <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Stephen Pottinger</h4>
+      <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Chubu University</p>
+      <p style="font-size: 0.95em; line-height: 1.6; color: #475569; margin: 0;">
+        Born in Aichi and raised in England, Stephen holds a BA in Education from the University of York and has nearly 20 years of ELT experience. Throughout his career, he has focused on performance methods that build student speaking confidence and presentation poise.
+      </p>
+    </div>
+  </div>
+  <div style="background-color: #f8fafc; border-left: 3px solid #0066cc; border-radius: 4px; padding: 14px; margin-top: 15px;">
+    <strong style="color: #0f172a;">Theatre-based Performance Skills in the ESL Classroom: A Personal Narrative</strong>
+    <p style="margin: 8px 0 0 0; font-size: 0.9em; line-height: 1.6; color: #334155;">
+      This session demonstrates how tried-and-tested theater techniques inject energy and confidence into the ESL classroom. Stephen covers core acting skills in Vocal Production, Basic Storytelling, and The Art of Acting, while addressing common practical challenges teachers face when introducing drama methods.
+    </p>
+  </div>
+</div>
 
-![](images/image-290x300.png)
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
 
-Greg first arrived in Korea 20 years ago but didn’t get serious about teaching until 13 years ago when he returned to Korea from his native Canada and began teaching university freshman English. Greg has a varied performance background that includes politics, real estate sales and business training, and of course theater, both summer stock and community theater. Performance has always been a large part of Greg’s activities, so it is not surprising that audio performance has been added to his current teaching tool kit.
+<!-- ADDITIONAL SPEAKERS GRID -->
+<h4 style="color: #1e293b; margin-top: 0; margin-bottom: 15px;">Additional Invited Presenters</h4>
 
-_**Introducing Podcasting to the Language Learning Classroom Students**_
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
 
-A lot of research has addressed the effectiveness of teacher-produced audio podcasts, however, this presentation will focus on student-generated audio podcasts and highlight the range of positive outcomes available for language learners and language teachers. We will go through some practical suggestions for the effective use of student-generated podcasts but first you will need to introduce podcasts to your students, and that is where we generally will hit our first wall. I will walk you through my process of introducing the concept of podcasts to my students, the various production styles, and then through the basic steps required to produce a podcast. I hope to approach this presentation as a collaborative experience where we can share tips and tricks in a closing discussion.
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+    <strong style="color: #0f172a; font-size: 1.05em;">George MacLean</strong>
+    <p style="margin: 2px 0 6px 0; color: #0066cc; font-size: 0.85em;">University of the Ryukyus</p>
+    <span style="font-size: 0.85em; color: #64748b;">Presentation Topic: <em>On Feedback</em></span>
+  </div>
 
-<figure>
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+    <strong style="color: #0f172a; font-size: 1.05em;">David Kluge</strong>
+    <p style="margin: 2px 0 6px 0; color: #0066cc; font-size: 0.85em;">Nanzan University</p>
+    <span style="font-size: 0.85em; color: #64748b;">Topic: <em>Researching Performance in Education</em></span>
+  </div>
 
-<figcaption>
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+    <strong style="color: #0f172a; font-size: 1.05em;">Max Diaz</strong>
+    <p style="margin: 2px 0 6px 0; color: #0066cc; font-size: 0.85em;">The Hong Kong Polytechnic University</p>
+    <span style="font-size: 0.85em; color: #64748b;">Featured Presentation</span>
+  </div>
 
-Greg Lewis
+</div>
 
-</figcaption>
+</div>
 
-</figure>
+<br>
 
-* * *
+<!-- CALL TO ACTION CARD -->
+<div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 30px; margin-bottom: 45px;" align="center">
 
-#### **Stephen Pottinger**  
-**Chubu University**
+<h3 style="margin-top: 0; color: #166534; border-bottom: 2px solid #dcfce7; padding-bottom: 10px;">✨ Venue & Submissions</h3>
 
-![](images/Stephen-Pottinger-200x300.jpg)
+<p style="font-size: 1.05em; color: #14532d; max-width: 600px; margin-bottom: 20px;">
+Explore facility details at Gero Synergy Center ACTIVE or review proposal guidelines using the link below:
+</p>
 
-Stephen Pottinger is an English teacher at Chubu University. He was born in Aichi and grew up in England. He received his BA (in Education) from University of York. Stephen has almost 20 years of experience in English language teaching, and throughout his career, he has been very interested in methods that encourage students to be able to perform and present in a more confident manner.
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+  <a href="http://www.gero-k.jp/sisetu_guide.php" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">🌐 Visit Gero ACTIVE Site</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6YDFxrKMwccBkhO6aLI6IdNz06AziY0hUxb_xQGcXFf65A/viewform" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">📝 Call for Papers Form</a>
+</div>
 
-_**Theatre-based Performance Skills in the ESL Classroom: A Personal Narrative**_
-
-The world of theatre is a magical, free and fantastical place, but behind the scenes are a plethora of tried and proven techniques, rules and mantra. These theatre techniques have proven to inject energy and creativity into the ESL classroom. If only a small part of these teachings are brought with enthusiasm into the ESL classroom, students can benefit tremendously in speaking confidence and language acquisition.
-
-During this presentation I will touch on theatre based acting techniques and skills which allow students to expand their knowledge in three areas: Vocal Production, Basic Storytelling, and The Art of Acting. This presentation will also touch briefly on potential challenges that teachers face when trying to bring theatre into the ESL classroom.
-
-<figure>
-
-<figcaption>
-
-Stephen Pottinger
-
-</figcaption>
-
-</figure>
-
-* * *
-
-#### George MacLean  
-University of the Ryukyus
-
-Topic: On Feedback
-
-* * *
-
-#### David Kluge  
-Nanzan University
-
-Researching performance in education
-
-* * *
-
-#### Max Diaz  
-The Hong Kong Polytechnic University
-
-TBA
+</div>
