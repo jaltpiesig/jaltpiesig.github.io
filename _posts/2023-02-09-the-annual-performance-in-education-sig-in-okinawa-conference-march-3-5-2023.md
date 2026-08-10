@@ -1,13 +1,13 @@
 ---
-title: "The Annual Performance in Education SIG in Okinawa Conference (March 3-5, 2023) Registration & Call for Papers"
-date: 2023-02-09
+title: "The Annual Performance in Education SIG in Okinawa Conference (March 1-3, 2024) Registration & Call for Papers"
+date: 2024-01-10
 categories: 
   - "events"
 ---
 
 <div align="center" style="margin: 40px 0 30px 0;">
   <span style="background-color: #fef3c7; color: #b45309; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;">Annual Conference</span>
-  <h1 style="margin-top: 15px; margin-bottom: 10px; font-size: 2.2em; border: none;">Annual PIE SIG Okinawa Conference 2023</h1>
+  <h1 style="margin-top: 15px; margin-bottom: 10px; font-size: 2.2em; border: none;">Annual PIE SIG Okinawa Conference 2024</h1>
   <p style="font-size: 1.1em; color: #555; margin-bottom: 25px;">Hotel Mahaina Wellness Resort • Motobu, Okinawa, Japan</p>
   
   <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
@@ -28,7 +28,7 @@ categories:
 
   <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
     <span style="font-size: 0.8em; text-transform: uppercase; font-weight: bold; color: #64748b; letter-spacing: 0.5px;">Dates</span>
-    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">March 3–5, 2023</p>
+    <p style="margin: 6px 0 0 0; font-weight: 600; color: #0f172a; font-size: 1.05em;">March 1–3, 2024</p>
     <span style="font-size: 0.85em; color: #64748b;">Friday through Sunday</span>
   </div>
 
@@ -50,7 +50,7 @@ categories:
 <div style="background-color: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px; padding: 16px; margin-top: 25px;">
   <strong style="color: #c2410c;">⏰ Proposal Deadline:</strong>
   <span style="color: #9a3412;">
-    Submissions closed on <strong>Sunday, January 15, 2023 (JST)</strong>. Acceptance notifications were sent out on <strong>Sunday, January 29, 2023</strong>.
+    Submissions close on <strong>Monday, January 15, 2024 (JST)</strong>. Acceptance notifications will be sent out on <strong>Monday, January 29, 2024</strong>.
   </span>
 </div>
 

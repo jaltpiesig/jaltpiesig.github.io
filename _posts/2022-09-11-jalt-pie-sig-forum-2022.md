@@ -58,8 +58,8 @@ Welcome to the online <strong>JALT PIE SIG Forum 2022</strong>! Hosted in conjun
 <h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">🖼️ Event Flyer & Branding</h3>
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 20px;">
-  <img src="assets/images/JALT-PIE-SIG-Forum-simple-logo-small.jpg" alt="JALT PIE SIG Logo" style="max-width: 100%; width: 220px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
-  <img src="assets/images/2022-JALT-Intl-Conference-PIE-SIG-Online-Forum-flyer-1024x575.jpg" alt="2022 JALT International Conference PIE SIG Online Forum Flyer" style="max-width: 100%; width: 800px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <img src="{{ '/assets/images/JALT-PIE-SIG-Forum-simple-logo-small.jpg' | relative_url }}" alt="JALT PIE SIG Logo" style="max-width: 100%; width: 220px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  <img src="{{ '/assets/images/2022-JALT-Intl-Conference-PIE-SIG-Online-Forum-flyer-1024x575.jpg' | relative_url }}" alt="2022 JALT International Conference PIE SIG Online Forum Flyer" style="max-width: 100%; width: 800px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
 </div>
 
 </div>

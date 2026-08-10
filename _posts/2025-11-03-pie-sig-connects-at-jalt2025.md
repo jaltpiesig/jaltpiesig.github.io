@@ -98,12 +98,12 @@ The Sunday forum brought together 7 panelists and about 6 participants in a high
 <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 25px;" align="center">
 
   <div>
-    <img src="assets/images/image-1-1024x609.jpeg" alt="Ashley Ford-Mihashi and Dr. Kim Rockell at JALT2025" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <img src="{{ '/assets/images/image-1-1024x609.jpeg" alt="Ashley Ford-Mihashi and Dr. Kim Rockell at JALT2025" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
     <p style="font-size: 0.88em; color: #64748b; margin-top: 8px;">PIE SIG member Ashley Ford-Mihashi, PIE SIG Membership Chair Dr. Kim Rockell, and a participant.<br><em>Photo by Brian Gallagher, edited by D. Kinsman</em></p>
   </div>
 
   <div>
-    <img src="assets/images/image-3.jpeg" alt="Gordon Rees and Kevin Bergman at JALT2025" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <img src="{{ '/assets/images/image-3.jpeg" alt="Gordon Rees and Kevin Bergman at JALT2025" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
     <p style="font-size: 0.88em; color: #64748b; margin-top: 8px;">PIE SIG Social Chair Gordon Rees, PIE SIG VP Kevin Bergman, and a participant.<br><em>Photo by Brian Gallagher, edited by D. Kinsman</em></p>
   </div>
 

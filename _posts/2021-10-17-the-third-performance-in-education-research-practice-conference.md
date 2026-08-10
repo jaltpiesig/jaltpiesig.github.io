@@ -76,7 +76,7 @@ Welcome to the online schedule and presentation highlights for the <strong>3rd P
     </div>
   </div>
   <div style="margin-top: 15px; text-align: center;">
-    <img src="assets/images/241135475_811791562830121_2310199434164867369_n-1024x538.jpg" alt="Kim Rockell Session Graphic" style="max-width: 100%; width: 750px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    <img src="{{ '/assets/images/241135475_811791562830121_2310199434164867369_n-1024x538.jpg' | relative_url }}" alt="Kim Rockell Session Graphic" style="max-width: 100%; width: 750px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
   </div>
 </div>
 
@@ -99,7 +99,7 @@ Welcome to the online schedule and presentation highlights for the <strong>3rd P
     </div>
   </div>
   <div style="margin-top: 15px; text-align: center;">
-    <img src="assets/images/242044326_811791559496788_1094531226722647451_n-1024x538.jpg" alt="Don Hinkelman Session Graphic" style="max-width: 100%; width: 750px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    <img src="{{ '/assets/images/242044326_811791559496788_1094531226722647451_n-1024x538.jpg' | relative_url }}" alt="Don Hinkelman Session Graphic" style="max-width: 100%; width: 750px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
   </div>
 </div>
 
@@ -122,7 +122,7 @@ Welcome to the online schedule and presentation highlights for the <strong>3rd P
     </div>
   </div>
   <div style="margin-top: 15px; text-align: center;">
-    <img src="assets/images/241240044_811791552830122_8689127844093572285_n-1024x538.jpg" alt="Dawn Kobayashi Session Graphic" style="max-width: 100%; width: 750px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    <img src="{{ '/assets/images/241240044_811791552830122_8689127844093572285_n-1024x538.jpg' | relative_url }}" alt="Dawn Kobayashi Session Graphic" style="max-width: 100%; width: 750px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
   </div>
 </div>
 
