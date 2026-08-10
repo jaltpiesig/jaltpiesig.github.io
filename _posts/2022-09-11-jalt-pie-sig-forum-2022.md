@@ -69,7 +69,7 @@ Welcome to the online <strong>JALT PIE SIG Forum 2022</strong>! Hosted in conjun
 <!-- CALL TO ACTION CARD -->
 <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 30px; margin-bottom: 45px;" align="center">
 
-<h3 style="margin-top: 0; color: #166534; border-bottom: 2px solid #dcfce7; padding-bottom: 10px;">🎥 Access Meeting Room</h3>
+<h3 style="margin-top: 0; color: #166534; border-bottom: 2px solid #dcfce7; padding-bottom: 10px;">🔗 Access Meeting Room</h3>
 
 <p style="font-size: 1.05em; color: #14532d; max-width: 600px; margin-bottom: 20px;">
 Click the button below to join the live Zoom session for the JALT PIE SIG Forum:
