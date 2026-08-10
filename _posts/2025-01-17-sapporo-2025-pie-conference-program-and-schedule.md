@@ -11,7 +11,7 @@ categories:
   <p style="font-size: 1.1em; color: #555; margin-bottom: 25px;">Jointly hosted by JALT PIE SIG and JALT Hokkaido Chapter</p>
   
   <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
-    <a href="jaltpiesig/jaltpiesig.github.io/assets/documents/Sapporo-2025-PIE-Conference-Program.pdf" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📄 Download Full Program (PDF)</a>
+    <a href="jaltpiesig.github.io/assets/documents/Sapporo-2025-PIE-Conference-Program.pdf" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📄 Download Full Program (PDF)</a>
   </div>
 </div>
 
@@ -90,6 +90,6 @@ The Japanese Association for Language Teaching’s Performance in Education Spec
 Review the complete session schedule, speaker abstracts, and room assignments in the official program document.
 </p>
 
-<a href="jaltpiesig/jaltpiesig.github.io/assets/documents/Sapporo-2025-PIE-Conference-Program.pdf" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">📥 Download Conference Program (PDF)</a>
+<a href="jaltpiesig.github.io/assets/documents/Sapporo-2025-PIE-Conference-Program.pdf" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">📥 Download Conference Program (PDF)</a>
 
 </div>
