@@ -90,6 +90,6 @@ The Japanese Association for Language Teaching’s Performance in Education Spec
 Review the complete session schedule, speaker abstracts, and room assignments in the official program document.
 </p>
 
-<a href="https://jaltpiesig.org/wp-content/uploads/2025/01/Sapporo-2025-PIE-Conference-Program.pdf" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">📥 Download Conference Program (PDF)</a>
+<a href="jaltpiesig/jaltpiesig.github.io/assets/documents/Sapporo-2025-PIE-Conference-Program.pdf" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">📥 Download Conference Program (PDF)</a>
 
 </div>
