@@ -8,5 +8,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Force Jekyll to process image assets inside _posts subfolders
+include:
+  - _posts
+
 # For your local testing environment
 exclude: [Gemfile, Gemfile.lock, node_modules]
