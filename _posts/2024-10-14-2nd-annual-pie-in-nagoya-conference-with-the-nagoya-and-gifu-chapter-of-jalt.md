@@ -63,7 +63,7 @@ Performance in Education activities can be special gifts for our students to hel
 
 <!-- MAIN FLYER IMAGE -->
 <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);" align="center">
-  <img src="images/Picture-5.jpg" alt="2nd Annual PIE-in-Nagoya Conference Poster" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <img src="assets/images/Picture-5.jpg" alt="2nd Annual PIE-in-Nagoya Conference Poster" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
 </div>
 
 <br>
@@ -100,7 +100,7 @@ Performance in Education activities can be special gifts for our students to hel
   </ul>
   
   <div align="center" style="margin-top: 15px;">
-    <img src="images/Picture-6.jpg" alt="Networking Dinner Venue Info" style="max-width: 100%; width: 500px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Picture-6.jpg" alt="Networking Dinner Venue Info" style="max-width: 100%; width: 500px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
   </div>
 </div>
 

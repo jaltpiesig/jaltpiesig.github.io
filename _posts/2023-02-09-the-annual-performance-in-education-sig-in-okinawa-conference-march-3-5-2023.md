@@ -64,8 +64,8 @@ categories:
 <h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">📍 Venue Showcase</h3>
 
 <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;" align="center">
-  <img src="images/Picture-1.jpg" alt="Hotel Mahaina Wellness Resort Okinawa" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <img src="images/Picture-2.png" alt="Hotel Mahaina Grounds and Facilities" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <img src="assets/images/Picture-1.jpg" alt="Hotel Mahaina Wellness Resort Okinawa" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <img src="assets/images/Picture-2.png" alt="Hotel Mahaina Grounds and Facilities" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
 </div>
 
 </div>
@@ -80,7 +80,7 @@ categories:
 <!-- SPEAKER 1: KIM ROCKELL -->
 <div style="margin-top: 25px; margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/C17C77DD-987A-485D-AD1A-E6A15A3448C5_1_201_a-271x300.jpeg" alt="Kim Rockell" style="width: 140px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/C17C77DD-987A-485D-AD1A-E6A15A3448C5_1_201_a-271x300.jpeg" alt="Kim Rockell" style="width: 140px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Kim Rockell</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Komazawa University</p>

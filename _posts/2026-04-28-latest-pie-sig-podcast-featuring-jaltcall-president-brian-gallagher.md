@@ -10,22 +10,12 @@ categories:
   <h1 style="margin-top: 15px; margin-bottom: 10px; font-size: 2.2em; border: none;">PIE SIG Podcast x JALTCALL</h1>
   <p style="font-size: 1.1em; color: #555; margin-bottom: 25px;">Featuring JALTCALL President <strong>Brian Gallagher</strong></p>
   
-  <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
-    <a href="https://jaltpiesig.org" target="_blank" style="background-color: #0066cc; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">🎙️ Listen to the Episode</a>
-  </div>
-</div>
+  <!-- AUDIO PLAYER SECTION -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+  <h3 style="margin-top: 0; color: #0f172a; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">▶️ Stream Episode</h3>
+  <p style="margin-bottom: 20px; color: #64748b;">Listen to the episode directly through the player below:</p>
 
-<br>
-
-<!-- COVER ART & PROMO CARD -->
-<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);" align="center">
-
-  <p style="font-size: 1.1em; color: #334155; margin-bottom: 25px;">
-    🎧 <strong>The latest episode of the PIE SIG Podcast is now available!</strong> Tune in for a insightful discussion with JALTCALL President Brian Gallagher.
-  </p>
-
-  <a href="https://jaltpiesig.org" target="_blank" style="display: inline-block; text-decoration: none;">
-    <img src="images/PIE-X-CALL-Poster-724x1024.png" alt="PIE SIG Podcast featuring Brian Gallagher Poster" style="max-width: 100%; width: 420px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e2e8f0;">
-  </a>
-
+  <!-- Buzzsprout Podcast Player -->
+  <div id="buzzsprout-large-player"></div>
+  <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
 </div>

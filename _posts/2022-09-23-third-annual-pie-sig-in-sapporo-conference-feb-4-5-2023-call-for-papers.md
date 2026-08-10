@@ -96,7 +96,7 @@ Join us on the evening of <strong>Saturday, February 4th</strong> for a networki
 </p>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: center; justify-content: center; margin-top: 20px;">
-  <img src="images/Screenshot-2022-12-09-at-18.55.04-696x1024.png" alt="Sapporo Beer Garden Poster" style="max-width: 100%; width: 280px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  <img src="assets/images/Screenshot-2022-12-09-at-18.55.04-696x1024.png" alt="Sapporo Beer Garden Poster" style="max-width: 100%; width: 280px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
   
   <div style="flex: 1; min-width: 300px; max-width: 600px;">
     <div style="border-radius: 8px; overflow: hidden; border: 1px solid #e2e8f0;">
@@ -120,7 +120,7 @@ Join us on the evening of <strong>Saturday, February 4th</strong> for a networki
 <!-- SPEAKER 1: DARREN KINSMAN -->
 <div style="margin-top: 25px; margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/Kinsman-BW-2022-06-03-242x300.png" alt="Darren Kinsman" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Kinsman-BW-2022-06-03-242x300.png" alt="Darren Kinsman" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Darren Kinsman</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Miyagi Gakuin Women’s University</p>
@@ -142,7 +142,7 @@ Join us on the evening of <strong>Saturday, February 4th</strong> for a networki
 <!-- SPEAKER 2: LISA M. HUNSBERGER -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/Lisa-M.-Hunsberger-249x300.jpeg" alt="Lisa M. Hunsberger" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Lisa-M.-Hunsberger-249x300.jpeg" alt="Lisa M. Hunsberger" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Lisa M. Hunsberger</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Kyushu Sangyo University</p>
@@ -164,7 +164,7 @@ Join us on the evening of <strong>Saturday, February 4th</strong> for a networki
 <!-- SPEAKER 3: RAB PATERSON -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/JTB1RabPaterson-edited-300x300.jpeg" alt="Rab Paterson" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/JTB1RabPaterson-edited-300x300.jpeg" alt="Rab Paterson" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Rab Paterson</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Rikkyo University</p>
@@ -186,7 +186,7 @@ Join us on the evening of <strong>Saturday, February 4th</strong> for a networki
 <!-- SPEAKER 4: MARC HELGESEN -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/Marc-headshot-150x150.png" alt="Marc Helgesen" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Marc-headshot-150x150.png" alt="Marc Helgesen" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Marc Helgesen</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Miyagi Gakuin Women’s University</p>
@@ -234,15 +234,15 @@ Join us on the evening of <strong>Saturday, February 4th</strong> for a networki
 <h3 style="margin-top: 0; color: #1e293b; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">📸 Conference & Event Gallery</h3>
 
 <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;" align="center">
-  <img src="images/3rd-PIE-SIG-in-Sapporo-Logo-1-1024x576.jpg" alt="3rd PIE SIG in Sapporo Logo" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  <img src="assets/images/3rd-PIE-SIG-in-Sapporo-Logo-1-1024x576.jpg" alt="3rd PIE SIG in Sapporo Logo" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
   
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; width: 100%; max-width: 800px;">
-    <img src="images/Screen-Shot-2023-02-07-at-2.54.53-PM-1-1024x537.png" alt="Conference Highlight 1" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
-    <img src="images/Screen-Shot-2023-02-07-at-2.56.47-PM-1-1024x457.png" alt="Conference Highlight 2" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
-    <img src="images/Screen-Shot-2023-02-07-at-2.57.27-PM-1-1024x569.png" alt="Conference Highlight 3" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
-    <img src="images/Screen-Shot-2023-02-07-at-2.58.19-PM-1-1024x495.png" alt="Conference Highlight 4" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
-    <img src="images/Screen-Shot-2023-02-07-at-3.27.08-PM-1-1024x462.png" alt="Conference Highlight 5" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
-    <img src="images/Unknown-3-1-1024x741.jpeg" alt="Conference Highlight 6" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Screen-Shot-2023-02-07-at-2.54.53-PM-1-1024x537.png" alt="Conference Highlight 1" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Screen-Shot-2023-02-07-at-2.56.47-PM-1-1024x457.png" alt="Conference Highlight 2" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Screen-Shot-2023-02-07-at-2.57.27-PM-1-1024x569.png" alt="Conference Highlight 3" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Screen-Shot-2023-02-07-at-2.58.19-PM-1-1024x495.png" alt="Conference Highlight 4" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Screen-Shot-2023-02-07-at-3.27.08-PM-1-1024x462.png" alt="Conference Highlight 5" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Unknown-3-1-1024x741.jpeg" alt="Conference Highlight 6" style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
   </div>
 </div>
 

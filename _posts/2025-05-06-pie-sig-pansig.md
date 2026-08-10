@@ -38,13 +38,13 @@ The Performance in Education (PIE) SIG is excited to participate in <strong>PanS
 <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 25px;" align="center">
 
   <div>
-    <img src="images/PIESIG-Forum-at-PanSIG2025-flyer-jpg-1024x1024.jpg" alt="PIE SIG Forum at PanSIG 2025 Flyer" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <img src="assets/images/PIESIG-Forum-at-PanSIG2025-flyer-jpg-1024x1024.jpg" alt="PIE SIG Forum at PanSIG 2025 Flyer" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
     <p style="font-size: 0.88em; color: #64748b; margin-top: 8px;">PIE SIG Forum Flyer for PanSIG 2025</p>
   </div>
 
   <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; margin-top: 10px;">
-    <img src="images/PANSIG-2025-white-outline-1024x1024.png" alt="PanSIG 2025 Logo" style="max-width: 100%; width: 280px; height: auto;">
-    <img src="images/JALT2025-1024x473.png" alt="JALT 2025 Logo" style="max-width: 100%; width: 320px; height: auto;">
+    <img src="assets/images/PANSIG-2025-white-outline-1024x1024.png" alt="PanSIG 2025 Logo" style="max-width: 100%; width: 280px; height: auto;">
+    <img src="assets/images/JALT2025-1024x473.png" alt="JALT 2025 Logo" style="max-width: 100%; width: 320px; height: auto;">
   </div>
 
 </div>

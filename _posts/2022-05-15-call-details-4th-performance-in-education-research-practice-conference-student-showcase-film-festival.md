@@ -152,7 +152,7 @@ The <strong>Performance in Education Special Interest Group (PIE SIG)</strong> a
 <!-- SPEAKER 2: DARREN KINSMAN -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/Kinsman-BW-2022-06-03-242x300.png" alt="Darren Kinsman" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Kinsman-BW-2022-06-03-242x300.png" alt="Darren Kinsman" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Darren Kinsman</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Miyagi Gakuin Women's University</p>
@@ -177,7 +177,7 @@ The <strong>Performance in Education Special Interest Group (PIE SIG)</strong> a
 <!-- SPEAKER 3: GREG LEWIS -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/image-290x300.png" alt="Greg Lewis" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/image-290x300.png" alt="Greg Lewis" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Greg Lewis</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Hyupsung University, South Korea</p>
@@ -202,7 +202,7 @@ The <strong>Performance in Education Special Interest Group (PIE SIG)</strong> a
 <!-- SPEAKER 4: LISA M. HUNSBERGER -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/Lisa-M.-Hunsberger-249x300.jpeg" alt="Lisa M. Hunsberger" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Lisa-M.-Hunsberger-249x300.jpeg" alt="Lisa M. Hunsberger" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Lisa M. Hunsberger</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Kyushu Sangyo University</p>
@@ -227,7 +227,7 @@ The <strong>Performance in Education Special Interest Group (PIE SIG)</strong> a
 <!-- SPEAKER 5: RAB PATERSON -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/JTB1RabPaterson-edited-300x300.jpeg" alt="Rab Paterson" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/JTB1RabPaterson-edited-300x300.jpeg" alt="Rab Paterson" style="width: 120px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Rab Paterson</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Rikkyo University</p>
@@ -253,7 +253,7 @@ The <strong>Performance in Education Special Interest Group (PIE SIG)</strong> a
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
 
   <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
-    <img src="images/Stephen-Pottinger-200x300.jpg" alt="Stephen Pottinger" style="width: 80px; height: auto; border-radius: 6px; float: left; margin-right: 12px;">
+    <img src="assets/images/Stephen-Pottinger-200x300.jpg" alt="Stephen Pottinger" style="width: 80px; height: auto; border-radius: 6px; float: left; margin-right: 12px;">
     <h4 style="margin: 0; color: #0f172a;">Stephen Pottinger</h4>
     <p style="margin: 2px 0 8px 0; color: #0066cc; font-size: 0.85em;">Chubu University</p>
     <span style="background-color: #dcfce7; color: #15803d; font-size: 0.75em; font-weight: bold; padding: 2px 6px; border-radius: 4px;">July 31 • In-Person</span>
@@ -263,7 +263,7 @@ The <strong>Performance in Education Special Interest Group (PIE SIG)</strong> a
   </div>
 
   <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
-    <img src="images/C17C77DD-987A-485D-AD1A-E6A15A3448C5_1_201_a-271x300.jpeg" alt="Kim Rockell" style="width: 80px; height: auto; border-radius: 6px; float: left; margin-right: 12px;">
+    <img src="assets/images/C17C77DD-987A-485D-AD1A-E6A15A3448C5_1_201_a-271x300.jpeg" alt="Kim Rockell" style="width: 80px; height: auto; border-radius: 6px; float: left; margin-right: 12px;">
     <h4 style="margin: 0; color: #0f172a;">Kim Rockell</h4>
     <p style="margin: 2px 0 8px 0; color: #0066cc; font-size: 0.85em;">Komazawa University</p>
     <span style="background-color: #dcfce7; color: #15803d; font-size: 0.75em; font-weight: bold; padding: 2px 6px; border-radius: 4px;">July 31 • In-Person</span>
@@ -310,9 +310,9 @@ Join us for a family-friendly banquet at <a href="https://granpiatto.gorp.jp/" t
 </div>
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-bottom: 30px;">
-  <img src="images/Screen-Shot-2022-05-14-at-13.14.19-1024x689.png" alt="Gran Piatto Entrance" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
-  <img src="images/Screen-Shot-2022-05-14-at-13.15.07-842x1024.png" alt="Gran Piatto Interior" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
-  <img src="images/image-1024x678.jpeg" alt="Past Banquet Attendees" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+  <img src="assets/images/Screen-Shot-2022-05-14-at-13.14.19-1024x689.png" alt="Gran Piatto Entrance" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+  <img src="assets/images/Screen-Shot-2022-05-14-at-13.15.07-842x1024.png" alt="Gran Piatto Interior" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
+  <img src="assets/images/image-1024x678.jpeg" alt="Past Banquet Attendees" style="width: 240px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0;">
 </div>
 
 <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">

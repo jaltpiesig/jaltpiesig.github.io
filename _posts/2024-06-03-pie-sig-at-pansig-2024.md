@@ -54,11 +54,11 @@ The Performance in Education (PIE) SIG had an active presence at <a href="https:
 <div style="display: flex; flex-direction: column; gap: 25px; margin-top: 25px;" align="center">
 
   <div>
-    <img src="images/1717292139321-1024x683.jpeg" alt="PIE SIG Presentations at PanSIG 2024" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <img src="assets/images/1717292139321-1024x683.jpeg" alt="PIE SIG Presentations at PanSIG 2024" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
   </div>
 
   <div>
-    <img src="images/1717292150563-1024x683.jpeg" alt="PIE SIG Members and Participants at PanSIG 2024" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <img src="assets/images/1717292150563-1024x683.jpeg" alt="PIE SIG Members and Participants at PanSIG 2024" style="max-width: 100%; width: 650px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
   </div>
 
 </div>

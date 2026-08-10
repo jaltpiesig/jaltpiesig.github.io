@@ -17,15 +17,12 @@ categories:
 
 <br>
 
-<!-- FEATURED POSTER CARD -->
-<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);" align="center">
+<!-- AUDIO PLAYER SECTION -->
+<div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 45px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+  <h3 style="margin-top: 0; color: #0f172a; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">▶️ Stream Episode</h3>
+  <p style="margin-bottom: 20px; color: #64748b;">Listen to the episode directly through the player below:</p>
 
-  <p style="font-size: 1.1em; color: #334155; margin-bottom: 25px;">
-    🎉 <strong>Episode 9 of the PIE SIG Podcast is live!</strong> Check out the official poster below and click to listen to the episode.
-  </p>
-
-  <a href="https://jaltpiesig.org" target="_blank" style="display: inline-block; text-decoration: none;">
-    <img src="images/PSP-Ep9-Saiki-Poster-日本語-894x1024.png" alt="PIE SIG Podcast Episode 9 Poster" style="max-width: 100%; width: 450px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e2e8f0;">
-  </a>
-
+  <!-- Buzzsprout Podcast Player -->
+  <div id="buzzsprout-large-player"></div>
+  <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2520024.js?container_id=buzzsprout-large-player&amp;player=large"></script>
 </div>

@@ -72,8 +72,8 @@ The conference is held at the <a href="http://www.gero-k.jp/sisetu_guide.php" ta
 
 <!-- VENUE OVERVIEW IMAGES -->
 <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 25px;">
-  <img src="images/Picture-1.jpg" alt="Gero Synergy Center ACTIVE Exterior" style="max-width: 100%; width: 380px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
-  <img src="images/Picture-2.jpg" alt="Gero Synergy Center ACTIVE Interior" style="max-width: 100%; width: 380px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  <img src="assets/images/Picture-1.jpg" alt="Gero Synergy Center ACTIVE Exterior" style="max-width: 100%; width: 380px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+  <img src="assets/images/Picture-2.jpg" alt="Gero Synergy Center ACTIVE Interior" style="max-width: 100%; width: 380px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
 </div>
 
 <!-- PEAPOD ROOMS GRID -->
@@ -82,19 +82,19 @@ The conference is held at the <a href="http://www.gero-k.jp/sisetu_guide.php" ta
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
 
   <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center;">
-    <img src="images/Picture-1.png" alt="Peapod 1" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Picture-1.png" alt="Peapod 1" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
     <strong style="color: #0f172a; font-size: 1.05em;">Peapod 1</strong>
     <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.9em;">Capacity: 50 attendees</p>
   </div>
 
   <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center;">
-    <img src="images/Picture-2.png" alt="Peapod 4" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Picture-2.png" alt="Peapod 4" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
     <strong style="color: #0f172a; font-size: 1.05em;">Peapod 4</strong>
     <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.9em;">Capacity: 15 attendees</p>
   </div>
 
   <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center;">
-    <img src="images/Picture-3.png" alt="Peapod 6" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Picture-3.png" alt="Peapod 6" style="width: 100%; height: auto; border-radius: 6px; margin-bottom: 10px; border: 1px solid #e2e8f0;">
     <strong style="color: #0f172a; font-size: 1.05em;">Peapod 6</strong>
     <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.9em;">Capacity: 10 attendees</p>
   </div>
@@ -113,7 +113,7 @@ The conference is held at the <a href="http://www.gero-k.jp/sisetu_guide.php" ta
 <!-- SPEAKER 1: GREG LEWIS -->
 <div style="margin-top: 25px; margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/image-290x300.png" alt="Greg Lewis" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/image-290x300.png" alt="Greg Lewis" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Greg Lewis</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Hyupsung University, South Korea</p>
@@ -135,7 +135,7 @@ The conference is held at the <a href="http://www.gero-k.jp/sisetu_guide.php" ta
 <!-- SPEAKER 2: STEPHEN POTTINGER -->
 <div style="margin-bottom: 30px;">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <img src="images/Stephen-Pottinger-200x300.jpg" alt="Stephen Pottinger" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="assets/images/Stephen-Pottinger-200x300.jpg" alt="Stephen Pottinger" style="width: 130px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;">
     <div style="flex: 1; min-width: 260px;">
       <h4 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.2em;">Stephen Pottinger</h4>
       <p style="margin: 0 0 12px 0; color: #0066cc; font-weight: 600;">Chubu University</p>
