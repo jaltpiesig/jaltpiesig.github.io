@@ -2,8 +2,7 @@
 title: "PIE SIG Podcast Season 2"
 date: 2026-09-27
 categories: 
-- 
-"newsletter"
+  - "newsletter"
 ---
 
 <div align="left" style="margin: 40px 0 30px 0; font-family: system-ui, -apple-system, sans-serif;">
