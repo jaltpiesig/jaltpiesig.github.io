@@ -24,7 +24,7 @@ categories:
 
   <!-- SEASON 2 IMAGE -->
   <div style="margin-bottom: 35px; text-align: center;">
-    <img src="https://jaltpiesig.github.io/_posts/2026-09-27-podcast-season-2/images/season2.png" alt="PIE SIG Podcast Season 2" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e2e8f0;">
+    <img src="{{ '/assets/images/podcast-season-2.png' | relative_url }}" alt="PIE SIG Podcast Season 2" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e2e8f0;">
   </div>
   
   <!-- AUDIO PLAYER SECTION -->
